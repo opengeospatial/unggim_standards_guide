@@ -1,3 +1,4 @@
+:!numbered:
 == Summary
 
 The purpose of this Guide is to promote the recommendations regarding the use of standards for geospatial information management. The Guide complements http://ggim.un.org/IGIF/part2.cshtml[Strategic Pathway 6 on Standards (SP6)] of the http://ggim.un.org/IGIF/[Integrated Geospatial Information Framework (IGIF)] Implementation Guide,
@@ -23,10 +24,11 @@ Geographic information describes phenomena on, above or below the Earth's surfac
 
 Standards can serve as non-binding policy components to help advance a legal and policy framework for geospatial information management. Adoption of standards by key stakeholders responsible for geospatial information management will have a broad impact across the geospatial ecosystem of a nation, organization, or information community. Standards can be made binding by including them into requests for proposals (RFPs), tenders or contracts. However, standards should be implemented according to the respective needs of a country, organization, or information community.
 
-This Guide complements the IGIF SP6. The IGIF provides a basis and guide for developing, integrating, strengthening, and maximizing geospatial information management and related resources in all countries. In SP6, the focus is on the adoption of standards and compliance mechanisms for enabling data and technology interoperability to deliver integrated geospatial information and to create location-based knowledge. The purpose of this Guide is to promote the effective use of standards and to help users of standards answer the question, "Where do I start?". It has a section for each of the six actions recommended for the initial and early stages of developing and strengthening geospatial information management arrangements in a country, organization, or information community (see <<FigureI1,Figure I.1>>).
+This Guide complements the IGIF SP6. The IGIF provides a basis and guide for developing, integrating, strengthening, and maximizing geospatial information management and related resources in all countries. In SP6, the focus is on the adoption of standards and compliance mechanisms for enabling data and technology interoperability to deliver integrated geospatial information and to create location-based knowledge. The purpose of this Guide is to promote the effective use of standards and to help users of standards answer the question, "Where do I start?". It has a section for each of the six actions recommended for the initial and early stages of developing and strengthening geospatial information management arrangements in a country, organization, or information community (see <<figureI1,Figure I.1>>).
 
+[#figureI1]
 .Actions and tools designed to assist countries to establish good practice standards and compliance mechanisms (Adapted from IGIF SP6)
-image::images/figure1.png['#FigureI1',reftext='Figure I.{counter:figure-num}']
+image::images/figure1.png[caption='Figure I.{counter:ifigure-num} ']
 
 Furthermore, use cases (case studies), an integral part of this Guide, are introduced in each section of the document, with an expanded list of case studies also provided as an https://docs.google.com/spreadsheets/d/1fr_qnz47EsDbHyaZatwdHS940QBm4b9nXT7erVg1-nk/edit?usp=sharing[Appendix]. Specific guidance and options are provided for those who want to implement standards adoption and compliance as part of an IGIF.
 
@@ -34,6 +36,7 @@ Even though the IGIF SP6 aims to guide country-specific action plans for standar
 
 The target audience for this Guide comprises four groups representing the different roles they play in standardization. Each of the groups can be linked to one of the four Elements of Standards in the IGIF/SP6, illustrated in Table I.2. This Guide was prepared with the aim to be understandable by those who are relatively new to the topic of geospatial standards, as well as those proficient in the use of standards. At the same time, this Guide provides guidance to both high-level policy and decision-makers, as well as implementers of standards.
 
+[caption="Table I.{counter:itable-num} "]
 .The four groups of the target audience for this Guide and their relation to the IGIF SP6 Elements of Standards.
 [options="header"]
 |===

@@ -1,13 +1,17 @@
+[separator=::]
 = A Guide to the Role of Standards in Geospatial Information Management
 
 == Companion document on Standards Recommendations by Tier
 
+
 :stem:
-:doctype: book
+:doctype: article
 :encoding: utf-8
 :lang: en
+
 :toc: macro
-:toclevels: 3
+:toc-placement: manual
+:toclevels: 2
 :numbered:
 :sectanchors:
 // set media to output format print or screen for pdf export
@@ -15,9 +19,13 @@
 :sectnums:
 :sectnumlevels: 5
 
+
 image::images/picture1.png[]
 
 image::images/picture2.png[]
+
+Edition 3 Draft, Review/comments invited by 31 October 2021, +
+mailto:UNStdsGuideComments@lists.ogc.org[UNStdsGuideComments@lists.ogc.org]
 
 <<<<
 

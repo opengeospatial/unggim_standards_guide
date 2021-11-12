@@ -1,5 +1,7 @@
-== Achieving Outcomes
 
+:numbered:
+== Achieving Outcomes
+:!numbered:
 
 |===
 | The purpose of this section is enabling the reader to: +
@@ -114,10 +116,13 @@ The INSPIRE Directive and its implementation across Europe can be seen as a majo
 * Standards CoP https://iho.int/en/standards-in-force[https://iho.int/en/standards-in-force]
 * Standards Capacity Building Programs
 
-.INSPIRE – A European legislative Directive with technical specifications encouraging the use of open standards
-image::images/figure6.1.png[]
+Current Global Navigation Satellite Systems (GNSS) enable existing and emerging industries to use real-time precise positioning data, allowing them to improve productivity, efficiency, safety and decision making. Standards play a crucial role when combining GNSS and geodetic data with data from other domains.
 
-Current Global Navigation Satellite Systems (GNSS) enable existing and emerging industries to use real-time precise positioning data, allowing them to improve productivity, efficiency, safety and decision making. Standards play a crucial role when combining GNSS and geodetic data with data from other domains. https://frontiersi.com.au/wp-content/uploads/2020/11/P1003-Geodetic-Standards-Final-Report.pdf[https://frontiersi.com.au/wp-content/uploads/2020/11/P1003-Geodetic-Standards-]image::UNGGIM_Guide_ED_3_COE_Version_html_17af7daaee918bcb.png["",857,459] https://frontiersi.com.au/wp-content/uploads/2020/11/P1003-Geodetic-Standards-Final-Report.pdf[Final-Report.pdf]
+https://frontiersi.com.au/wp-content/uploads/2020/11/P1003-Geodetic-Standards-Final-Report.pdf[https://frontiersi.com.au/wp-content/uploads/2020/11/P1003-Geodetic-Standards--Final-Report.pdf]
+
+[#figure6_1]
+.INSPIRE – A European legislative Directive with technical specifications encouraging the use of open standards
+image::images/figure6.1.png[caption='Figure 6.{counter:figure6-num} ']
 
 ==== Success Indicators for Benefits Realization
 
@@ -125,4 +130,4 @@ What are the indicators for success from which tangle benefits can be assessed? 
 
 * The OGC WaterML 2.0 standard, was developed in a working group organized jointly between OGC and the World Meteorological Organization (WMO). WaterML was implemented to more easily integrate a multitude of hydrologic surface and groundwater observations to improve local to global water resource monitoring. See: https://www.ogc.org/blog/3285[Swimming in Data: OGC's WaterML 2.0 Quenches New Zealand's Thirst for Information Integration | OGC]
 * A http://www.linz.govt.nz/system/files_force/media/pages-attachments/New%20Zealand%20Bathymetry%20Investigation%20October%202015.pdf?download=1[Land Information New Zealand Bathymetry Investigation] identified open standards such as metadata and IHO standards as a means of reducing duplication of collection, and to minimize associated outlay of operational funding.
-* Within the framework of Mexico's statistical and geographical information system, based on good international practices in standardization, INEGI provides the Technical Regulations for coordination and guidance on statistical and geographical matters. f https://www.snieg.mx/DocumentacionPortal/Normatividad/vigente/nt_ng_frs_feg.pdf[https://www.snieg.mx/DocumentacionPortal/Normatividad/vigente/nt\_ng\_frs\_feg.pdf].
+* Within the framework of Mexico's statistical and geographical information system, based on good international practices in standardization, INEGI provides the Technical Regulations for coordination and guidance on statistical and geographical matters.  https://www.snieg.mx/DocumentacionPortal/Normatividad/vigente/nt_ng_frs_feg.pdf[https://www.snieg.mx/DocumentacionPortal/Normatividad/vigente/nt\_ng\_frs\_feg.pdf].

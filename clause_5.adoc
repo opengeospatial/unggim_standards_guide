@@ -1,5 +1,7 @@
 
+:numbered:
 == Ongoing Management
+:!numbered:
 
 |===
 | The purpose of this section is enabling the reader to: +

@@ -1,4 +1,7 @@
+
+:numbered:
 == Direction Setting
+:!numbered:
 
 |===
 | The purpose of this section is enabling the reader to: +
@@ -28,8 +31,9 @@ A standard is a documented agreement between provider and consumers, established
 
 ==== Standards Save Time, Money, and Lives
 
-.Figure 1.1: Aftermath of the 1904 Great Baltimore Fire (source: Wikipedia)
-image::images/figure1.1.png[]
+[#figure1_1]
+.Aftermath of the 1904 Great Baltimore Fire (source: Wikipedia)
+image::images/figure1.1.png[caption='Figure 1.{counter:figure1-num} ']
 
 In 1904, much of the City of Baltimore in the United States was destroyed by a massive fire. Firefighters from hundreds of kilometers away were sent to assist Baltimore firefighters during the height of the blaze. They could do little to help because the fire hose size and threads used by different responders were not standardized for compatibility with Baltimore fire hydrants footnote::[http://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=101300]. The resultant inability to connect hoses to fire hydrants turned hundreds of firefighters into spectators. This analogy rings true not just in respect of the need to share geospatial information, such as disaster imagery, during a crisis but throughout all implementations of geospatial technologies. Standards make uniformity, compatibility, and interoperability possible for electronic devices, software applications, and processes in all sectors of a global economy.
 
@@ -51,8 +55,6 @@ The main focus of the IGIF SP6 and this Guide is on open international geospatia
 footnote::[Specifications may be industry or community developed. Industry-driven specifications typically start as closed or proprietary based on their intellectual property value and a company’s investment in research and development. Some owners of closed specifications make open libraries available for others to read and right, providing a level of openness. As specifications mature, some are released through open licenses to the community as open specifications. Some International and Community standards begin as industry developed open specifications and de facto standards.] In the case of the OGC, output from the OGC Innovation Program initiatives may result in draft specifications for consideration for development as a standard. Further, open standards or specifications developed externally to the OGC may submitted to the OGC to become formally endorsed as OGC *community standards*.footnote::[A Community standard is an official position of the OGC endorsing a specification or standard developed external to the OGC and is considered a normative standard by OGC membership and part of the OGC Standards Baseline. Examples of open specifications that have achieved OGC Community Standard status include the OGC 3D Tiles Specification and OGC Indexed 3d Scene Layer (I3S) and Scene Layer Package Format Specification. https://www.ogc.org/standards/community]
 
 Based on international standards, *profiles* may be established and endorsed by governance bodies to meet the specific needs of their country or organization. Metadata profiles, such as the https://inspire.ec.europa.eu/id/document/tg/metadata-iso19139[_INSPIRE dataset and service metadata_]_,_ and the https://committee.iso.org/sites/tc211/home/standards-in-action/user-story-challenge/paigh---latin-american-metadata.html[Latin _American Metadata Profile LAMP version 2 (LAMPv2)_] are examples of profiles based on international standards.
-
-+
 
 *Good practices* describe how an open standard is applied against scenarios or define a profile that tailors it to the requirements of a specific community. Good practices (also referred to as best or proven practices) often highlight the practical use of one or more standards and specifications or address particular use cases. They may relate to implementing tools and techniques, emerging technologies and standards, or extensions/profiles for specific application domains.
 footnote::[Examples of endorsed Good Practices include the Defence Geospatial Information Working Group (DGIWG) Comm/TIFF Profile for Imagery & Gridded Data 2.3.1 (OGC Best Practices https://www.ogc.org/docs/bp ) and INSPIRE Good Practice: SDMX for Human Health and Population Distribution (INSPIRE Good Practices https://inspire.ec.europa.eu/portfolio/good-practice-library )]
@@ -102,12 +104,13 @@ There are several different ways in which standards for geographic information c
 
 Examples of standards for each of these types are found in Sections 2 and 4 of this Guide.
 
-Some standards serve as general-purpose IT standards. For example, the http://www.uml.org/[_Unified Modeling Language (UML)_]_,_ developed and published by the Object Management Group (OMG) and ISO/IEC JTC 1, can be used for "specifying, visualizing, constructing, and documenting the artifacts of software systems, and for business modeling". It is not specific to geospatial information and technologies. https://www.iso.org/standard/56734.html[_ISO 19103, Geographic information -- Conceptual schema language_], is a profile footnote::[A profile may be a locally recommended subset of a standard and/or locally relevant domain lists to be used with a particular standard, such as a list of metadata keywords.] of UML for the special case of describing geographic information. It is not specific to any domain or context and therefore also has a general purpose in the context of geospatial information and technologies. The general-purpose standards are also referred to as "foundational" standardsbecause they form the technological basis for geospatial information exchange (see Figure 1.2).
+Some standards serve as general-purpose IT standards. For example, the http://www.uml.org/[_Unified Modeling Language (UML)_]_,_ developed and published by the Object Management Group (OMG) and ISO/IEC JTC 1, can be used for "specifying, visualizing, constructing, and documenting the artifacts of software systems, and for business modeling". It is not specific to geospatial information and technologies. https://www.iso.org/standard/56734.html[_ISO 19103, Geographic information -- Conceptual schema language_], is a profile footnote::[A profile may be a locally recommended subset of a standard and/or locally relevant domain lists to be used with a particular standard, such as a list of metadata keywords.] of UML for the special case of describing geographic information. It is not specific to any domain or context and therefore also has a general purpose in the context of geospatial information and technologies. The general-purpose standards are also referred to as "foundational" standards because they form the technological basis for geospatial information exchange (see <<figure1_2,Figure 1.2>>).
 
 Other standards describe geographic information related to a specific domain or context. Standards, such as the Open Geospatial Consortium (OGC) http://www.ogc.org/standards/gwml2[_Groundwater Markup Language (GroundwaterML)_]_,_ http://www.iso.org/standard/61710.html[_ISO 19160-1 Addressing -- Part 1: Conceptual model_], and http://www.iso.org/standard/51206.html[_ISO 19152 Geographic information - Land Administration Domain Model (LADM)_] make use of the general-purpose http://www.iso.org/standard/56734.html[_ISO 19103 Geographic information -- Conceptual schema language_] to describe geographic information related to ground water, addressing and land administration respectively.
 
+[#figure1_2]
 .Characterization of general-purpose IT and geospatial standards, and domain-specific geospatial standards.
-image::images/figure1.2.png[]
+image::images/figure1.2.png[caption='Figure 1.{counter:figure1-num} ']
 
 Geospatial standards can be further characterized based on one of three standardization targetsfootnote::[The reference model for geographic information standardization (ISO 19101-1, Geographic information -- Reference model -- Part 1: Fundamentals, also available as the OGC Abstract Specification)]:
 
@@ -121,8 +124,9 @@ Therefore, these characterizations are important when deciding which standard to
 
 *Information**standards* address heterogeneity at the semantic, structural, and syntactic level, i.e., they standardize the meaning of information (e.g., by defining concepts), how it is structured (e.g., through a conceptual model) and how it is encoded (e.g., a standardized digital encoding). Examples include http://www.ogc.org/standards/gwml2[_OGC GroundwaterML_]_,_ http://www.iso.org/standard/53798.html[_ISO 19115-1, Geographic information -- Metadata -- Part 1_]_: Fundamentals_ and http://www.iso.org/standard/61710.html[_ISO 19160-1, Addressing -- Part 1: Conceptual model_].
 
+[#figure1_3]
 .International cooperation on Arctic issues through OGC / ISO standards-based SDI and Portal
-image::images/figure1.3.png[]
+image::images/figure1.3.png[caption='Figure 1.{counter:figure1-num} ']
 
 *Service or interface**standards* define the rules for interacting with services and components in order to discover, access or process geographic information. Examples include the http://www.ogc.org/standards/wms[_OGC Web Mapping Service (WMS)_] _(also_ http://www.iso.org/standard/32546.html[_ISO 19128_]_)_, http://www.ogc.org/standards/wfs[_OGC Web Feature Service (WFS)_] (also http://www.iso.org/standard/42136.html[ISO 19142]) and http://www.iso.org/standard/40601.html[_ISO 19132, Geographic information - Location-based services - Reference model_]. Ideally, when standards are implemented in products or online services the resulting components work together seamlessly.
 
@@ -143,8 +147,9 @@ Depending on how they are used, standards can be grouped into meta and applicati
 
 * *Meta level* standards will typically not be implemented at the country level yet are required for the development of other standards. It is important to know that these standards exist and understand their role in standardization. Examples include http://www.iso.org/standard/63541.html[_ISO 19104, Geographic information -- Terminology_], and http://www.iso.org/standard/26010.html[_ISO 19105, Geographic information -- Conformance and testing_],
 
+[#figure1_4]
 .Using OGC WaterML and OGC/ISO application-level web services standards, New Zealand created an integrated national water resource system from 16 separate regional catchment authorities.   www.ogc.org/blog/3285
-image::images/figure1.4.png[]
+image::images/figure1.4.png[caption='Figure 1.{counter:figure1-num} ']
 
 * *Application level* standards are directly implementable, such as metadata standards (e.g., http://www.iso.org/standard/53798.html[_ISO 19115-1_]), ontologies for a specific domain or implementation (e.g., http://www.ogc.org/standards/waterml[_OGC WaterML_] or http://www.iso.org/standard/61710.html[_ISO 19160-1, Addressing - Part 1: Conceptual model_]) or service specifications (e.g. http://www.ogc.org/standards/wms[_OGC WMS_] and http://www.ogc.org/standards/wfs[_OGC WFS_]). Countries often develop their own profiles (specializations) of international application-level standards (e.g., the http://inspire.ec.europa.eu/metadata/6541[Infrastructure for Spatial Information in the European Community (INSPIRE) Metadata]),
 * *Instance level*standards refer to the implementations of standardized data, services, or procedures. Examples would be the standardized geospatial datasets that are made available as part of a national SDI.
@@ -204,17 +209,18 @@ Organizations, institutions, and information communities are likely to be starti
 
 Standards for geospatial information can be seen as a continuum, enabling the achievement of increasing levels of interoperability of geospatial information as more standards are adopted and adapted to keep pace with evolving requirements, technologies, and tools.
 
-Reaping the benefits of standards adoption is a journey and organizations, institutions and information communities are likely to be starting this journey at different points in the capability/maturity continuum. This guide provides a model for the phased implementation of geospatial standards that considers the different levels of experience and expertise of the players involved. Some organizations and institutions are far advanced, others are just beginning, and some are only considering the use of standards. Figure 1.5 describes several "Tiers" that convey a standardization trajectory where the levels of capability and scale of collaboration increase as knowledge and experience are gained.
+Reaping the benefits of standards adoption is a journey and organizations, institutions and information communities are likely to be starting this journey at different points in the capability/maturity continuum. This guide provides a model for the phased implementation of geospatial standards that considers the different levels of experience and expertise of the players involved. Some organizations and institutions are far advanced, others are just beginning, and some are only considering the use of standards. <<figure1_5,Figure 1.5>> describes several "Tiers" that convey a standardization trajectory where the levels of capability and scale of collaboration increase as knowledge and experience are gained.
 
-Standards are a critical element of geospatial information management. In Figure 1.5, the trajectory for increasing levels of capability and collaboration is shown over four Tiers:
+Standards are a critical element of geospatial information management. In <<figure1_5,Figure 1.5>>, the trajectory for increasing levels of capability and collaboration is shown over four Tiers:
 
 * *Tier 1* - Share maps internally and over the Web.
 * *Tier 2* - Geospatial Information partnerships to share, integrate and use geospatial data from different providers.
 * *Tier 3* - Spatially enabling the nation, large scale (typically national) efforts to develop a comprehensive SDI that provides access to multiple themes of information, applications for using the shared information, and access via a variety of environments (mobile, desktop, etc.).
 * *Tier 4* - Towards spatially enabled IT infrastructure, delivering geospatial information into the Web of data, and bridging between SDI and a broader ecosystem of information technology systems.
-*
+
+[#figure1_5]
 .Increasing levels of capability and scale of collaboration
-image::images/figure1.5.png[]
+image::images/figure1.5.png[caption='Figure 1.{counter:figure1-num} ']
 
 Decades of experience has shown that lack of consensus, leadership commitment, and a clear governance structure are the key factors limiting the full achievement of the benefits of open standards. Constrained funding, inadequate governance arrangements, a lack of understanding of the value proposition of using a standards-based approach and a lack of knowledge and experience in standards implementation are major limiting factors and are often related to a lack of consensus among stakeholders. With communication between stakeholders comes an exchange of knowledge and experience.
 
@@ -222,12 +228,13 @@ As consensus builds, understanding improves and the willingness of stakeholders 
 
 ==== Standards Adoption with Increased Maturity
 
-As the need for interoperability increases, more standards are adopted with increased maturity. Increased capability and scale of collaboration are associated with sets of standards being adopted, as shown in Figure 1.6.
+As the need for interoperability increases, more standards are adopted with increased maturity. Increased capability and scale of collaboration are associated with sets of standards being adopted, as shown in <<figure1_6,Figure 1.6>>.
 
 The Tiers represent a series of steps in an organization's ability to offer increasing levels of geospatial information and associated services as part of an information community. At the beginning of the process (Tier 1), an organization may want to provide access to geospatial information delivered as map images together with a description of them (i.e., metadata).
 
+[#figure1_6]
 .Standards adoption over increased capability and scale of collaboration
-image::images/figure1.6.png[]
+image::images/figure1.6.png[caption='Figure 1.{counter:figure1-num} ']
 
 As an initiative matures, multiple organizations may wish to collaborate to provide a means to share, search, access, integrate and cooperatively maintain and use a particular geospatial information layer (such as transportation) from multiple sources using web services (Tier 2).
 

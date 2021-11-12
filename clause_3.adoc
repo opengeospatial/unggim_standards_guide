@@ -1,4 +1,7 @@
+
+:numbered:
 == Planning for Change
+:!numbered:
 
 |===
 | The purpose of this section is enabling the reader to understand: +
@@ -35,8 +38,9 @@ It is important for implementing organizations to recognize the many interested 
 * Any government or semi-government body already responsible for data or IT standards.
 * Specific departments based on the role of geospatial data and information in their business.
 
+[#figure3_1]
 .Geonovum statement on Dutch Geospatial Standards
-image::images/figure2.1.png[]
+image::images/figure3.1.png[caption='Figure 3.{counter:figure3-num} ']
 
 Other bodies may also have a strong role to play:
 

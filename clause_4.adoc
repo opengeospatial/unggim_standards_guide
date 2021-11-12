@@ -1,4 +1,7 @@
+
+:numbered:
 == Taking Action
+:!numbered:
 
 |===
 | The purpose of this section is enabling the reader to: +
@@ -10,7 +13,7 @@
 
 === Implementation
 
-This section describes which standards may be appropriate to use in each of the Tiers as identified in Figure 1.5. The list of standards provided is not intended to mean that every standard is mandatory at each Tier. Instead, these are meant as recommendations. For example, a number of standards are listed for Tier 1 (see https://drive.google.com/file/d/1DAb4QinqlEecqFzvtqi7JpnX7zzpdZJM/view?usp=sharing[Appendix 1]). Of the list provided for Tier 1, an initial SDI implementation may only implement one or two of the suggested standards. Further, standards recommended in Tier 2 could be implemented in Tier 1 and vice versa. The final decision as to which standards are implemented must be based on specific requirements and use cases.
+This section describes which standards may be appropriate to use in each of the Tiers as identified in <<figure1_5,Figure 1.5>>. The list of standards provided is not intended to mean that every standard is mandatory at each Tier. Instead, these are meant as recommendations. For example, a number of standards are listed for Tier 1 (see https://drive.google.com/file/d/1DAb4QinqlEecqFzvtqi7JpnX7zzpdZJM/view?usp=sharing[Appendix 1]). Of the list provided for Tier 1, an initial SDI implementation may only implement one or two of the suggested standards. Further, standards recommended in Tier 2 could be implemented in Tier 1 and vice versa. The final decision as to which standards are implemented must be based on specific requirements and use cases.
 
 === Foundational Standards
 
@@ -41,8 +44,9 @@ The capabilities of Tier 1 are:
 * The ability to discover metadata via on-line catalogs
 * The ability to visualize digital geospatial information as maps over the Web, from a single source or overlaid from several different sources.
 
+[#figure4_1]
 .Tier 1 Capabilities Enabled by Standards
-image::images/figure4.1.png[]
+image::images/figure4.1.png[caption='Figure 4.{counter:figure4-num} ']
 
 Listed below are a few features and benefits that a Tier 1 solution can fulfill:
 
@@ -54,7 +58,7 @@ Listed below are a few features and benefits that a Tier 1 solution can fulfill:
 
 At this initial level of capability, policy and governance related to geospatial information management and operations may be somewhat informal.
 
-The following represent some implementation considerations regarding the capabilities depicted for Tier 1 in Figure 4.1.
+The following represent some implementation considerations regarding the capabilities depicted for Tier 1 in <<figure4_1,Figure 4.1>>.
 
 ==== Visualization and Portrayal
 
@@ -68,7 +72,7 @@ The ISO and OGC standards for catalogue and discovery are widely implemented in 
 
 The content of a catalogue is metadata. Metadata is a description of a resource, in this case a geospatial resource. The catalogue provides the services to search and publish the metadata for data, services, and related types of data.
 
-[width=832]
+[caption="Table 4.{counter:table4-num} "]
 .Standards in Tier 1, for standard descriptions see https://drive.google.com/file/d/1DAb4QinqlEecqFzvtqi7JpnX7zzpdZJM/view?usp=sharing[Appendix 1]
 |===
 h| *Technology in Tier1* h| *Relevant Standard*
@@ -88,7 +92,7 @@ h| *Technology in Tier1* h| *Relevant Standard*
 
 === Tier 2 - Geospatial Information Partnerships
 
-Tier 2 Goal (see Figure 4.2) -- An information community wishes to provide access to geospatial information over the Web, provide geospatial information download services, and in addition, may wish to collaborate across jurisdictions on maintenance and update of specific data themes, such as roads, from multiple sources that conform to agreed upon standards-based data models to create a consistent and integrated definition or meaning of the geospatial information for users.
+Tier 2 Goal (see <<figure4_2,Figure 4.2>>) -- An information community wishes to provide access to geospatial information over the Web, provide geospatial information download services, and in addition, may wish to collaborate across jurisdictions on maintenance and update of specific data themes, such as roads, from multiple sources that conform to agreed upon standards-based data models to create a consistent and integrated definition or meaning of the geospatial information for users.
 
 The main drivers for a move from Tier 1 to Tier 2 are:
 
@@ -96,8 +100,9 @@ The main drivers for a move from Tier 1 to Tier 2 are:
 
 2) The desire to achieve interoperability within a community based on agreed upon standards-based data models for data exchange and maintenance.
 
+[#figure4_2]
 .Tier 2 Capability Enabled by Standards
-image::images/figure4.2.png[]
+image::images/figure4.2.png[caption='Figure 4.{counter:figure4-num} ']
 
 Organizations may wish to publish their geospatial information on the web. Furthermore, one or more organizations may wish to work with other members of a community to build, share, maintain and use datasets that provide a common operational view of important issues such as safe navigation, flood control, road maintenance, disaster management or bush fire management and response. Using this approach, data providers do not need to adopt the same technology solutions or change their database structures provided that they conform to agreed upon standards and data models. Through the use of Tier 2 open standards, they can provide access to view, distribute, or share geospatial information that conforms to these image::UNGGIM_Guide_ED_3_COE_Version_html_76eda6964eff29ee.png["",829,553]agreed upon standards-based data models.
 
@@ -134,23 +139,17 @@ For geospatial information query and access: The following standards allow the a
 
 Both information models and domain models are relevant to Tier 2 and Tier 3 in the evolution of an SDI. Using such domain-specific, information or content standards helps to guarantee that geospatial information can be encoded and shared with consistent semantics, geometry, quality, and provenance. Some domain models are agreed between countries, such as the INSPIRE Data Specifications, or by international organizations such as the World Meteorological Organization. Further, data models tend to be encoding tools agnostic, meaning the content can be encoded using XML, JSON, and other encoding technologies. Examples of these models include https://www.ogc.org/standards/citygml[OGC CityGML 2.0], https://www.iso.org/standard/51206.html[ISO 19152 Geographic Information - Land Administration Domain Model (LADM)], https://www.ogc.org/standards/infragml[OGC LandInfra/InfraGML] and https://iho.int/uploads/user/pubs/standards/s-100/S-100_Version_1.0.0.pdf[IHO S-100 Part 9 – Universal Hydrographic Data Model Part 3 - General Feature Model].
 
-[width=728]
-.Standards in Tier 2, for standard descriptions see_ https://drive.google.com/file/d/1DAb4QinqlEecqFzvtqi7JpnX7zzpdZJM/view?usp=sharing[_Appendix 1_]
+[caption="Table 4.{counter:table4-num} "]
+.Standards in Tier 2, for standard descriptions see https://drive.google.com/file/d/1DAb4QinqlEecqFzvtqi7JpnX7zzpdZJM/view?usp=sharing[Appendix 1]
 |===
 h| *Technology in Tier2* h| *Relevant Standard*
 | Distributed Maintenance and Use | OGC GML/ISO 19136:2007, Geographic information — Geography Markup Language (GML)
 | | OGC Web Feature Service/ISO 19142:2010, Geographic information — Web Feature Service
-a| +
-
-| OGC API Features /ISO 19168-1:2020, Geographic information — Geospatial API for features — Part 1: Core
+| | OGC API Features /ISO 19168-1:2020, Geographic information — Geospatial API for features — Part 1: Core
 | | OGC Filter Encoding/ISO 19143:2010, Geographic information — Filter encodingOGC Web Coverage Service
 | | OGC GeoTIFF
-a| +
-
-| OGC GeoPackage
-a| +
-
-| IETF GeoJSON
+| | OGC GeoPackage
+| | IETF GeoJSON
 | Domain Data Models | OGC CityGML
 | | OGC LandInfra/InfraGML
 | | ISO 19152 Geographic Information - Land Administration Domain Model (LADM)
@@ -160,19 +159,21 @@ a| +
 
 === Tier 3 - Spatially Enabling the Nation
 
-*Tier 3 Goal* (see figure 4.3): Multiple organizations may share foundation/framework geospatial information and services with each other and the broader community to improve knowledge and understanding, thereby contributing to evidence-based decision making, situational awareness, and improved societal outcomes.
+*Tier 3 Goal* (see <<figure4_3,figure 4.3>>): Multiple organizations may share foundation/framework geospatial information and services with each other and the broader community to improve knowledge and understanding, thereby contributing to evidence-based decision making, situational awareness, and improved societal outcomes.
 
-Implementations in Tier 3 (see Figure 4.3) allow participants and stakeholders to extend the value of their geospatial information assets by sharing these assets with others, thereby leveraging geospatial information from other providers. Groups working in different application domains are able to share their data, discover and access data produced by others, and benefit from improved understanding and knowledge. The same geospatial information that is needed for land use planning may also have value for flood prevention and mitigation, environmental monitoring and remediation, efficient transportation and logistics, and public safety. Organizations can also improve their understanding and awareness of rapidly changing events by incorporating new information sourced from smartphones, as well as information from mobile and static sensors. Incorporation of crowd-sourced or Volunteered Geographic Information (VGI) geospatial information can be accommodated.
+Implementations in Tier 3 (see <<figure4_3,Figure 4.3>>) allow participants and stakeholders to extend the value of their geospatial information assets by sharing these assets with others, thereby leveraging geospatial information from other providers. Groups working in different application domains are able to share their data, discover and access data produced by others, and benefit from improved understanding and knowledge. The same geospatial information that is needed for land use planning may also have value for flood prevention and mitigation, environmental monitoring and remediation, efficient transportation and logistics, and public safety. Organizations can also improve their understanding and awareness of rapidly changing events by incorporating new information sourced from smartphones, as well as information from mobile and static sensors. Incorporation of crowd-sourced or Volunteered Geographic Information (VGI) geospatial information can be accommodated.
 
+[#figure4_3]
 .Tier 3 Capability Enabled by Standards
-image::images/figure4.3.png[]
+image::images/figure4.3.png[caption='Figure 4.{counter:figure4-num} ']
 
 The development and publication of these "foundation" or "framework" spatial data such as imagery, transportation, administrative boundaries, using content and technology standards and good practices enable geospatial data from different providers to be easily integrated and used across multiple applications domains, so that decision making is based upon a common understanding.
 
-Figure 4.4 depicts potential "foundation" geospatial information themes shared between and among many organizations and constituents.
+<<figure4_4,Figure 4.4>> depicts potential "foundation" geospatial information themes shared between and among many organizations and constituents.
 
+[#figure4_4]
 .Example: Foundation geospatial information layers (Source:_ http://link.fsdf.org.au/[_ANZLIC_]_)
-image::images/figure4.4.png[]
+image::images/figure4.4.png[caption='Figure 4.{counter:figure4-num} ']
 
 Geospatial information can be designed for delivery across multiple platforms and can be discovered, described, and accessed via web-based catalogs. Essential geospatial information themes are made available as "foundation" or "framework" data. These foundation themes have known accuracy and currency so that other geospatial data can be consistently integrated. http://ggim.un.org/UNGGIM-wg2/[UN-G] http://ggim.un.org/UNGGIM-wg2/[GIM] http://ggim.un.org/UNGGIM-wg2/[Working Group on Global Fundamental Geospatial Data Themes] have developed 14 foundational data themes in support of the UN-GGIM program of work.
 
@@ -253,8 +254,9 @@ The main SWE suite of standards are:
 
 More and more SDIs are integrating real time sensor feeds. This real time information is used to enhance situational awareness or is fused with other geospatial information resources to enhance decision support. Another key use for real time sensor information is to feed modelling systems that are used to predict severe weather events, tsunamis, debris flows, and other potential catastrophic events that impact human lives.
 
+[#figure4_5]
 .SeaDataNet employs OGC Sensor Web standards to ease access, ingest and viewing of observations from a range of fixed and mobile sensor assets
-image::images/figure4.5.png[]
+image::images/figure4.5.png[caption='Figure 4.{counter:figure4-num} ']
 
 A further standard to consider is the https://www.ogc.org/standards/sensorthings[_OGC SensorThings API_]. The _OGC SensorThings API_ is an OGC standard specification for providing an open and unified way to interconnect IoT devices, data, and applications over the Web. The _SensorThings API_ is an open standard, builds on Web protocols and the https://www.ogc.org/node/698[_OGC Sensor Web Enablement_] https://www.ogc.org/node/698[standards], and applies an easy-to-use REST-like style. The result is to provide a uniform way to expose the full potential of the Internet of Things.
 
@@ -268,8 +270,8 @@ _The ISO 19150 (Geographic information – Ontology)_ series of standards are de
 
 The https://www.w3.org/groups/ig/sdw[Spatial Data on the Web Interest Group](W3C/OGC) is one of the communities that is providing significant input to development of good practices and vocabularies that encourage better sharing of spatial data on the Web; and identify areas where standards should be developed jointly by both W3C, OGC and ISO, including http://www.ogc.org/standards/geosparql[_OGC GeoSPARQL_]and http://www.iso.org/standard/57465.html[_ISO 19150_].
 
-[width=809]
-.Standards in Tier 3, for standard descriptions see_ https://drive.google.com/file/d/1DAb4QinqlEecqFzvtqi7JpnX7zzpdZJM/view?usp=sharing[_Appendix 1_]
+[caption="Table 4.{counter:table4-num} "]
+.Standards in Tier 3, for standard descriptions see https://drive.google.com/file/d/1DAb4QinqlEecqFzvtqi7JpnX7zzpdZJM/view?usp=sharing[Appendix 1]
 |===
 h| *Technology in Tier3* h| *Relevant Standard*
 .2+| Geospatial Processing & Analytics | OGC Web Processing Service (WPS)
@@ -301,10 +303,11 @@ With the rapid pace of technological advancement and the emergence of new data s
 
 Organizational policies, standards, and associated good practices will need to evolve to make it easier to apply these new technologies, information sources and processes. This evolution should also be implemented in the more general context of the importance of geospatial information management to international sustainable development goals as discussed in http://ggim.un.org/knowledgebase/Attachment2200.aspx?AttachmentType=1[Monitoring Sustainable Development Contribution of Geospatial Information to the Rio+20 Processes].
 
-Figure 4.6 implies a point in the future when a geospatial infrastructure will be complete or fully realized. The reality, however, is that the market is delivering technology advancements on a continual basis. Many of these advancements will help to further improve organizational decision making and reduce cost and effort associated with IT infrastructure. Organizational leadership must be prepared to take advantage of key technology advancements when they become widely available.
+<<figure4_6,Figure 4.6>> implies a point in the future when a geospatial infrastructure will be complete or fully realized. The reality, however, is that the market is delivering technology advancements on a continual basis. Many of these advancements will help to further improve organizational decision making and reduce cost and effort associated with IT infrastructure. Organizational leadership must be prepared to take advantage of key technology advancements when they become widely available.
 
+[#figure4_6]
 .Future capabilities will be mobilized more quickly via standards
-image::images/figure4.6.png[]
+image::images/figure4.6.png[caption='Figure 4.{counter:figure4-num} ']
 
 To take advantage of these trends we recommend that appropriate organizational staff:
 
@@ -321,10 +324,11 @@ To assist in understanding these trends in a geospatial standards context, the O
 
 These trends are driving requirements for enhancing existing geospatial standards, rethinking and crafting a new generation of standards based on the lessons learned of the existing baseline, and incorporating new suites of standards required to leverage the value of the emerging technologies and user requirements.
 
-There could be several different views on the trends driving new areas of standards development or new applications of existing standards. One of many such views, which combine the UN-GGIM and OGC's trends, is presented below (Fig. 4.7):
+There could be several different views on the trends driving new areas of standards development or new applications of existing standards. One of many such views, which combine the UN-GGIM and OGC's trends, is presented below (<<figure4.7,Fig. 4.7>>):
 
+[#figure4_7]
 .Trends driving New Areas of Standards Development image::
-image::images/figure4.7.png[]
+image::images/figure4.7.png[caption='Figure 4.{counter:figure4-num} ']
 
 The following are a few of the trends driving new areas of standards development or new applications of existing standards as they are listed in Figure 4.6. The standards mentioned in Tier 4 along with related SDOs (Standard Development Organizations) are listed in Table 4.4.
 
@@ -379,8 +383,8 @@ The following are a few of the trends driving new areas of standards development
 
 * *Digital Ethics & Privacy* – Advances in how data is used and the deployment of emerging technology puts increasing pressure on understanding, anticipating, and responding to emerging ethical issues. The use of geospatial information poses serious ethical questions related to privacy, accuracy, and accessibility. Ethics related to geospatial information management focuses on the relationship between the creation, organization, dissemination, and use of geospatial data and services, and the ethical standards and moral codes governing human conduct in society. Government, business, and individuals can equally be affected by cyber-attacks leading to infringements of privacy, disruption of services, and national security risks. The advent of autonomous vehicles represents a significant source for cyber threats as the vehicles will be connected to networks such as the internet. Without cybersecurity, the ability to exploit the increasing availability of data and the rapid technological advancements will be at increased risk.
 
-[width=837]
-.Standards in Tier 4 (for standard descriptions see_ https://drive.google.com/file/d/1DAb4QinqlEecqFzvtqi7JpnX7zzpdZJM/view?usp=sharing[_Appendix 1_]_)
+[caption="Table 4.{counter:table4-num} "]
+.Standards in Tier 4 (for standard descriptions see https://drive.google.com/file/d/1DAb4QinqlEecqFzvtqi7JpnX7zzpdZJM/view?usp=sharing[Appendix 1])
 |===
 2+h| *Technology in Tier4* h| *Relevant Standard or Relevant Standard Developing Organization WG*
 .7+| Sensing and Observations .4+| Outdoor & Indoor Mapping | OGC IndoorGML
@@ -389,11 +393,9 @@ The following are a few of the trends driving new areas of standards development
 | *ISO/TC 59/SC 13/JWG 14 "Joint ISO/TC 59/SC 13 - ISO/TC 211 WG: GIS-BIM interoperability"*
 | Real-Time Information | OGC Moving Features
 | New Space Exploration | OGC/ISO Coverage Implementation Schema (CIS) and OGC Web Coverage Service (WCS)
-a| +
-
+|
 | https://www.gebco.net/[General Bathymetric Chart of the Oceans] (GEBCO)
-a| +
-
+|
 | High-Resolution High-Revisit Earth Observation a| *IEEE Geoscience and Remote Sensing Society - SAR - Working Group for SAR Metadata Content Standard* +
 OGC/ISO Coverage Implementation Schema (CIS) and OGC Web Coverage Service (WCS)-
 .5+| Geospatial Big Data Sources .3+| Linked Data | W3C Resource Description Framework (RDF)

@@ -1,4 +1,7 @@
+
+:numbered:
 == Understanding [Organizational Standards] Needs
+:!numbered:
 
 [width=818]
 |===
@@ -39,17 +42,17 @@ Needs can be expressed at different scales: from single to multiple organization
 
 This section provides guidance on how to understand the organizational and broader SDI standards needs and gaps, and how standards can address these potential needs and gaps. There are five recommended steps and associated tools that guide users to identify gaps in standards implementation or adoption, as well as determine their needs and priorities. These steps are applicable for all SDI regardless of which level of maturity or tier it is in. More details on suggested standards can be found in the Taking Action Section.
 
-
+[caption="Table 2.{counter:table2-num} "]
 .Five recommended steps and associated tools for understanding and addressing standards needs.
 [width=809]
 |===
 h| *Step* h| *Tool*
 | 1. Determine the standards baseline and needs a|
-* Framework for managing geospatial data lifecycle (Figure 2.1)
+* Framework for managing geospatial data lifecycle (<<figure2_1,Figure 2.1>>)
 * Standards Baseline Survey (IGIF SP6, Appendix 6.2)
 * https://drive.google.com/file/d/1nHctj0dJ1FNGbAsYbmva_EMfccYgQgX_/view?usp=sharing[Example of a metadata survey (Appendix 2)] to determine adoption of a metadata standard and issues with and priorities of its implementation
 | 2. Choose the tier that matches the needs a|
-* The Tier Maturity Matrix (Figures 1.5 and 1.6)
+* The Tier Maturity Matrix (<<figure1_5,Figures 1.5>> and <<figure1_6,1.6>>)
 * Needs Assessment and Gap Analysis Template (IGIF SP6, Appendix 6.3)
 | 3. Match standards to needs. a|
 * https://drive.google.com/file/d/1DAb4QinqlEecqFzvtqi7JpnX7zzpdZJM/view?usp=sharing[Standards Inventory (Appendix 1)] provides recommended geospatial standards for each Tier.
@@ -68,7 +71,7 @@ There is no intention to suggest that every standard listed in this chapter and 
 
 === Managing the Geospatial Data Lifecycle
 
-Defining a framework and standards for effective management of geospatial data lifecycle is the first and probably most important step for any organization (Table 2.1) since data supports all levels of capability and collaboration described in the 'Tiers: A Goal-based Approach to Implementation' subsection (Figure 1.5). Organizational success depends on how effectively and efficiently data can be applied in delivering products and services. Potential needs in managing data life cycle could include:
+Defining a framework and standards for effective management of geospatial data lifecycle is the first and probably most important step for any organization (Table 2.1) since data supports all levels of capability and collaboration described in the 'Tiers: A Goal-based Approach to Implementation' subsection (<<figure1_5,Figure 1.5>>). Organizational success depends on how effectively and efficiently data can be applied in delivering products and services. Potential needs in managing data life cycle could include:
 
 * Implementing consistent practices for geospatial data acquisition, management, and archiving.
 * Discovering geospatial data within organizations.
@@ -81,14 +84,15 @@ Standardized application schemas and feature catalogs support these capabilities
 
 Along with data management, organizations need to determine a policy on sharing data, specifically which themes or categories of geospatial information are to be shared. The IGIF SP2 Appendix 2.6 provides an example of aGap Analysis Matrix. Depending on the maturity of the system, sharing could be "view only" (solves the majority of use cases) or actual publication and transmission of physical data. At this level, one or more organizations agree to collaborate and share specific data holdings. Standards at this step in the process are sharing and access agreements, authentication/authorization rules, policies that can be documented and communicated, and/or cartographic symbolization rules.
 
-Organizations should consider using the standards summarized in Figure 2.1 to enable effective management of data and ability to easily apply it for any (re-)use. For details on these standards and the standards associated with the discussion of Tiers below, please see https://drive.google.com/file/d/1DAb4QinqlEecqFzvtqi7JpnX7zzpdZJM/view?usp=sharing[Appendix 1].
+Organizations should consider using the standards summarized in <<figure2_1,Figure 2.1>> to enable effective management of data and ability to easily apply it for any (re-)use. For details on these standards and the standards associated with the discussion of Tiers below, please see https://drive.google.com/file/d/1DAb4QinqlEecqFzvtqi7JpnX7zzpdZJM/view?usp=sharing[Appendix 1].
 
+[#figure2_1]
 .Geospatial data life cycle and examples of applicable standards (Amended from Source: Geospatial Frameworks)
-image::images/figure2.1.png[]
+image::images/figure2.1.png[caption='Figure 2.{counter:figure2-num} ']
 
 === Functions and Needs by Tier
 
-With reference to the tier diagram introduced in Direction Setting (Figures 1.5 and 1.6) and steps 2-3 of the 5 recommended steps (Table 2.1), the following subsections underscore the geospatial functional and standards needs which organizations could address depending on its tier and system maturity.
+With reference to the tier diagram introduced in Direction Setting (<<figure1_5,Figures 1.5>> and <<figure1_6,1.6>>) and steps 2-3 of the 5 recommended steps (Table 2.1), the following subsections underscore the geospatial functional and standards needs which organizations could address depending on its tier and system maturity.
 
 ==== Tier 1 - Share Maps Internally and Over the Web
 
@@ -177,18 +181,20 @@ An excellent example of operational use of OGC SWE standards is the https://docs
 
 Tier 4 involves the transition of current SDI into a broader Spatial Knowledge Infrastructure (SKI) that can be strategically planned based on: (1) emerging standards and technology trends that are addressing known gaps, challenges and needs (refer to Direction Setting chapter - Emerging Standards and Trends); (2) delivering geospatial information into the Web of data and bridging the SDI to a broader ecosystem of
 
-information systems (Figure 2.2), and (3) The SDI to SKI -Maturity Matrix (Figure 2.3). A
+information systems (<<figure2_2,Figure 2.2>>), and (3) The SDI to SKI -Maturity Matrix (<<figure2_3,Figure 2.3>>). A
 
+[#figure2_2]
 .Putting SKI in Context
-image::images/figure2.2.png[]
+image::images/figure2.2.png[caption='Figure 2.{counter:figure2-num} ']
 
 'needs assessment and gap analysis template' described in IGIF SP6 Appendix 6.3 has identified two potential needs of an SDI at the Tier 4 level:
 
 * Establishment and implementation of standards for the global geospatial information community
 * Understanding and preparation for emerging standards, good practices, and trends.
 
+[#figure2_3]
 .From SDI to SKI – Maturity Matrix
-image::images/figure2.3.png[]
+image::images/figure2.3.png[caption='Figure 2.{counter:figure2-num} ']
 
 Standards are constantly being produced and updated based on prevailing technologies and user needs and challenges. The SDOs - ISO/TC211, OGC, IHO and W3C have online standards registries where the latest standards and information are made available and accessible ( https://drive.google.com/file/d/17y36KQj7bX_anDeDf-hGkbJbEVlPeySY/view?usp=sharing[Appendix 5]). Trends are driving requirements for enhancing existing geospatial standards, rethinking and crafting a new generation of standards based on the lessons learned of the existing baseline. It is also opportune that the implementation of a new suite of standards leverages the value of the emerging ecosystem of technologies and user requirements.
 
