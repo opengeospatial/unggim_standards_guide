@@ -87,7 +87,7 @@ Examples of Strategic Plans:
 * US NSDI Strategic Plan
 * ISO defined 2030 as a milestone to reflect on our progress and evaluate our fundamental work as an organization. This time frame aligns with the UN's ambitious Global Agenda for 2030, which, as outlined through the 17 Sustainable Development Goals, will require international collaborative effort to become a reality. See: https://www.iso.org/files/live/sites/isoorg/files/store/en/PUB100364.pdf[ISO Strategy 2030]
 * https://www.iso.org/files/live/sites/isoorg/files/store/en/PUB100364.pdf[ANZLIC] https://www.iso.org/files/live/sites/isoorg/files/store/en/PUB100364.pdf[Strategy that aligns with and supports global and domestic initiatives.] https://www.iso.org/files/live/sites/isoorg/files/store/en/PUB100364.pdf[] https://www.anzlic.gov.au/anzlic-council/anzlic-strategic-plan-2020-24[https://www.anzlic.gov.au/anzlic-council/anzlic-strategic-plan-2020-24]
-* Global Earth Observation System of Systems (GEOSS) developed a strategic plan:https://earthobservations.org/documents/open\_eo\_data/GEO\_Strategic\_Plan\_2016\_2025\_Implementing\_GEOSS.pdf
+* Global Earth Observation System of Systems (GEOSS) developed a strategic plan: https://earthobservations.org/documents/open\_eo\_data/GEO\_Strategic\_Plan\_2016\_2025\_Implementing\_GEOSS.pdf
 
 ==== Standards Baseline Surveys / Assessment
 
