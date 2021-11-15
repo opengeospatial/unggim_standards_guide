@@ -39,7 +39,6 @@ Examples of national and supranational bodies responsible for standards review p
 * Geonovum (the Netherlands) https://www.geonovum.nl/[https://www.geonovum.nl/] with membership of Forum Standaardisatie https://forumstandaardisatie.nl/[https://forumstandaardisatie.nl/]
 * GeoConnections (Canada) https://www.nrcan.gc.ca/science-data/science-research/earth-sciences/geomatics/canadas-spatial-data-infrastructure/10783[https://www.nrcan.gc.ca/science-data/science-research/earth-sciences/geomatics/canadas-spatial-data-infrastructure/10783]
 * National System of Statistical and Geographical Information (Sistema Nacional de Informacion Estadistica y Geográfica - SNIEG) (INEGI-Mexico)
-
 http://www./[www.]snieg.mx/scn-acerca-de/
 
 * INSPIRE (European Union) https://inspire.ec.europa.eu/[https://inspire.ec.europa.eu/] Community Forum https://inspire.ec.europa.eu/inspire-helpdesk[https://inspire.ec.europa.eu/inspire-helpdesk]
