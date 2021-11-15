@@ -175,7 +175,7 @@ The development and publication of these "foundation" or "framework" spatial dat
 .Example: Foundation geospatial information layers (Source:_ http://link.fsdf.org.au/[_ANZLIC_]_)
 image::images/figure4.4.png[caption='Figure 4.{counter:figure4-num} ']
 
-Geospatial information can be designed for delivery across multiple platforms and can be discovered, described, and accessed via web-based catalogs. Essential geospatial information themes are made available as "foundation" or "framework" data. These foundation themes have known accuracy and currency so that other geospatial data can be consistently integrated. http://ggim.un.org/UNGGIM-wg2/[UN-G] http://ggim.un.org/UNGGIM-wg2/[GIM] http://ggim.un.org/UNGGIM-wg2/[Working Group on Global Fundamental Geospatial Data Themes] have developed 14 foundational data themes in support of the UN-GGIM program of work.
+Geospatial information can be designed for delivery across multiple platforms and can be discovered, described, and accessed via web-based catalogs. Essential geospatial information themes are made available as "foundation" or "framework" data. These foundation themes have known accuracy and currency so that other geospatial data can be consistently integrated. http://ggim.un.org/UNGGIM-wg2/[UN-GGIM] http://ggim.un.org/UNGGIM-wg2/[Working Group on Global Fundamental Geospatial Data Themes] have developed 14 foundational data themes in support of the UN-GGIM program of work.
 
 
 ==== Capabilities of Tier 3

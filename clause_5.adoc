@@ -29,7 +29,7 @@ International open standards may evolve from wide-scale implementation of propri
 * Bring de facto standards from the larger geospatial community to be a stable reference point that can normatively referenced by governments and other organizations.
 * Bring new, but implemented, standards to the OGC to form the basis for further refinement and development of interoperability between other OGC standards.footnote::[https://www.ogc.org/standards/community]
 
-The http://www.ogc.org/standards/i3s[_OGC Indexed 3D Scene Layers (I3S_]_)_ and http://www.ogc.org/standards/3DTiles[_OGC 3DTiles_]standards submitted by OGC industry members followed this route. For a list of OGC Community Standards, visit http://www.ogc.org/standards/community[www.ogc.org/standards/community]
+The http://www.ogc.org/standards/i3s[_OGC Indexed 3D Scene Layers (I3S_]_)_ and http://www.ogc.org/standards/3DTiles[_OGC 3DTiles_] standards submitted by OGC industry members followed this route. For a list of OGC Community Standards, visit http://www.ogc.org/standards/community[www.ogc.org/standards/community]
 
 As changes to standards will likely occur during the lifecycle of a system, it is important that persons responsible for planning, acquisition and maintenance of systems are aware of these changes. Several nations have in place comprehensive standards review programs which monitor the standards environment and recommend / endorse new and updated standards to keep pace with new community needs and key information and technology market advancements. It is recommended to keep up-to-date with and align to the relevant national standards review programs and even consider becoming involved in the standardization process if the relevant review program invites participation from organizations as stakeholders.
 
@@ -39,7 +39,6 @@ Examples of national and supranational bodies responsible for standards review p
 * Geonovum (the Netherlands) https://www.geonovum.nl/[https://www.geonovum.nl/] with membership of Forum Standaardisatie https://forumstandaardisatie.nl/[https://forumstandaardisatie.nl/]
 * GeoConnections (Canada) https://www.nrcan.gc.ca/science-data/science-research/earth-sciences/geomatics/canadas-spatial-data-infrastructure/10783[https://www.nrcan.gc.ca/science-data/science-research/earth-sciences/geomatics/canadas-spatial-data-infrastructure/10783]
 * National System of Statistical and Geographical Information (Sistema Nacional de Informacion Estadistica y Geográfica - SNIEG) (INEGI-Mexico)
-
 http://www./[www.]snieg.mx/scn-acerca-de/
 
 * INSPIRE (European Union) https://inspire.ec.europa.eu/[https://inspire.ec.europa.eu/] Community Forum https://inspire.ec.europa.eu/inspire-helpdesk[https://inspire.ec.europa.eu/inspire-helpdesk]
@@ -63,10 +62,10 @@ https://www.esipfed.org/[*Earth Science Information Partners*] https://www.esipf
 
 Another important example is illustrated in the power of integrating statistical and geospatial information for the production and dissemination of location relevant statistics. The integration includes geocoding of statistics, spatial analysis, and creating statistical maps. Several governmental bodies are responsible for supporting the integration of statistical and geospatial information, and provide
 
-* As the coordinating body of Mexico's National System of Statistical and Geographic Information (SNIEG), INEGI issues and provides the technical regulations for coordination and integration of statistical and geographical information. The https://en.www.inegi.org.mx/temas/mg/[] https://en.www.inegi.org.mx/temas/mg/[National Geostatistical Framework] of Mexico drives Mexico's national housing inventory, delineation of metropolitan areas and human settlements, school census data, and economic units among other entities.
+* As the coordinating body of Mexico's National System of Statistical and Geographic Information (SNIEG), INEGI issues and provides the technical regulations for coordination and integration of statistical and geographical information. The https://en.www.inegi.org.mx/temas/mg/[National Geostatistical Framework] of Mexico drives Mexico's national housing inventory, delineation of metropolitan areas and human settlements, school census data, and economic units among other entities.
 * Within Eurostat, the Geographical Information System of the Commission (GISCO) is for improvement of the integration of statistical and geospatial information at the EU level. It seeks to promote the use of geographical information and the GIS within the European Statistical System (ESS) and the EU-Commission (see: https://ec.europa.eu/eurostat/web/gisco[] https://ec.europa.eu/eurostat/web/gisco[https://ec.europa.eu/eurostat/web/gisco]).
 
-Eurostat and Mexico along with many other nations are heavily involved as a CoP in the activities of UN-GGIM, with focus on advancing a http://ggim.un.org/meetings/GGIM-committee/9th-Session/documents/The_GSGF.pdf[] http://ggim.un.org/meetings/GGIM-committee/9th-Session/documents/The_GSGF.pdf[Global Statistical Geospatial Information Framework documen]t.
+Eurostat and Mexico along with many other nations are heavily involved as a CoP in the activities of UN-GGIM, with focus on advancing a http://ggim.un.org/meetings/GGIM-committee/9th-Session/documents/The_GSGF.pdf[Global Statistical Geospatial Information Framework document].
 
 The technical documents and insight offered by these and other CoPs can be of great value to organizations seeking to manage services that are interoperable within the organization and across organizations from the local to international level.
 
