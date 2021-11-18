@@ -328,7 +328,7 @@ These trends are driving requirements for enhancing existing geospatial standard
 There could be several different views on the trends driving new areas of standards development or new applications of existing standards. One of many such views, which combine the UN-GGIM and OGC's trends, is presented below (<<figure4.7,Fig. 4.7>>):
 
 [#figure4_7]
-.Trends driving New Areas of Standards Development image::
+.Trends driving New Areas of Standards Development
 image::images/figure4.7.png[caption='Figure 4.{counter:figure4-num} ']
 
 The following are a few of the trends driving new areas of standards development or new applications of existing standards as they are listed in Figure 4.6. The standards mentioned in Tier 4 along with related SDOs (Standard Development Organizations) are listed in Table 4.4.
