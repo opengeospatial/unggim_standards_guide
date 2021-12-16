@@ -1,9 +1,7 @@
 :!numbered:
 == Summary
 
-The purpose of this Guide is to promote the recommendations regarding the use of standards for geospatial information management. The Guide complements http://ggim.un.org/IGIF/part2.cshtml[Strategic Pathway 6 on Standards (SP6)] of the http://ggim.un.org/IGIF/[Integrated Geospatial Information Framework (IGIF)] Implementation Guide,
-
-providing specific guidance and options to be taken by countries when implementing the IGIF. This Guide and the IGIF have been developed through extensive consultations with experts from around the world working under the auspices of the United Nations Committee of Experts on Global Geospatial Information Management (UN-GGIM).
+The purpose of this Guide is to promote the recommendations regarding the use of standards for geospatial information management. The Guide complements http://ggim.un.org/IGIF/part2.cshtml[Strategic Pathway 6 on Standards (SP6)] of the http://ggim.un.org/IGIF/[Integrated Geospatial Information Framework (IGIF)] Implementation Guide, providing specific guidance and options to be taken by countries when implementing the IGIF.This Guide and the IGIF have been developed through extensive consultations with experts from around the world working under the auspices of the United Nations Committee of Experts on Global Geospatial Information Management (UN-GGIM).
 
 This Guide provides detailed insights on the standards and good practices necessary to establish and maintain geospatial information management systems that are compatible and interoperable with other systems within and across organizations. The Guide also underscores the importance of standards in facilitating the application of the FAIR (Findable, Accessible, Interoperable, and Reusable) data principles - promoting improved policymaking, decision making and government effectiveness in addressing key social, economic, and environmental topics, including attainment of Sustainable Development Goals.
 
