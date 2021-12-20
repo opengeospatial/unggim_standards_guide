@@ -112,7 +112,6 @@ The INSPIRE Directive and its implementation across Europe can be seen as a majo
 * https://inspire.ec.europa.eu/[INSPIRE | Welcome to INSPIRE (europa.eu), window="_blank"]
 
 * Implementation and Communication of Standards http://opengeospatial.github.io/e-learning/ogc-standards/text/services-ogc.html[Understanding OGC Standards — OGC e-Learning 2.0.0 documentation (opengeospatial.github.io), window="_blank"], https://sho.co/1C95Q[Metadata: What is it, and why is it so important ?, window="_blank"]
-* Standards Review Program http://www.s-121.com/w/index.php/Main_Page[http://www.s-121.com/w/index.php/Main\_Page, window="_blank"]
 * Standards CoP https://iho.int/en/standards-in-force[https://iho.int/en/standards-in-force, window="_blank"]
 * Standards Capacity Building Programs
 
