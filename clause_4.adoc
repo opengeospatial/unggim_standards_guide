@@ -81,7 +81,7 @@ h| *Technology in Tier1* h| *Relevant Standard*
 | OGC Styled Layer Descriptor
 | OGC Symbology Encoding
 | OGC Web Services Context Document
-| IHO S-100 Part 9 – Universal Hydrographic Data Model Part 9 - Portrayal
+| IHO S-100 Universal Hydrographic Data Model Part 9 - Portrayal
 .5+| Catalogue and Discovery | ISO 19115-1:2014, Geographic information — Metadata — Part 1: Fundamentals
 | ISO 19115-2:2019, Geographic information — Metadata — Part 2: Extensions for acquisition and processing
 | ISO 19115-3:2016, Geographic information - Metadata - Part 3: XML schema implementation for fundamental concepts
@@ -137,7 +137,7 @@ For geospatial information query and access: The following standards allow the a
 
 ==== Domain Data Models
 
-Both information models and domain models are relevant to Tier 2 and Tier 3 in the evolution of an SDI. Using such domain-specific, information or content standards helps to guarantee that geospatial information can be encoded and shared with consistent semantics, geometry, quality, and provenance. Some domain models are agreed between countries, such as the INSPIRE Data Specifications, or by international organizations such as the World Meteorological Organization. Further, data models tend to be encoding tools agnostic, meaning the content can be encoded using XML, JSON, and other encoding technologies. Examples of these models include https://www.ogc.org/standards/citygml[OGC CityGML 2.0, window="_blank"], https://www.iso.org/standard/51206.html[ISO 19152 Geographic Information - Land Administration Domain Model (LADM), window="_blank"], https://www.ogc.org/standards/infragml[OGC LandInfra/InfraGML, window="_blank"] and https://iho.int/uploads/user/pubs/standards/s-100/S-100_Version_1.0.0.pdf[IHO S-100 Part 9 – Universal Hydrographic Data Model Part 3 - General Feature Model, window="_blank"].
+Both information models and domain models are relevant to Tier 2 and Tier 3 in the evolution of an SDI. Using such domain-specific, information or content standards helps to guarantee that geospatial information can be encoded and shared with consistent semantics, geometry, quality, and provenance. Some domain models are agreed between countries, such as the INSPIRE Data Specifications, or by international organizations such as the World Meteorological Organization. Further, data models tend to be encoding tools agnostic, meaning the content can be encoded using XML, JSON, and other encoding technologies. Examples of these models include https://www.ogc.org/standards/citygml[OGC CityGML 2.0, window="_blank"], https://www.iso.org/standard/51206.html[ISO 19152 Geographic Information - Land Administration Domain Model (LADM), window="_blank"], https://www.ogc.org/standards/infragml[OGC LandInfra/InfraGML, window="_blank"] and https://iho.int/en/s-100-universal-hydrographic-data-model[IHO S-100 Universal Hydrographic Data Model Part 3 - General Feature Model, window="_blank"].
 
 [caption="Table 4.{counter:table4-num} "]
 .Standards in Tier 2, for standard descriptions see https://drive.google.com/file/d/1DAb4QinqlEecqFzvtqi7JpnX7zzpdZJM/view?usp=sharing[Appendix 1]
