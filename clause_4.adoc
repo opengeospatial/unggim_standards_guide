@@ -153,6 +153,7 @@ h| *Technology in Tier2* h| *Relevant Standard*
 | Domain Data Models | OGC CityGML
 | | OGC LandInfra/InfraGML
 | | ISO 19152 Geographic Information - Land Administration Domain Model (LADM)
+| | IHO S-121 Maritime Limits and Boundaries
 
 |===
 
