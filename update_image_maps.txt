@@ -1,0 +1,56 @@
+FOR PDF
+
+create links for these:
+
+INSPIRE: https://inspire.ec.europa.eu/about-inspire/563
+Metadata: https://inspire.ec.europa.eu/metadata/6541
+Data Specifications: https://inspire.ec.europa.eu/data-specifications/2892
+Network Services: https://inspire.ec.europa.eu/network-services/41
+Data and Service Sharing: https://inspire.ec.europa.eu/data-and-service-sharing/62
+Spatial Data Services: https://inspire.ec.europa.eu/spatial-data-services/580
+Monitoring and Reporting: https://inspire.ec.europa.eu/monitoring-and-reporting/69
+good practices: https://inspire.ec.europa.eu/portfolio/good-practice-library
+
+
+
+FOR HTML
+
+
+REPLACE:
+
+alt="figure6.1">
+
+
+WITH:
+
+
+alt="figure6.1" width="800px" usemap="#inspire" />
+                            <map name="inspire">
+                                <area shape="rect" coords="442,55,529,78" alt="INSPIRE" href="https://inspire.ec.europa.eu/about-inspire/563" target="_blank">
+                                <area shape="rect" coords="313,244,398,263" alt="Metadata" href="https://inspire.ec.europa.eu/metadata/6541" target="_blank">
+                                <area shape="rect" coords="313,270,477,288" alt="Data Specifications" href="uhttps://inspire.ec.europa.eu/data-specifications/2892" target="_blank">
+                                <area shape="rect" coords="313,293,464,312" alt="Network Services" href="https://inspire.ec.europa.eu/network-services/41" target="_blank">
+                                <area shape="rect" coords="313,318,526,339" alt="Data and Service Sharing" href="https://inspire.ec.europa.eu/data-and-service-sharing/62" target="_blank">
+                                <area shape="rect" coords="313,344,491,364" alt="Spatial Data Services" href="https://inspire.ec.europa.eu/spatial-data-services/580" target="_blank">
+                                <area shape="rect" coords="313,369,537,390" alt="Monitoring and Reporting" href="https://inspire.ec.europa.eu/monitoring-and-reporting/69" target="_blank">
+                                <area shape="rect" coords="502,415,628,430" alt="good practices" href="https://inspire.ec.europa.eu/portfolio/good-practice-library" target="_blank">
+
+
+
+============================================
+
+
+To use full size image the replacement would be:
+
+
+alt="figure6.1"   usemap="#inspire" />
+                            <map name="inspire">
+                                <area shape="rect" coords="728,93,871,127" alt="INSPIRE" href="https://inspire.ec.europa.eu/about-inspire/563" target="_blank">
+                                <area shape="rect" coords="519,401,656,433" alt="Metadata" href="https://inspire.ec.europa.eu/metadata/6541" target="_blank">
+                                <area shape="rect" coords="519,441,785,474" alt="Data Specifications" href="uhttps://inspire.ec.europa.eu/data-specifications/2892" target="_blank">
+                                <area shape="rect" coords="519,486,766,513" alt="Network Services" href="https://inspire.ec.europa.eu/network-services/41" target="_blank">
+                                <area shape="rect" coords="519,528,867,559" alt="Data and Service Sharing" href="https://inspire.ec.europa.eu/data-and-service-sharing/62" target="_blank">
+                                <area shape="rect" coords="519,568,806,598" alt="Spatial Data Services" href="https://inspire.ec.europa.eu/spatial-data-services/580" target="_blank">
+                                <area shape="rect" coords="519,609,882,639" alt="Monitoring and Reporting" href="https://inspire.ec.europa.eu/monitoring-and-reporting/69" target="_blank">
+                                <area shape="rect" coords="826,683,1033,711" alt="good practices" href="https://inspire.ec.europa.eu/portfolio/good-practice-library" target="_blank">
+                            </map>
