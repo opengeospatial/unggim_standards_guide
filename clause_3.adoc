@@ -1,4 +1,4 @@
-
+[[planning_for_change]]
 :numbered:
 == Planning for Change
 :!numbered:
@@ -53,7 +53,7 @@ One of the first steps in the planning process is to confirm the organizational 
 Examples of key activities include:
 
 * Ensure that all roles, responsibilities, and organizational structures are in place according to national policy and plan to foster a successful implementation.
-* Identify the level of organizational capability required to meet the mission (see Section 2 on Understanding Needs).
+* Identify the level of organizational capability required to meet the mission (see <<understanding_needs,Section 2>> on Understanding Needs).
 * Define the level of organizational engagement and resources necessary for participation in the national governance process, as described in IGIF SP6 section 6.6.1, for successful cooperation between national agencies and stakeholders for sharing and exchanging geospatial data.
 * Ensure that acquisition/procurement actions include requirements for common nationally endorsed standards.
 
@@ -92,7 +92,7 @@ Large-scale change initiatives may have impacts on the organization in many ways
 
 * *What*: What are the expected outcomes of the action plan? It is critical to consider the desired outcomes of the action plan from various perspectives. The IGIF SP6 and Understanding [Organizational Standards] Needs section in this document provide examples of outcomes from the technical (e.g., infrastructure capabilities, interoperability, etc.) and business (e.g., single to multi-organizational or jurisdictional coordination, etc.) perspectives, though there may be others to consider.
 * *When*: When do we intend to reach our goals or different steps? It is important to establish an implementation strategy and schedule that reflects the chosen approach. The Direction Setting and Understanding [Organizational Standards] Needs sections of this document outline potential objectives for the action plan and in some cases, such as the geospatial tiers, these are presented in a manner that lend themselves to a stepwise implementation. It is important to consider factors including the impact and complexity of the desired change(s), the realities faced by the entities impacted by the desired change(s), any factors which impact how the change must be implemented, and the relative priorities of desired changes and where those changes are implemented. Stepwise approaches may take longer to fully implement but can involve significantly less risk than 'big bang' implementations. Planning organization level change such that successes are achieved and promoted early is key to maintaining momentum through delivery of results. When all factors are considered, an implementation schedule with milestones should be developed, communicating the schedule, priorities, and key checkpoints used to monitor progress.
-* *Who:*Who are the key experts and decision-makers needed to support the activities identified? When considering the delivery of any change initiative, it is critical to understand those leading, implementing, and impacted by the change. Examples of such stakeholders include:
+* *Who:* Who are the key experts and decision-makers needed to support the activities identified? When considering the delivery of any change initiative, it is critical to understand those leading, implementing, and impacted by the change. Examples of such stakeholders include:
 ** Governance and policy bodies as defined in the IGIF SP6.
 ** Experts needed for developing information models, specifications, and IT environments.
 ** Organizations providing experts.

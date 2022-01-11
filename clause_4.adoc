@@ -1,4 +1,4 @@
-
+[[taking_action]]
 :numbered:
 == Taking Action
 :!numbered:
@@ -30,7 +30,7 @@ Please note that not all of these standards are required for implementation, but
 
 === Tier 1 - Share Maps Internally and Over the Web
 
-*Tier 1 Goal* – The most fundamental requirement in Tier 1 (see fig. 4.1) is to enable the stakeholders and constituents (users) of an organization or institution to view and query interactive maps on the web. A https://en.wikipedia.org/wiki/Map[map, window="_blank"] is a depiction (i.e., an image) representing geospatial facts, provided for human consumption. Beyond this human-centric service and closely associated with this fundamental requirement is the general ability to discover, share and use geospatial information, including (but not limited to) machine-readable representation.
+*Tier 1 Goal* – The most fundamental requirement in Tier 1 (see <<figure4_1,Figure 4.1>>) is to enable the stakeholders and constituents (users) of an organization or institution to view and query interactive maps on the web. A https://en.wikipedia.org/wiki/Map[map, window="_blank"] is a depiction (i.e., an image) representing geospatial facts, provided for human consumption. Beyond this human-centric service and closely associated with this fundamental requirement is the general ability to discover, share and use geospatial information, including (but not limited to) machine-readable representation.
 
 An organizational or institutional goal is to provide staff, partners, and customers with the ability to view and query geospatial information in existing client applications using a variety of devices such as a desktop, tablet, or other mobile devices. This can include information developed by an organization itself or web accessible data available from other organizations. By using a web browser or smartphone, users can look up different "layers" of information. They can display, zoom into points of interest, and print maps while keeping their organizational IT infrastructure intact. As more maps are published, catalogs become necessary to enable map providers to advertise the availability of their maps and users to find them.
 
@@ -62,9 +62,9 @@ The following represent some implementation considerations regarding the capabil
 
 ==== Visualization and Portrayal
 
-The most basic requirement in an SDI is to be able to easily and effectively access, integrate, and display geospatial information that may be stored in one or more databases using different geospatial technology solutions and storage formats. Of the Tier 1 standards listed in https://drive.google.com/file/d/1DAb4QinqlEecqFzvtqi7JpnX7zzpdZJM/view?usp=sharing[Appendix 1, window="_blank"] and Table 4.1, by using just http://www.ogc.org/standards/wms[_OGC WMS_, window="_blank"] an organization can generate web-based applications that provide access to spatial information holdings, regardless of the formats used or GIS technology deployed. Many organizations have implemented _OGC WMS_ first to provide seamless access to geospatial information. These deployments provide quick, short term success and return on investment. If the data that an organization wants to display on the internet are already organized in tiles, then there is also the possibility of using http://www.ogc.org/standards/wmts[_OGC WMTS_, window="_blank"]. As implementations mature, most organizations can enhance their SDI capability with discovery and metadata browsing capability.
+The most basic requirement in an SDI is to be able to easily and effectively access, integrate, and display geospatial information that may be stored in one or more databases using different geospatial technology solutions and storage formats. Of the Tier 1 standards listed in https://drive.google.com/file/d/1DAb4QinqlEecqFzvtqi7JpnX7zzpdZJM/view?usp=sharing[Appendix 1, window="_blank"] and <<table4_1,Table 4.1>>, by using just http://www.ogc.org/standards/wms[_OGC WMS_, window="_blank"] an organization can generate web-based applications that provide access to spatial information holdings, regardless of the formats used or GIS technology deployed. Many organizations have implemented _OGC WMS_ first to provide seamless access to geospatial information. These deployments provide quick, short term success and return on investment. If the data that an organization wants to display on the internet are already organized in tiles, then there is also the possibility of using http://www.ogc.org/standards/wmts[_OGC WMTS_, window="_blank"]. As implementations mature, most organizations can enhance their SDI capability with discovery and metadata browsing capability.
 
-The Tier 1 standards recommended for implementing powerful access, browsing, visualization and display capability are listed in Table 4.1. These standards provide the ability for the user to access and display geospatial information as images in any browser.
+The Tier 1 standards recommended for implementing powerful access, browsing, visualization and display capability are listed in <<table4_1,Table 4.1>>. These standards provide the ability for the user to access and display geospatial information as images in any browser.
 
 ==== Catalogue and Discovery
 
@@ -72,6 +72,7 @@ The ISO and OGC standards for catalogue and discovery are widely implemented in 
 
 The content of a catalogue is metadata. Metadata is a description of a resource, in this case a geospatial resource. The catalogue provides the services to search and publish the metadata for data, services, and related types of data.
 
+[#table4_1]
 [caption="Table 4.{counter:table4-num} "]
 .Standards in Tier 1, for standard descriptions see https://drive.google.com/file/d/1DAb4QinqlEecqFzvtqi7JpnX7zzpdZJM/view?usp=sharing[Appendix 1]
 |===
@@ -117,7 +118,7 @@ In addition to Tier 1 capabilities, Tier 2 capabilities include:
 * Access to geospatial information and services can be controlled through access authorization.
 * Collaborative data maintenance capability is enabled (see below).
 
-The following key standards are recommended for possible use in Tier 2 (see Table 4.2 for more detailed list).
+The following key standards are recommended for possible use in Tier 2 (see <<table4_2,Table 4.2>> for more detailed list).
 
 ==== Distributed Maintenance and Use
 
@@ -139,6 +140,7 @@ For geospatial information query and access: The following standards allow the a
 
 Both information models and domain models are relevant to Tier 2 and Tier 3 in the evolution of an SDI. Using such domain-specific, information or content standards helps to guarantee that geospatial information can be encoded and shared with consistent semantics, geometry, quality, and provenance. Some domain models are agreed between countries, such as the INSPIRE Data Specifications, or by international organizations such as the World Meteorological Organization. Further, data models tend to be encoding tools agnostic, meaning the content can be encoded using XML, JSON, and other encoding technologies. Examples of these models include https://www.ogc.org/standards/citygml[OGC CityGML 2.0, window="_blank"], https://www.iso.org/standard/51206.html[ISO 19152 Geographic Information - Land Administration Domain Model (LADM), window="_blank"], https://www.ogc.org/standards/infragml[OGC LandInfra/InfraGML, window="_blank"], http://s100.iho.int/product%20specification/division-search/s-121-maritime-limits-and-boundaries[IHO S-121 Maritime Limits and Boundariet] and https://iho.int/en/s-100-universal-hydrographic-data-model[IHO S-100 Universal Hydrographic Data Model Part 3 - General Feature Model, window="_blank"].
 
+[#table4_2]
 [caption="Table 4.{counter:table4-num} "]
 .Standards in Tier 2, for standard descriptions see https://drive.google.com/file/d/1DAb4QinqlEecqFzvtqi7JpnX7zzpdZJM/view?usp=sharing[Appendix 1]
 |===
@@ -205,7 +207,7 @@ Geospatial information can be designed for delivery across multiple platforms an
 
 Multiple organizations share foundation/framework geospatial information and services with each other and the broader community to improve knowledge and understanding, thereby contributing to evidence-based decision making, situational awareness, and improved societal outcomes.
 
-In this Tier, the infrastructure is mature enough to support deployment of more and more applications to enhance value, provide increased citizen benefit, increase collaboration between organizations. There is also the introduction and integration of an increasing number of geospatial information resources, including volunteered and real time sensor feeds. We will also see mature deployment of mobile applications. The standards mentioned in the Tier 3 and related URLs are listed in Table 4.3.
+In this Tier, the infrastructure is mature enough to support deployment of more and more applications to enhance value, provide increased citizen benefit, increase collaboration between organizations. There is also the introduction and integration of an increasing number of geospatial information resources, including volunteered and real time sensor feeds. We will also see mature deployment of mobile applications. The standards mentioned in the Tier 3 and related URLs are listed in <<table4_3,Table 4.3>>.
 
 ==== Geospatial Processing & Analytics
 
@@ -273,6 +275,7 @@ _The ISO 19150 (Geographic information – Ontology)_ series of standards are de
 
 The https://www.w3.org/groups/ig/sdw[Spatial Data on the Web Interest Group, window="_blank"](W3C/OGC) is one of the communities that is providing significant input to development of good practices and vocabularies that encourage better sharing of spatial data on the Web; and identify areas where standards should be developed jointly by both W3C, OGC and ISO, including http://www.ogc.org/standards/geosparql[_OGC GeoSPARQL_, window="_blank"]and http://www.iso.org/standard/57465.html[_ISO 19150_].
 
+[#table4_3]
 [caption="Table 4.{counter:table4-num} "]
 .Standards in Tier 3, for standard descriptions see https://drive.google.com/file/d/1DAb4QinqlEecqFzvtqi7JpnX7zzpdZJM/view?usp=sharing[Appendix 1]
 |===
@@ -327,13 +330,13 @@ To assist in understanding these trends in a geospatial standards context, the O
 
 These trends are driving requirements for enhancing existing geospatial standards, rethinking and crafting a new generation of standards based on the lessons learned of the existing baseline, and incorporating new suites of standards required to leverage the value of the emerging technologies and user requirements.
 
-There could be several different views on the trends driving new areas of standards development or new applications of existing standards. One of many such views, which combine the UN-GGIM and OGC's trends, is presented below (<<figure4_7,Fig. 4.7>>):
+There could be several different views on the trends driving new areas of standards development or new applications of existing standards. One of many such views, which combine the UN-GGIM and OGC's trends, is presented below (<<figure4_7,Figure 4.7>>):
 
 [#figure4_7]
 .Trends driving New Areas of Standards Development
 image::images/figure4.7.png[caption='Figure 4.{counter:figure4-num} ']
 
-The following are a few of the trends driving new areas of standards development or new applications of existing standards as they are listed in <<figure4_7,Fig. 4.7>>. The standards mentioned in Tier 4 along with related SDOs (Standard Development Organizations) are listed in Table 4.4.
+The following are a few of the trends driving new areas of standards development or new applications of existing standards as they are listed in <<figure4_7,Figure 4.7>>. The standards mentioned in Tier 4 along with related SDOs (Standard Development Organizations) are listed in Table 4.4.
 
 ===== Sensing and Observations
 
@@ -386,6 +389,7 @@ The following are a few of the trends driving new areas of standards development
 
 * *Digital Ethics & Privacy* – Advances in how data is used and the deployment of emerging technology puts increasing pressure on understanding, anticipating, and responding to emerging ethical issues. The use of geospatial information poses serious ethical questions related to privacy, accuracy, and accessibility. Ethics related to geospatial information management focuses on the relationship between the creation, organization, dissemination, and use of geospatial data and services, and the ethical standards and moral codes governing human conduct in society. Government, business, and individuals can equally be affected by cyber-attacks leading to infringements of privacy, disruption of services, and national security risks. The advent of autonomous vehicles represents a significant source for cyber threats as the vehicles will be connected to networks such as the internet. Without cybersecurity, the ability to exploit the increasing availability of data and the rapid technological advancements will be at increased risk.
 
+[#table4_4]
 [caption="Table 4.{counter:table4-num} "]
 .Standards in Tier 4 (for standard descriptions see https://drive.google.com/file/d/1DAb4QinqlEecqFzvtqi7JpnX7zzpdZJM/view?usp=sharing[Appendix 1])
 |===

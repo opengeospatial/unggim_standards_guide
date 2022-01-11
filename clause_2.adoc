@@ -1,4 +1,4 @@
-
+[[understanding_needs]]
 :numbered:
 == Understanding [Organizational Standards] Needs
 :!numbered:
@@ -42,6 +42,7 @@ Needs can be expressed at different scales: from single to multiple organization
 
 This section provides guidance on how to understand the organizational and broader SDI standards needs and gaps, and how standards can address these potential needs and gaps. There are five recommended steps and associated tools that guide users to identify gaps in standards implementation or adoption, as well as determine their needs and priorities. These steps are applicable for all SDI regardless of which level of maturity or tier it is in. More details on suggested standards can be found in the Taking Action Section.
 
+[#table2_1]
 [caption="Table 2.{counter:table2-num} "]
 .Five recommended steps and associated tools for understanding and addressing standards needs.
 [width=809]
@@ -71,7 +72,7 @@ There is no intention to suggest that every standard listed in this chapter and 
 
 === Managing the Geospatial Data Lifecycle
 
-Defining a framework and standards for effective management of geospatial data lifecycle is the first and probably most important step for any organization (Table 2.1) since data supports all levels of capability and collaboration described in the 'Tiers: A Goal-based Approach to Implementation' subsection (<<figure1_5,Figure 1.5>>). Organizational success depends on how effectively and efficiently data can be applied in delivering products and services. Potential needs in managing data life cycle could include:
+Defining a framework and standards for effective management of geospatial data lifecycle is the first and probably most important step for any organization (<<table2_1,Table 2.1>>) since data supports all levels of capability and collaboration described in the 'Tiers: A Goal-based Approach to Implementation' subsection (<<figure1_5,Figure 1.5>>). Organizational success depends on how effectively and efficiently data can be applied in delivering products and services. Potential needs in managing data life cycle could include:
 
 * Implementing consistent practices for geospatial data acquisition, management, and archiving.
 * Discovering geospatial data within organizations.
@@ -92,7 +93,7 @@ image::images/figure2.1.png[caption='Figure 2.{counter:figure2-num} ']
 
 === Functions and Needs by Tier
 
-With reference to the tier diagram introduced in Direction Setting (<<figure1_5,Figures 1.5>> and <<figure1_6,1.6>>) and steps 2-3 of the 5 recommended steps (Table 2.1), the following subsections underscore the geospatial functional and standards needs which organizations could address depending on its tier and system maturity.
+With reference to the tier diagram introduced in Direction Setting (<<figure1_5,Figures 1.5>> and <<figure1_6,1.6>>) and steps 2-3 of the 5 recommended steps (<<table2_1,Table 2.1>>), the following subsections underscore the geospatial functional and standards needs which organizations could address depending on its tier and system maturity.
 
 ==== Tier 1 - Share Maps Internally and Over the Web
 

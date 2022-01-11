@@ -32,8 +32,9 @@ Furthermore, use cases (case studies), an integral part of this Guide, are intro
 
 Even though the IGIF SP6 aims to guide country-specific action plans for standards adoption and compliance in the context of national geospatial information management, this Guide is also useful for other organizations, such as state and provincial governments, private sector, and non-profit organizations. This Guide will help them to understand how their data, services and systems can be seamlessly integrated with national geospatial information and how their products and offerings can achieve the necessary flexibility to innovate and rapidly mobilize new technologies and data sources.
 
-The target audience for this Guide comprises four groups representing the different roles they play in standardization. Each of the groups can be linked to one of the four Elements of Standards in the IGIF/SP6, illustrated in Table I.2. This Guide was prepared with the aim to be understandable by those who are relatively new to the topic of geospatial standards, as well as those proficient in the use of standards. At the same time, this Guide provides guidance to both high-level policy and decision-makers, as well as implementers of standards.
+The target audience for this Guide comprises four groups representing the different roles they play in standardization. Each of the groups can be linked to one of the four Elements of Standards in the IGIF/SP6, illustrated in <<tablei.1,Table I.1>>. This Guide was prepared with the aim to be understandable by those who are relatively new to the topic of geospatial standards, as well as those proficient in the use of standards. At the same time, this Guide provides guidance to both high-level policy and decision-makers, as well as implementers of standards.
 
+[#tablei.1]
 [caption="Table I.{counter:itable-num} "]
 .The four groups of the target audience for this Guide and their relation to the IGIF SP6 Elements of Standards.
 [options="header"]
