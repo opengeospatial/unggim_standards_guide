@@ -1,0 +1,2254 @@
+.Appendix 1: Standards Inventory
+[%autowidth]
+
+|===
+| Name | Abbreviation (link) | Creator | Type (Standard, Best practice) | Level (Global, regional, national, organisational) | Foundational/ Domain | Data Life Cycle | Tier 1 | Tier 2 | Tier 3 | Tier 4 | Domain (where relevant) | Purpose | Brief description
+
+
+| ISO/TS 19115-3:2016
+Geographic information — Metadata — Part 3: XML schema implementation for fundamental concepts
+| https://www.iso.org/standard/32579.html[ISO 19115-3:2016]
+| ISO
+| Standard
+| Global
+| x
+| X
+| 1
+| 2
+| 3
+| 4
+|
+| ISO/TS 19115-3:2016 defines an integrated XML implementation of ISO 19115‑1, ISO 19115‑2
+| ISO/TS 19115-3:2016 provides XML shemas for ISO 19115-1:2014 and ISO 19115-2:2009 (but not the current edition). These were generated using the rules in ISO 19139, and included creation of an UML model for XML implementation derived from the conceptual UML model
+
+
+| ISO 19115-1:2014, Geographic information — Metadata — Part 1: Fundamentals
+| https://www.iso.org/standard/53798.html[ISO 19115-1:2014]
+| ISO
+| Standard
+| Global
+| X
+| X
+| 1
+| 2
+| 3
+| 4
+|
+| Defines the schema required for describing geographic information and services by means of metadata
+| This standard provides information about the identification, the extent, the quality, the spatial and temporal aspects, the content, the spatial reference, the portrayal, distribution, and other properties of digital geographic data and services.
+
+
+| OGC Styled Layer Descriptor
+| https://www.ogc.org/standards/sld[OGC SLD]
+| OGC
+| Standard
+| Global
+|
+|
+| 1
+| 2
+| 3
+| 4
+|
+| The OpenGIS® Styled Layer Descriptor (SLD) Profile of the OpenGIS® Web Map Service (WMS) Encoding Standard defines an encoding that extends the WMS standard to allow user-defined symbolization and coloring of geographic feature and coverage data.
+| SLD addresses the need for users and software to be able to control the visual portrayal of the geospatial data. The ability to define styling rules requires a styling language that the client and server can both understand. The OpenGIS® Symbology Encoding Standard (SE) provides this language, while the SLD profile of WMS enables application of SE to WMS layers using extensions of WMS operations. Additionally, SLD defines an operation for standardized access to legend symbols.
+
+
+| OGC Web Map Tile Service
+| https://www.ogc.org/standards/wmts[OGC WMTS]
+| OGC
+| Standard
+| Global
+|
+|
+| 1
+| 2
+| 3
+| 4
+|
+|
+| If high speed access and rendering of geospatial information is required, then using the OGC WMTS standard is suggested. This version of WMS pre-processes or (pretiles) data to support high volume / high speed display of raster data
+
+
+| OGC Symbology Encoding
+| http://www.opengeospatial.org/standards/se[OGC SE]
+| OGC
+| Standard
+| Global
+|
+|
+| 1
+| 2
+| 3
+| 4
+|
+| This Specification defines Symbology Encoding, an XML language for styling information that can be applied to digital Feature and Coverage data.
+| This document is together with the Styled Layer Descriptor Profile for the Web Map Service Implementation Specification the direct follow-up of Styled Layer Descriptor Implementation Specification 1.0.0. The old specification document was split up into two documents to allow the parts that are not specific to WMS to be reused by other service specifications.
+
+
+| ISO 19115-2:2019, Geographic information — Metadata — Part 2: Extensions for acquisition and processing
+| https://www.iso.org/standard/67039.html[ISO 19115-2:2019]
+| ISO
+| Standard
+| Global
+|
+| X
+| 1
+| 2
+| 3
+| 4
+|
+| Extends ISO 19115-1:2014 by defining the schema required for an enhanced description of the acquisition and processing of geographic information, including imagery.
+| Extension of the ISO 19115-1:2014 to define the schema required for an enhanced description of the acquisition and processing of geographic information, including imagery. Includes the properties of measuring systems and the numerical methods and computational procedures used to derive geographic information from the data acquired. This document also provides the XML encoding for acquisition and processing metadata thereby extending the XML schemas defined in ISO/TS 19115-3.
+
+
+| OGC Catalogue Service
+| https://www.ogc.org/standards/cat[CSW]
+| OGC
+| Standard
+| Global
+|
+|
+| 1
+| 2
+| 3
+| 4
+|
+| OGC Catalogue interface standards specify the interfaces, bindings, and a framework for defining application profiles required to publish and access digital catalogues of metadata for geospatial data, services, and related resource information. Metadata act as generalised properties that can be queried and returned through catalogue services for resource evaluation and, in many cases, invocation or retrieval of the referenced resource.
+| Catalogue services support the ability to publish and search collections of descriptive information (metadata) for data, services, and related information objects. Metadata in catalogues represent resource characteristics that can be queried and presented for evaluation and further processing by both humans and software. Catalogue services are required to support the discovery and binding to registered information resources within an information community.
+
+
+| OGC Web Map Service, and ISO 19128:2005 Geographic information — Web map server interface
+| https://www.ogc.org/standards/wms[OGC WMS]  and http://www.iso.org/standard/32546.html[OGC WMS Standard]
+| OGC / ISO TC 211
+| Standard
+| Global
+|
+|
+| 1
+| 2
+| 3
+| 4
+|
+| Specifies the behaviour of a service that produces spatially referenced maps dynamically from geographic information
+| The OGC / ISO Web Map Service Interface Standard (WMS) provides a simple HTTP interface for requesting geo-registered map images from one or more distributed geospatial databases. A WMS request defines the geographic layer(s) and area of interest to be processed. The response to the request is one or more geo-registered map images (returned as JPEG, PNG, etc) that can be displayed in a browser application. The interface also supports the ability to specify whether the returned images should be transparent so that layers from multiple servers can be combined or not.
+
+
+| B-6 - Standardization of Undersea Feature Names
+| https://iho.int/uploads/user/pubs/bathy/B-6_e4%202%200_2019_EF_clean_3Oct2019.pdf[B-6]
+| IHO
+| Standard
+| Global
+| Domain
+| x
+|
+|
+|
+|
+| Nautical
+|
+| Provide the guideline for the terminology and standardization of undersea feature names
+
+
+| Data Catalog Vocabulary Version 2
+| https://www.w3.org/TR/vocab-dcat-2/[DCAT]
+| W3C
+| Standard
+| Global
+|
+| X
+| 1
+| 2
+| 3
+| 4
+|
+| An RDF vocabulary designed to facilitate interoperability between data catalogs published on the Web.
+| DCAT enables a publisher to describe datasets and data services in a catalog using a standard model and vocabulary that facilitates the consumption and aggregation of metadata from multiple catalogs. This can increase the discoverability of datasets and data services. It also makes it possible to have a decentralized approach to publishing data catalogs and makes federated search for datasets across catalogs in multiple sites possible using the same query mechanism and structure. Aggregated DCAT metadata can serve as a manifest file as part of the digital preservation process. is applicable to the cataloguing of all types of resources, clearinghouse activities, and the full description of  geographic services, geographic datasets, dataset series, and individual geographic features and feature properties.
+
+
+| Discrete Global Grid Systems
+| https://www.ogc.org/standards/requests/194[DGGS]
+| OGC
+| Standard
+| Global
+|
+|
+|
+|
+| 3
+| 4
+|
+| Enables rapid assembly of spatial data without the difficulties of working with projected coordinate reference systems
+| DGGSs represent the Earth as hierarchical sequences of equal area tessellations, each with global coverage and with progressively finer spatial resolution. Individual observations can be assigned to a cell corresponding to both the position and size of the phenomenon being observed - meaning that the resolution and precision of the data capture is inherently part of the stored data, and not something that needs to be explained in metadata - and potentially overlooked.
+
+
+| Geographic Tagged Image File Format (GeoTIFF) Version 1.1
+| https://www.ogc.org/standards/geotiff[OGC GeoTIFF]
+| OGC
+| Standard
+| Global
+| General Geospatial
+|
+|
+| 2
+| 3
+| 4
+|
+| The GeoTIFF format is used throughout the geospatial and earth science communities to share geographic image data.
+|
+
+
+| Geography Markup Language, and ISO19136-1:2020 Geographic Information -Geography Markup Language (GML) — Part 1: Fundamentals
+| https://www.ogc.org/standards/gml[GML] and
+https://www.iso.org/standard/75676.html[ISO19136-1:2020]
+| OGC/ISO
+| Standard
+| Global
+|
+|
+|
+| 2
+| 3
+| 4
+|
+| XML grammar for expressing geographical features
+| GML serves as a modeling language for geographic systems as well as an open interchange format for geographic transactions on the Internet. As with most XML based grammars, there are two parts to the grammar – the schema that describes the document and the instance document that contains the actual data. A GML document is described using a GML Schema. This allows users and developers to describe generic geographic data sets that contain points, lines and polygons. However, the developers of GML envision communities working to define community-specific application schemas [en.wikipedia.org/wiki/GML_Application_Schemas] that are specialized extensions of GML. Using application schemas, users can refer to roads, highways, and bridges instead of points, lines and polygons. If everyone in a community agrees to use the same schemas they can exchange data easily and be sure that a road is still a road when they view it. Clients and servers with interfaces that implement the OpenGIS® Web Feature Service Interface Standard[http://www.opengeospatial.org/standards/wfs] read and write GML data. GML is also an ISO standard (ISO 19136-1:2020) [www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=32554 ].
+
+
+| Geoscience Markup Language
+| https://www.ogc.org/search/content/GeoSciML[GeoSciML]
+| OGC
+| Standard
+| Global
+| Domain
+|
+|
+|
+|
+|
+|
+| Model of geological features commonly described and portrayed in geological maps, cross sections, geological reports and databases
+| GeoSciML is a model of geological features commonly described and portrayed in geological maps, cross sections, geological reports and databases. The model was developed by the IUGS CGI (Commission for the Management and Application of Geoscience Information) and version 4.1 is the first version officially submitted as an OGC standard. This specification describes a logical model and GML/XML encoding rules for the exchange of geological map data, geological time scales, boreholes, and metadata for laboratory analyses. It includes a Lite model, used for simple map-based applications; a basic model, aligned on INSPIRE, for basic data exchange; and an extended model to address more complex scenarios. The specification also provides patterns, profiles (most notably of Observations and Measurements - ISO19156), and best practices to deal with common geoscience use cases.
+
+
+| Groundwater Markup Language
+| http://schemas.opengis.net/gwml/[GroundwaterML]
+| OGC
+| Standard
+| Global
+| Domain
+| x
+|
+|
+| 3
+| 4
+|
+| Conceptual, logical and encoding standard for GWML2, which represents key groundwater data
+| This standard describes a conceptual and logical model for the exchange of groundwater data, as well as a GML/XML encoding with examples.
+
+
+| IANA, Internet Assigned Numbers Authority, MIME Media Types
+| https://www.iana.org/assignments/media-types/media-types.xhtml[MIME Media Types]
+| IANA
+| Standard
+| Global
+| General IT
+|
+|
+|
+|
+|
+|
+|
+| This document contains a list of Directories of Content Types and Subtypes for media types for transfer via
+Real-time Transport Protocol (RTP)
+
+
+| IETF RFC 2141 (May 1997), URN Syntax
+| http://www.ietf.org/rfc/rfc2141.txt[IETF RFC 2141]
+| ISTF
+| Standard
+| Global
+| General IT
+|
+|
+|
+|
+|
+|
+| Uniform Resource Names (URNs) are intended to serve as persistent, location-independent, resource identifiers. This document sets forward the canonical syntax for URNs.
+| A discussion of both existing legacy and new namespaces and requirements for URN presentation and transmission are presented.  Finally, there is a discussion of URN equivalence and how to determine it.
+
+
+
+| IETF RFC 2396 (August 1998), Uniform Resource Identifiers (URI): Generic Syntax
+| http://www.ietf.org/rfc/rfc2396.txt[IETF  RFC 2396]
+| ISTF
+| Standard
+| Global
+| General IT
+|
+|
+|
+|
+|
+|
+| This paper describes a superset of operations that can be applied to URI.  It consists of both a grammar and a description of basic functionality for URI.
+| This document defines a grammar that is a superset of all valid URI, such that an implementation can parse the common components of a URI reference without knowing the scheme-specific requirements of every possible identifier type.
+
+
+| IETF RFC 2616 (June 1999), Hypertext Transfer Protocol – HTTP/1.1
+| https://www.ietf.org/rfc/rfc2616.txt[IETF  RFC 2616]
+| ISTF
+| Standard
+| Global
+| General IT
+|
+|
+|
+|
+|
+|
+| This specification defines the protocol referred to as HTTP/1.1
+| The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypermedia information systems. It is a generic, stateless, protocol which can be used for many tasks beyond its use for hypertext, such as name servers and
+   distributed object management systems, through extension of its
+   request methods, error codes and headers [47]. A feature of HTTP is
+   the typing and negotiation of data representation, allowing systems
+   to be built independently of the data being transferred.
+
+
+| IHO Geospatial Information Registry
+| http://registry.iho.int/[IHO Registry]
+| IHO
+| Standard
+| Global
+| General geospatial
+|
+|
+|
+|
+|
+| Nautical
+|
+|
+
+
+| Information retrieval (Z39.50)—application service definition and protocol specification (ISO 23950:1998)
+| https://www.iso.org/standard/27446.html[Z39.50]
+| ISO
+| Standard
+| Global
+| General IT
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+| ISO 19101-1: 2014 Geographic information - Reference model – Part 1: Fundamentals
+| https://www.iso.org/standard/59164.html[ISO 19101-1: 2014]
+| ISO/TC211
+| Standard
+| Global
+| General Geospatial
+|
+|
+|
+|
+|
+|
+|
+| This standard defines the reference model for standardization in the field of geographic information. This reference model describes the notion of interoperability and sets forth the fundamentals by which this standardization takes place
+
+
+| ISO 19101-2: 2018 Geographic information - Reference model – Part 2: Imagery
+| https://www.iso.org/standard/69325.html[ISO 19101-2: 2018]
+| ISO/TC211
+| Standard
+| Global
+| General Geospatial
+|
+|
+|
+|
+|
+|
+|
+| This document defines a reference model for standardization in the field of geographic imagery processing.
+
+
+| ISO 19103:2015 Geographic information - Conceptual schema language
+| https://www.iso.org/standard/56734.html[ISO 19103:2015]
+| ISO/TC211
+| Standard
+| Global
+| General Geospatial
+|
+|
+|
+|
+|
+|
+|
+| The standard provides rules and guidelines for the use of a conceptual schema language within the context of geographic information. The chosen conceptual schema language is the Unified Modeling Language (UML). The standardization target type of this standard is UML schemas describing geographic information.
+
+
+| ISO 19104:2016 Geographic information - Terminology
+| https://www.iso.org/standard/63541.html[ISO 19104:2016]
+| ISO/TC211
+| Standard
+| Global
+| General Geospatial
+|
+|
+|
+|
+|
+|
+|
+| This standard specifies requirements for the collection, management and publication of terminology in the field of geographic information.
+
+
+| ISO 19105:2000 Geographic information - Conformance and Testing
+| https://www.iso.org/standard/26010.html[ISO 19105:2000]
+| ISO/TC211
+| Standard
+| Global
+| General Geospatial
+|
+|
+|
+|
+|
+|
+|
+| This International Standard specifies the framework, concepts and methodology for testing and criteria to be achieved to claim conformance to the family of ISO geographic information standards.
+
+
+| ISO 19106:2004 Geographic information - Profiles
+| https://www.iso.org/standard/26011.html[ISO 19106:2004]
+| ISO/TC211
+| Standard
+| Global
+| General Geospatial
+|
+|
+|
+|
+|
+|
+|
+| The standard is intended to define the concept of a profile of the ISO geographic information standards developed by ISO/TC 211 and to provide guidance for the creation of such profiles.
+
+
+| ISO 19107:2019 Geographic information - Spatial schema
+| https://www.iso.org/standard/66175.html[ISO 19107:2019]
+| ISO/TC211
+| Standard
+| Global
+| General Geospatial
+|
+|
+|
+|
+|
+|
+|
+| This document specifies conceptual schemas for describing the spatial characteristics of geographic entities, and a set of spatial operations consistent with these schemas. It treats vector geometry and topology. It defines standard spatial operations for use in access, query, management, processing and data exchange of geographic information for spatial (geometric and topological) objects.
+
+
+| ISO 19108:2002 Geographic Information - Temporal schema
+| https://www.iso.org/standard/26013.html[ISO 19108:2002]
+| ISO/TC211
+| Standard
+| Global
+| General Geospatial
+|
+|
+|
+|
+|
+|
+|
+| This standard defines concepts for describing temporal characteristics of geographic information. It depends upon existing information technology standards for the interchange of temporal information. It provides a basis for defining temporal feature attributes, feature operations, and feature associations, and for defining the temporal aspects of metadata about geographic information. Since this International Standard is concerned with the temporal characteristics of geographic information as they are abstracted from the real world, it emphasizes valid time rather than transaction time.
+
+
+| ISO 19108:2002/Cor 1:2006, Temporal schema - Technical Corrigendum 1
+| https://www.iso.org/standard/44883.html[ISO 19108:2002/Cor 1:2006]
+| ISO/TC211
+| Standard
+| Global
+| General geospatial
+|
+|
+|
+|
+|
+|
+|
+| This standard contains technical corrections to ISO 19108:2002.
+
+
+| ISO 19109:2015 Geographic information - Rules for application schema
+| https://www.iso.org/standard/59193.html[ISO 19109:2015]
+| ISO/TC211
+| Standard
+| Global
+| General Geospatial
+|
+|
+|
+|
+|
+|
+|
+| The standard defines the General Feature Model which provides a standard structure for the description of geospatial features.
+
+
+| ISO 19110:2016 Geographic information - Methodology for feature cataloguing
+| https://www.iso.org/standard/57303.html[ISO 19110:2016]
+| ISO/TC211
+| Standard
+| Global
+| General geospatial
+|
+|
+|
+|
+|
+|
+|
+| This standard defines the methodology for cataloguing feature types. This document specifies how feature types can be organized into a feature catalogue and presented to the users of a set of geographic data.
+
+
+| ISO 19111:2019 Geographic information - Spatial referencing by coordinates
+| https://www.iso.org/standard/74039.html[ISO 19111:2019]
+| ISO/TC211
+| Standard
+| Global
+| General geospatial
+|
+|
+|
+|
+|
+|
+|
+| The standard defines the conceptual schema for describing spatial referencing by coordinates, optionally extended to spatio-temporal referencing, used in geographic information systems and on maps and charts to store and depict geographic information.
+
+
+| ISO 19112:2019 Geographic information - Spatial referencing by geographic identifiers
+| https://www.iso.org/standard/70742.html[ISO 19112:2019]
+| ISO/TC211
+| Standard
+| Global
+| General geospatial
+|
+|
+|
+|
+|
+|
+|
+| This document defines the conceptual schema for spatial references based on geographic identifiers. It establishes a general model for spatial referencing using geographic identifiers and defines the components of a spatial reference system. It also specifies a conceptual scheme for a gazetteer.
+
+
+| ISO 19119:2016 Geographic information - Services
+| ISO 19119:2016 (no current link)
+| ISO/TC211
+| Standard
+| Global
+| General geospatial
+|
+|
+|
+|
+|
+|
+|
+| This defines requirements for how platform neutral and platform specific specification of services shall be created, in order to allow for one service to be specified independently of one or more underlying distributed computing platforms.
+
+
+| ISO 19123-1 Geographic information — Schema for coverage geometry and functions — Part 1: Fundamentals
+| https://www.iso.org/standard/70743.html[ISO 19123-1]
+| ISO
+| Standard
+| Global
+| General geospatial
+|
+|
+|
+|
+|
+|
+| Conceptual data model for spatio-temporal grids, point clouds, and general meshes
+| This standard defines, at a high, implementation-independent level, the notion of coverages as digital representations of space-time varying geographic phenomena, corresponding to a field in physics: a physical quantity that has a value for each point in space-time. Common examples include 1-D time series, 2-D imagery, 3-D x/y/t image time series and x/y/z geophysical voxel models, as well as 4-D x/y/z/t climate and ocean data. Such coverages can be discrete or continuous. OGC has announced it will adopt 19123-1 as a revision of Abstract Topic 6.
+
+
+| OGC Coverage Implementatoin Schema (CIS), and ISO 19123-2:2008 Geographic information — Schema for coverage geometry and functions — Part 2: Coverage implementation schema
+| http://docs.opengeospatial.org/is/09-146r8/09-146r8.html[OGC CIS], and https://www.iso.org/standard/70948.html[ISO 19123-2:2018]
+| OGC / ISO/TC211
+| Standard
+| Global
+| General geospatial
+|
+|
+|
+|
+|
+|
+| Implementable coverage schema, allowing manifold format encodings
+| This OGC / ISO Coverage Implementation Schema specifies a concrete, interoperable, conformance-testable general grid coverage information schema which can be encoded in XML, GeoTIFF, JSON, NetCDF, GMLJP2, RDF and a series of additional formats. Coverages represent space/time varying fields, practically: regular and irregular grids, point clouds, and general meshes. Coverages can serve a wide range of coverage application domains, thereby contributing to harmonization and interoperability between and across these domains.
+
+
+| ISO 19123:2005 Geographic information - Schema for Coverage Geometry and Functions
+| https://www.iso.org/standard/40121.html[ISO 19123:2005]
+| ISO/TC211
+| Standard (being superseded by 19123-1)
+| Global
+| General geospatial
+|
+|
+|
+|
+|
+|
+|
+| The standard provides the conceptual schema for the spatial aspects of coverages, which includes all forms of imagery, gridded and raster data, such as remote sensing, photogrammetry, image processing, digital elevation and terrain models and modelling using discrete surfaces (polygons with homogenous values) or continuous surfaces.
+
+
+| ISO 19125-1:2004 Geographic information - Simple Feature Access - Part 1: Common architecture
+| https://www.iso.org/standard/40114.html[ISO 19125-1:2004]
+| ISO/TC211
+| Standard
+| Global
+| General geospatial
+|
+|
+|
+|
+|
+|
+|
+| The document establishes a common architecture for geographic information and defines terms to use within the architecture. It also standardizes names and geometric definitions for Types for Geometry.
+
+
+| ISO 19126:2009 Geographic information - Feature concept dictionaries and registers.
+| https://www.iso.org/standard/44875.html[ISO 19126:2009]
+| ISO/TC211
+| Standard
+| Global
+| General geospatial
+|
+|
+|
+|
+|
+|
+|
+| The standard specifies a schema for feature concept dictionaries to be established and managed as registers.
+
+
+| ISO 19127:2019 Geographic information - Geodetic register
+| https://www.iso.org/standard/67252.html[ISO 19127:2019]
+| ISO/TC211
+| Standard
+| Global
+| General geospatial
+|
+|
+|
+|
+|
+|
+|
+| This document defines the management and operations of the ISO geodetic register and identifies the data elements, in accordance with ISO 19111:2007 and the core schema within ISO 19135‑1:2015, required within the geodetic register.
+
+
+| ISO 19131:2007/Amd.1:2011(en)
+| https://www.iso.org/obp/ui/#iso:std:iso:19131:ed-1:v1:amd:1:v1:en[ISO 19131:2007/amd1]
+| ISO
+| Standard
+|
+|
+| X
+|
+|
+|
+|
+|
+| Data product specifications AMENDMENT 1: Requirements relating to the inclusion of an application schema and feature catalogue and the treatment of coverages in an application schema.
+| This standard specifies requirements for the specification of geographic data products.
+
+
+| ISO 19131:2021 Geographic information - Data product specifications
+| ISO 19131:2021 (No current link)
+| ISO/TC211
+| Standard
+| Global
+| General geospatial
+|
+|
+|
+|
+|
+|
+|
+| This standard specifies requirements for the specification of geographic data products.
+
+
+| ISO 19132:2007 Geographic information - Location-based services - Reference Model
+| https://www.iso.org/standard/40601.html[ISO 19132:2007]
+| ISO/TC211
+| Standard
+| Global
+| General geospatial
+|
+|
+|
+|
+|
+|
+|
+| The standard defines a reference model and a conceptual framework for location-based services (LBS), and describes the basic principles by which LBS applications may interoperate.
+
+
+| ISO 19133:2005 Geographic information - Location-based services - Tracking and navigation
+| https://www.iso.org/standard/32551.html[ISO 19133:2005]
+| ISO/TC211
+| Standard
+| Global
+| General geospatial
+|
+|
+|
+|
+|
+|
+|
+| The standard describes the data types, and operations associated with those types, for the implementation of tracking and navigation services. It is designed to specify web services that can be made available to wireless devices through web-resident proxy applications, but is not restricted to that environment.
+
+
+| ISO 19134:2007 Geographic information - Location-based services -Multimodal routing and navigation
+| https://www.iso.org/standard/32552.html[ISO 19134:2007]
+| ISO/TC211
+| Standard
+| Global
+| General geospatial
+|
+|
+|
+|
+|
+|
+|
+| This standard specifies the data types and their associated operations for the implementation of multimodal location-based services for routing and navigation. It is designed to specify web services that may be made available to wireless devices through web-resident proxy applications, but is not limited to that environment.
+
+
+| ISO 19135-1:2015 Geographic information — Procedures for item registration — Part 1: Fundamentals
+| https://www.iso.org/standard/54721.html[ISO 19135-1]
+| ISO/TC211
+| Standard
+| Global
+| General geospatial
+|
+|
+|
+|
+|
+|
+| Specifies procedures for establishing, maintaining, and publishing registers of unique, unambiguous, and permanent identifiers
+| Specifies procedures to be followed in establishing, maintaining, and publishing registers of unique, unambiguous, and permanent identifiers and meanings that are assigned to items of geographic information. In order to accomplish this purpose, ISO 19135-1:2015 specifies elements that are necessary to manage the registration of these items.
+
+
+| ISO 19148:2012 Geographic information - Linear Referencing
+| https://www.iso.org/standard/32566.html[ISO 19148:2012]
+| ISO/TC211
+| Standard
+| Global
+| General geospatial
+|
+|
+|
+|
+|
+|
+|
+| The standard specifies a conceptual schema for locations relative to a one-dimensional object as measurement along (and optionally offset from) that object. It defines a description of the data and operations required to use and support linear referencing.
+
+
+| ISO 19150-2:2015 Geographic information — Ontology — Part 2: Rules for developing ontologies in the Web Ontology Language (OWL)
+| https://www.iso.org/standard/57466.html[ISO 19150-2:2015]
+| ISO/TC211
+| Standard
+| Global
+|
+|
+|
+|
+| 3
+| 4
+|
+| Defines rules and guidelines for the development of ontologies to support better the interoperability of geographic information over the Semantic Web
+| ISO 19150-2:2015 defines rules and guidelines for the development of ontologies to support better the interoperability of geographic information over the Semantic Web. The Web Ontology Language (OWL) is the language adopted for ontologies. It defines the conversion of the UML static view modeling elements used in the ISO geographic information standards into OWL. It further defines conversion rules for describing application schemas based on the General Feature Model defined in ISO 19109 into OWL. It does not define semantics operators, rules for service ontologies, and does not develop any ontology.
+
+
+| ISO 19150-4:2019 Geographic information — Ontology — Part 4: Service ontology
+| https://www.iso.org/standard/72177.html[ISO 19150-4:2019]
+| ISO
+| Standard
+| Global
+|
+|
+|
+|
+| 3
+| 4
+|
+| his document sets a framework for geographic information service ontology and the description of geographic information Web services in Web Ontology Language (OWL).
+| This document sets a framework for geographic information service ontology and the description of geographic information Web services in Web Ontology Language (OWL). OWL is the language adopted for ontologies. This document makes use of service metadata (ISO 19115-1) and service definitions (ISO 19119) whenever appropriate. This document does not define semantics operators, rules for ontologies, and does not develop any application ontology. In relation to ISO 19101-1:2014, 6.2, this document defines and formalizes the following purpose of the ISO geographic information reference model:
+ — geographic information service components and their behaviour for data processing purposes over the Web, and
+ — OWL ontologies to cast ISO/TC 211 standards to benefit from and support the Semantic Web.
+ In relation to ISO 19101-1:2014, 8.3, this document addresses the Meta:Service foundation of the ISO geographic information reference model.
+
+
+| ISO 19152, Geographic information -- Land Administration Domain Model (LADM)
+| https://www.iso.org/standard/51206.html[ISO 19152]
+| ISO
+| Standard
+|
+| Domain
+| x
+|
+| 2
+| 3
+| 4
+| Land Administration Domain Model
+| Defines a reference Land Administration Domain Model (LADM) covering basic information-related components of land administration (including those over water and land, and elements above and below the surface of the earth
+| Defines a reference Land Administration Domain Model (LADM) covering basic information-related components of land administration (including those over water and land, and elements above and below the surface of the earth); provides an abstract, conceptual model with four packages related to parties (people and organizations), basic administrative units, rights, responsibilities, and restrictions (ownership rights), spatial units (parcels, and the legal space of buildings and utility networks), spatial sources (surveying), and spatial representations (geometry and topology); provides terminology for land administration, based on various national and international systems, that is as simple as possible in order to be useful in practice; provides a basis for national and regional profiles;
+
+
+| OGC Observations & Measurements / ISO 19156:2011 Geographic information - Observations & measurements
+| http://www.ogc.org/standards/om[OGC O&M] and https://www.iso.org/standard/32574.html[ISO O&M]
+| OGC and ISO/TC 211
+| Standard
+| Global
+| General geospatial
+| X
+|
+|
+|
+|
+|
+| Data
+| This OGC/ISO standard defines a conceptual schema for observations, and for features involved in sampling when making observations. These provide models for the exchange of information describing observation acts and their results, both within and between different scientific and technical communities. This encoding is an essential dependency for the OGC Sensor Observation Service (SOS) Interface Standard.
+
+
+| ISO 19157:2013 Geographic information - Data quality
+| https://www.iso.org/standard/32575.html[ISO 19157:2013]
+| ISO/TC211
+| Standard
+| Global
+| General geospatial
+| X
+|
+|
+|
+|
+|
+| Data
+| This standard establishes the principles for describing the quality of geographic data.
+
+
+| ISO 19158:2012 Geographic information - Quality assurance of data supply
+| https://www.iso.org/standard/32576.html[ISO 19158:2012]
+| ISO/TC211
+| Standard
+| Global
+| General geospatial
+| X
+|
+|
+|
+|
+|
+|
+| This standard provides a framework for quality assurance specific to geographic information. It is based upon the quality principles and quality evaluation procedures of geographic information identified in ISO 19157 and the general quality management principles defined in ISO 9000.
+
+
+| ISO 19160-1:2015 Addressing — Part 1: Conceptual model
+| https://www.iso.org/standard/61710.html[ISO 19160-1:2015]
+| ISO/TC211
+| Standard
+| Global
+| Domain
+|
+|
+|
+|
+|
+|
+| Conceptual model for address information
+| This document defines a conceptual model for address information (address model), together with the terms and definitions that describe the concepts in the model. Lifecycle, metadata, and address aliases are included in the conceptual model. The model provides a common representation of address information, independent of actual addressing implementations.
+
+
+| ISO 19161-1:2020 - Geographic information — Geodetic references — Part 1: International terrestrial reference system (ITRS)
+| https://www.iso.org/standard/70655.html[ISO 19161-1]
+| ISO/TC211
+| Standard
+| Global
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+| ISO 19163-1:2016 Geographic information - Content components and encoding rules for imagery and gridded data –content model
+| https://www.iso.org/standard/32581.html[ISO 19163-1:2016]
+| ISO/TC211
+| Standard
+| Global
+| General geospatial
+|
+|
+|
+|
+|
+|
+|
+| This document classifies imagery and regularly spaced gridded thematic data into types based on attribute property, sensor type and spatial property, and defines an encoding-neutral content model for the required components for each type of data. It also specifies logical data structures and the rules for encoding the content components in the structures.
+
+
+| ISO 19163-2:2020 Geographic information - Content components and encoding rules for imagery and gridded data — Part 2: Implementation schema.
+| https://www.iso.org/standard/74930.html[ISO 19163-2:2020]
+| ISO/TC211
+| Standard
+| Global
+| General geospatial
+|
+|
+|
+|
+|
+|
+|
+| This document specifies an implementation schema based on the content models for geographic imagery and gridded thematic data defined in the ISO/TS 19163-1.
+
+
+| ISO 19165-1:2018, Geographic information — Preservation of digital data and metadata — Part 1: Fundamentals
+| ISO 19165-1:2018 (no current link)
+| ISO
+| Standard
+| Global
+| General geospatial
+| x
+|
+|
+|
+|
+|
+| Defines a preservation metadata extension of ISO 19115‑1
+|
+
+
+| ISO 19165-2:2020, Geographic information — Preservation of digital data and metadata — Part 2: Content specifications for Earth observation data and derived digital products
+| https://www.iso.org/standard/73810.html[ISO 19165-2:2020]
+| ISO
+| Standard
+| Global
+| General geospatial
+| x
+|
+|
+|
+|
+|
+| Provides more detailed specifications for preservation of Earth observation data and derived digital products resulting from spaceborne and airborne remote sensing, as well as in situ observations.
+| This document aims to extend the long-term preservation of digital geospatial data to provide details about content describing the provenance and context specific to data from missions that observe the Earth using spaceborne, airborne or in situ instruments.
+
+
+| ISO 25964-1:2011 Information and documentation — Thesauri and interoperability with other vocabularies — Part 1: Thesauri for information retrieval
+| https://www.iso.org/standard/53657.html[25964-1:2011]
+| ISO
+| Standard
+| Global
+| General IT
+|
+|
+|
+|
+|
+|
+| Recommendations for the development and maintenance of thesauri intended for information retrieval applications
+| It is applicable to vocabularies used for retrieving information about all types of information resources, irrespective of the media used (text, sound, still or moving image, physical object or multimedia) including knowledge bases and portals, bibliographic databases, text, museum or multimedia collections, and the items within them.
+
+
+| ISO 25964-2:2013 Information and documentation — Thesauri and interoperability with other vocabularies — Part 2: Interoperability with other vocabularies
+| https://www.iso.org/standard/53658.html[ISO 25964-2:2013]
+| ISO
+| Standard
+| Global
+| General IT
+|
+|
+|
+|
+|
+|
+| Describes and compares elements and features of vocabularies to evaluate interoperability
+| Ppplicable to thesauri and other types of vocabulary that are commonly used for information retrieval. It describes, compares and contrasts the elements and features of these vocabularies that are implicated when interoperability is needed. It gives recommendations for the establishment and maintenance of mappings between multiple thesauri, or between thesauri and other types of vocabularies.
+
+
+| ISO 3166-1:2020 - Codes for the representation of names of countries and their subdivisions -- Part 1: Country codes
+| https://www.iso.org/standard/72482.html[ISO 3166-1:2020]
+| ISO
+| Standard
+| Global
+| General IT
+|
+|
+|
+|
+|
+|
+| This code is intended for use in any application requiring the expression of current country names in coded form.
+| This document specifies basic guidelines for the implementation and maintenance of country codes.
+
+
+| ISO 6709:2008 and 6709/Cor1:2008 Standard representation of geographic point location by coordinates.
+| https://www.iso.org/search.html?q=6709%3A2008&hPP=10&idx=all_en&p=0&hFR%5Bcategory%5D%5B0%5D=standard[ISO 6709:2008 and 6709/Cor1:2008]
+| ISO/TC211
+| Standard
+| Global
+| General geospatial
+|
+|
+|
+|
+|
+|
+|
+| This standard is applicable to the interchange of coordinates describing geographic point location.
+
+
+| ISO 8601-1:2019 – Date and time - Representations for information interchange - Part 1: Basic rules
+| https://www.iso.org/standard/70907.html[ISO 8601-1:2019]
+| ISO
+| Standard
+| Global
+| General IT
+|
+|
+|
+|
+|
+|
+|
+| This document specifies representations of dates of the Gregorian calendar and times based on the 24-hour clock, as well as composite elements of them, as character strings for use in information interchange. It is also applicable for representing times and time shifts based on Coordinated Universal Time (UTC).
+
+
+| ISO 8601-2:2019 – Date and time - Representations for information interchange - Part 2: Extensions
+| https://www.iso.org/standard/70908.html[ISO 8601-2:2019]
+| ISO
+| Standard
+| Global
+| General IT
+|
+|
+|
+|
+|
+|
+|
+| This is an extensions of ISO 8601-1:2019 and include:
+— uncertain or approximate dates, or dates with portions unspecified;
+— extended time intervals;
+— divisions of a year;
+— sets and choices of calendar dates;
+— grouped time scale units;
+— repeat rules for recurring time intervals; and
+— date and time arithmetic.
+
+
+| ISO 9075-15:2019 Multi-Dimensional Arrays
+| https://www.iso.org/standard/67382.html[SQL/MDA]
+| ISO
+| Standard
+| Global
+| General IT
+|
+|
+|
+|
+|
+|
+| adds domain-agnostic datacubes to SQL
+| Domains where SQL/MDA has been successfully applied include Earth data (dozens of Petabyte being served), human brain research, gene expression analysis, astrophysics, and copmutational fluid dynamics. OGC WCPS uses a compatible datacube model, just with additional space/time semantics allowing, eg, for regular and irregular grids.
+
+
+| ISO/IEC 19763-1:2015 Information technology — Metamodel framework for interoperability (MFI) — Part 1: Framework
+| https://www.iso.org/standard/64637.html[ISO/IEC 19763-1:2015]
+| ISO
+| Standard
+| Global
+| General IT
+|
+|
+|
+|
+|
+|
+| Overview of the whole of Metamodel framework for interoperability (MFI).
+| ISO/IEC19763-1:2015 (Metamodel framework for interoperability) (MFI) family of standards. As the first part of MFI, this part provides an overview of the whole of MFI. In particular, the purpose, the underlying concepts, the overall architecture and the requirements for the development of other standards within the MFI family are described.
+
+
+| ISO/IEC 27001:2013 – Information technology – Security techniques – Information security management systems – Requirements.
+| https://www.iso.org/standard/54534.html[ISO/IEC 27001:2013]
+| ISO
+| Standard
+| Global
+| General IT
+|
+|
+|
+|
+|
+|
+|
+| ISO/IEC 27001:2013 specifies the requirements for establishing, implementing, maintaining and continually improving an information security management system within the context of the organization. It also includes requirements for the assessment and treatment of information security risks tailored to the needs of the organization. The requirements set out in ISO/IEC 27001:2013 are generic and are intended to be applicable to all organizations, regardless of type, size or nature.
+
+
+| ISO/IEC TR 23188:2020 Information technology — Cloud computing — Edge computing landscape
+| https://www.iso.org/standard/74846.html[ISO/IEC TR 23188:2020]
+| ISO
+| Standard
+| Global
+| General IT
+|
+|
+|
+|
+|
+|
+| This document examines the concept of edge computing, its relationship to cloud computing and IoT
+| This document examines the concept of edge computing, its relationship to cloud computing and IoT, and the technologies that are key to the implementation of edge computing.
+
+
+| ISO/TS 19150-1:2012 Geographic information — Ontology — Part 1: Framework
+| https://www.iso.org/standard/57465.html[ISO/TS 19150-1:2012]
+| ISO/TC211
+| Standard
+| Global
+| General geospatial
+|
+|
+|
+|
+|
+|
+| Defines the framework for semantic interoperability of geographic information
+| ISO/TS 19150-1:2012 defines the framework for semantic interoperability of geographic information. This framework defines a high level model of the components required to handle semantics in the ISO geographic information standards with the use of ontologies.
+
+
+| JPEG-2000 (ISO/IEC 15444-1:2019)
+| https://www.iso.org/standard/78321.html[JPEG-2000]
+| ISO
+| Standard
+| Global
+| General IT
+|
+|
+|
+|
+|
+|
+| This Recommendation - International Standard defines a set of lossless (bit-preserving) and lossy compression methods for coding bi-level, continuous-tone grey-scale, palletized colour, or continuous-tone colour digital still images.
+|
+
+
+| Keyhole Markup Language
+| https://www.ogc.org/standards/kml[KML]
+| OGC
+| Standard
+| Global
+|
+|
+| 1
+| 2
+| 3
+| 4
+|
+| KML is a file format used to display geographic data in an Earth browser such as Google Earth.
+| Google submitted KML (formerly Keyhole Markup Language) to the Open Geospatial Consortium (OGC) to be evolved within the OGC consensus process with the following goal: KML Version 2.2 has been adopted as an OGC implementation standard. Future versions may be harmonized with relevant OGC standards that comprise the OGC standards baseline.
+
+
+| OGC API Features / ISO 19168-1: 2020
+| https://www.iso.org/standard/32586.html[ISO 19168-1:2020]
+| OGC/ISO
+| standard
+| Global
+|
+|
+|
+| 2
+| 3
+| 4
+|
+|
+| OGC API - Features is a multi-part standard that offers the capability to create, modify, and query spatial data on the Web and specifies requirements and recommendations for APIs that want to follow a standard way of sharing feature data. The specification is a multi-part document. The Core part of the specification describes the mandatory capabilities that every implementing service has to support and is restricted to read-access to spatial data. Additional capabilities that address specific needs will be specified in additional parts. Envisaged future capabilities include, for example, support for creating and modifying data, more complex data models, richer queries, and additional coordinate reference systems.
+
+
+| OGC CityGML 2.0
+| http://www.opengeospatial.org/standards/citygml[CityGML]
+| OGC
+| Standard
+| Global
+| Domain
+| x
+|
+| 2
+| 3
+| 4
+| City, Urban 3D Model
+| For managing and sharing urban 3d models
+| The aim of the development of CityGML is to reach a common definition of the basic entities, attributes, and relations of a 3D city model. This is especially important with respect to the cost-effective sustainable maintenance of 3D city models, allowing the reuse of the same data in different application fields.
+
+
+| OGC GeoPackage
+| http://www.geopackage.org/[OGC GeoPackage]
+| OGC
+| Standard
+| Global
+|
+| x
+|
+| 2
+| 3
+| 4
+|
+|
+| An open, standards-based, platform-independent, portable, self-describing, compact format for transferring geospatial information.
+
+
+| OGC GeoSPARQL
+| https://www.ogc.org/standards/geosparql[GeoSPARQL]
+| OGC
+| Standard
+| Global
+|
+|
+|
+|
+| 3
+| 4
+|
+|
+| The OGC GeoSPARQL standard supports representing and querying geospatial data on the Semantic Web. GeoSPARQL defines a vocabulary for representing geospatial data in RDF, and it defines an extension to the SPARQL query language for processing geospatial data. In addition, GeoSPARQL is designed to accommodate systems based on qualitative spatial reasoning and systems based on quantitative spatial computations.
+
+
+| OGC Indoor Mapping Data Format
+| https://docs.ogc.org/cs/20-094/index.html[OGC IMDF]
+| OGC
+| Standard
+| Global
+| Domain
+|
+|
+|
+|
+| 4
+| Indoor location
+| Indoor Mapping Data Format (referenced throughout this document as IMDF) provides a generalized, yet comprehensive model for any indoor location, providing a basis for orientation, navigation and discovery. In this release there are also detailed instructions for modeling the spaces of an airport, a shopping mall, and a train station.
+| This standard also has an extension model which enables a venue, organization, or even an industry to create valid features and validations not available in the current specification for private or public use
+
+Developers can access both text and visual examples of all features, along with clear explanations of all terms. IMDF conforms to RFC 7946, ensuring compatibility and transferability of the data. IMDF is lightweight, mobile friendly, and can be rendered on any device, OS, or browser.
+
+For GIS and BIM specialists, there is support for IMDF in many of your favorite tools.
+
+IMDF maps integrated with indoor positioning can establish the foundation for a wide range of consumer and enterprise location-based apps and websites.
+
+
+| OGC IndoorGML
+| https://www.ogc.org/standards/indoorgml[IndoorGML]
+| OGC
+| Standard
+| Global
+| Domain
+|
+|
+|
+|
+| 4
+|
+| Open data model and XML schema for indoor spatial information
+| This OGC® IndoorGML standard specifies an open data model and XML schema for indoor spatial information. IndoorGML is an application schema of OGC® GML 3.2.1. While there are several 3D building modelling standards such as CityGML, KML, and IFC, which deal with interior space of buildings from geometric, cartographic, and semantic viewpoints, IndoorGML intentionally focuses on modelling indoor spaces for navigation purposes.
+
+
+| OGC LandInfra / InfraGML
+| https://www.ogc.org/standards/infragml[OGC LandInfra / InfraGML]
+| OGC
+| Standard
+| Global
+| Domain
+|
+|
+| 2
+| 3
+| 4
+|
+| the scope of the Land and Infrastructure Conceptual Model is land and civil engineering infrastructure facilities
+| This OGC InfraGML Encoding Standard presents the implementation-dependent, GML encoding of concepts supporting land and civil engineering infrastructure facilities specified in the OGC Land and Infrastructure Conceptual Model Standard (LandInfra), OGC 15-111r1. Conceptual model subject areas include land features, facilities, projects, alignment, road, railway, survey (including equipment, observations, and survey results), land division, and condominiums. InfraGML is published as a multi-part standard.
+
+
+| OGC Moving Features
+| https://www.ogc.org/standards/movingfeatures[Moving Features]
+| OGC
+| Standard
+| Global
+| Domain
+|
+|
+|
+| 3
+| 4
+|
+| Encoding representations of movement of geographic features
+| This OGC® Standard specifies standard encoding representations of movement of geographic features. The primary use case is information exchange.
+
+
+| OGC OWS-8 Domain Modelling Cookbook
+| http://portal.ogc.org/files/11-107[]
+| OGC
+| Best Practices
+| Global
+|
+|
+|
+| 2
+|
+|
+|
+| Describes good practices for bulding and maingainin inter-related domain models
+| The OWS-8 Domain Modelling Cookbook describes how to build interoperable, maintainable domain models, the challenges and pitfalls faced in these models, the techniques and patterns that should be applied, and specific tools that can be used
+
+
+| OGC Sensor Planning Service
+| https://www.ogc.org/standards/sps[SPS]
+| OGC
+| Standard
+| Global
+|
+|
+|
+|
+| 3
+| 4
+|
+| The OpenGIS® Sensor Planning Service Interface Standard (SPS) defines interfaces for queries that provide information about the capabilities of a sensor and how to task the sensor.
+| The standard is designed to support queries that have the following purposes: to determine the feasibility of a sensor planning request; to submit and reserve/commit such a request; to inquire about the status of such a request; to update or cancel such a request; and to request information about other OGC Web services that provide access to the data collected by the requested task. This is one of the OGC Sensor Web Enablement (SWE) suite of standards.
+
+
+| OGC SensorML: Model and XML Encoding Standard
+| http://docs.ogc.org/is/12-000r2/12-000r2.html[SensorML]
+| OGC
+| Standard
+| Global
+|
+| x
+|
+|
+| 3
+| 4
+|
+| This standard defines models and XML Schema encoding for SensorML.
+| The primary focus of SensorML is to provide a framework for defining processes and processing components associated with the measurement and post-measurement transformation of observations. Thus, SensorML has more of a focus on the process of measurement and observation, rather than on sensor hardware, yet still provides a robust means of defining the physical characteristics and functional capabilities of physical processes such as sensors and actuators.
+
+
+| OGC SensorThings API
+| http://www.ogc.org/standards/sensorthings[OGC SensorThings API]
+| OGC
+| Standard
+| Global
+|
+|
+|
+|
+| 3
+| 4
+|
+| Provides an open, geospatial-enabled and unified way to interconnect the Internet of Things
+| The OGC SensorThings API provides an open, geospatial-enabled and unified way to interconnect the Internet of Things (IoT) devices, data, and applications over the Web. At a high level the OGC SensorThings API provides two main functionalities and each function is handled by a part. The two parts are the Sensing part and the Tasking part. The Sensing part provides a standard way to manage and retrieve observations and metadata from heterogeneous IoT sensor systems. The Tasking part is planned as a future work activity and will be defined in a separate document as the Part II of the SensorThings API.
+
+
+| OGC Web Coverage Processing Service
+| http://www.ogc.org/standards/wcps[WCPS]
+| OGC
+| Standard
+| Global
+|
+|
+|
+| 2
+| 3
+| 4
+|
+| high-level datacube analytics language with space/time semantics
+| The WCPS language is used by the OGC WCS-Processing extension as a service embedding.
+
+
+| OGC Web Coverage Service
+| http://docs.opengeospatial.org/is/17-089r1/17-089r1.html[WCS]
+| OGC
+| Standard
+| Global
+|
+|
+|
+| 2
+| 3
+| 4
+|
+| Modular suite of service functionality on OGC coverages
+| Web Coverage Service (WCS) offers multi-dimensional coverage data for access over the Internet. WCS Core specifies a core set of requirements that a WCS implementation must fulfill.
+
+
+| OGC Web Processing Service
+| https://www.ogc.org/standards/wps[OGC WPS]
+| OGC
+| Standard
+| Global
+|
+|
+|
+|
+| 3
+| 4
+|
+| The OpenGIS® Web Processing Service (WPS) Interface Standard provides rules for standardizing how inputs and outputs (requests and responses) for geospatial processing services, such as polygon overlay.
+|
+
+
+| OGC Web Services Context Document
+| https://www.ogc.org/standards/owc[OWS]
+| OGC
+| Standard
+| Global
+|
+|
+| 1
+| 2
+| 3
+| 4
+|
+| The goal of this standard is to provide a core model, which is extended and encoded as defined in extensions to this standard.
+| This standard describes the use cases, requirements and conceptual model for the OWS Context encoding standard. A ‘context document’ specifies a fully configured service set which can be exchanged (with a consistent interpretation) among clients supporting the standard. The OGC Web Services Context Document (OWS Context) was created to allow a set of configured information resources (service set) to be passed between applications primarily as a collection of services. OWS Context is developed to support in-line content as well. The goal is to support use cases such as the distribution of search results, the exchange of a set of resources such as OGC Web Feature Service (WFS), Web Map Service (WMS), Web Map Tile Service (WMTS), Web Coverage Service (WCS) and others in a ‘common operating picture’. Additionally OWS Context can deliver a set of configured processing services (Web Processing Service (WPS)) parameters to allow the processing to be reproduced on different nodes.
+
+
+| OGC/ISO 19142 Geographic information — Web Feature Service 2.0 /2.0.2
+| https://www.iso.org/standard/42136.html[OGC WFS]
+| OGC/ISO
+| Standard
+| Global
+|
+|
+|
+| 2
+| 3
+| 4
+|
+| The purpose of this document is to enable an interface allowing requests for geographical features across the web using platform-independent calls
+| This International Standard specifies the behaviour of a service that provides transactions on and access to geographic features in a manner independent of the underlying data store. It specifies discovery operations, query operations, locking operations, transaction operations and operations to manage stored parameterized query expressions.
+
+
+| OGC/ISO 19143:2010 Geographic information — Filter encoding 2.0 / 2.0.2
+| https://www.ogc.org/standards/filter[OGC Filter] and
+https://www.iso.org/standard/42137.html[ISO 19143:2010]
+| OGC/ISO
+| Standard
+| Global
+|
+|
+|
+| 2
+| 3
+| 4
+|
+| The purpose of this document is to allow the user/application to specify and communicate geospatial information queries using a standard language
+| This International Standard describes an XML and KVP encoding of a system neutral syntax for expressing projections, selection and sorting clauses collectively called a query expression.
+
+
+| Oil and Gas Producer (OGP, formerly EPSG) Geodetic Parameter Dataset, Version 6.9 (2012)
+| https://www.iogp.org/bookstore/product/using-the-epsg-geodetic-parameter-dataset/[EPSG]
+| IOGP
+| Standard
+| Global
+| General Geospatial
+|
+|
+|
+|
+|
+|
+| Explore the EPSG geodetic parameter dataset, including annexes covering Data Naming Conventions and Rules for Deprecation
+|
+
+
+| Open GeoSMS Standard - Core
+| https://www.ogc.org/standards/opengeosms[Open GeoSMS]
+| OGC
+| Standard
+| Global
+|
+|
+|
+|
+| 3
+| 4
+|
+| OGC standard that defines a standard approach to encoding a geo-tag for an SMS message. Open GeoSMS enables mobile users to transparently send location information in the header of their mobile text messages.
+| The OGC Open GeoSMS Standard provides developers with an extended Short Message Service (SMS) encoding and interface to facilitate communication of location content between different LBS (Location-Based Service) devices or applications. SMS is the open text communication service standard most commonly used in phone, web and mobile communication systems for the exchange of short text messages between fixed line or mobile phone devices. The lightweight and easy to implement Open GeoSMS Standard facilitates interoperability between mobile applications and the rapidly expanding world of geospatial applications and services that implement OGC standard interfaces, encodings and best practices.
+
+
+| PROV-O
+| https://www.w3.org/TR/prov-o/[PROV-O]
+| W3C
+| Standard
+| Global
+| General IT
+|
+|
+|
+| 3
+| 4
+|
+|
+| The PROV Ontology (PROV-O) expresses the PROV Data Model [PROV-DM] using the OWL2 Web Ontology Language (OWL2) [OWL2-OVERVIEW]. It provides a set of classes, properties, and restrictions that can be used to represent and interchange provenance information generated in different systems and under different contexts. It can also be specialized to create new classes and properties to model provenance information for different applications and domains. The PROV Document Overview describes the overall state of PROV, and should be read before other PROV documents. The namespace for all PROV-O terms is http://www.w3.org/ns/prov#
+
+
+| PROV-Overview
+| https://www.w3.org/TR/2013/NOTE-prov-overview-20130430/[PROV-Overview]
+| W3C
+| Standard
+| Global
+|
+|
+|
+|
+|
+|
+|
+| The PROV standard defines a data model, serializations, and definition to support the interchange of provenance information on the Web.
+| Provenance is information about entities, activities, and people involved in producing a piece of data or thing, which can be used to form assessments about its quality, reliability or trustworthiness. The PROV Family of Documents defines a model, corresponding serializations and other supporting definitions to enable the inter-operable interchange of provenance information in heterogeneous environments such as the Web. This document provides an overview of this family of documents.
+
+
+| Resource Description Framework
+| https://www.w3.org/RDF/[RDF]
+| W3C
+| Standard
+| Global
+| General IT
+|
+|
+|
+|
+|
+|
+| Standard model for data interchange on the Web.
+| Standard model for data interchange on the Web. RDF has features that facilitate data merging even if the underlying schemas differ, and it specifically supports the evolution of schemas over time without requiring all the data consumers to be changed. RDF extends the linking structure of the Web to use URIs to name the relationship between things as well as the two ends of the link (this is usually referred to as a “triple”). Using this simple model, it allows structured and semi-structured data to be mixed, exposed, and shared across different applications.This linking structure forms a directed, labeled graph, where the edges represent the named link between two resources, represented by the graph nodes. This graph view is the easiest possible mental model for RDF and is often used in easy-to-understand visual explanations.
+
+
+| S-100 Universal Hydrographic Data Model
+| https://iho.int/uploads/user/pubs/standards/s-100/S-100_Ed%204.0.0_Clean_17122018.pdf[S-100]
+| IHO
+| Standard
+| Global
+| Domain
+|
+|
+|
+|
+|
+| Nautical
+|
+| The S-100 standard is a framework document that is intended for the development of digital products and services for hydrographic, maritime and GIS communities. Information on S-100 and various product specifications that have been developed under the framework can be found here: https://iho.int/en/s-100-universal-hydrographic-data-model
+
+
+| S-11 Guidance for the Preparation and Maintenance of International (INT) Chart and ENC Schemes Part A Edition 3.1.0, February 2018
+| https://iho.int/uploads/user/pubs/standards/s-11/S-11_PartAEd3.1.0_EN.pdf[S-11]
+| IHO
+| Standard
+| Global
+| Domain
+|
+|
+|
+|
+|
+| Nautical
+|
+|
+
+
+| S-4 - Regulations for International (INT) Charts and Chart Specifications of the IHO (English: Edition 4.8.0, October 2018 - Publication date: November 2018)
+| https://iho.int/uploads/user/pubs/standards/s-4/S4_V4-9-0_March_2021.pdf[S-4]
+| IHO
+| Standard
+| Global
+| Domain
+|
+|
+|
+|
+|
+| Nautical
+|
+| S-4 specifies regulations of the IHO for International (INT) charts and chart specifications of the IHO.
+
+
+| S-44 IHO Standards for Hydrographic Surveys (Edition 6.0.0, September 2020)
+| https://iho.int/uploads/user/pubs/standards/s-44/S-44_Edition_6.0.0_EN.pdf[S-44]
+| IHO
+| Standard
+| Global
+| Domain
+|
+|
+|
+|
+|
+| Nautical
+|
+|
+
+
+| S-49 Standardization of Mariners' Routeing Guides (Edition 2.1.0, September 2020)
+| https://iho.int/uploads/user/pubs/standards/s-49/S-49_Ed.2.1.0_Standardization%20of%20Mariners%20Routeing%20Guides_EN.pdf[S-49]
+| IHO
+| Standard
+| Global
+| Domain
+|
+|
+|
+|
+|
+| Nautical
+|
+|
+
+
+| S-52 Specifications for Chart Content and Display Aspects of ECDIS. Edition 6.1.(1), October 2014 (with Clarifications up to June 2015)
+| https://iho.int/uploads/user/pubs/standards/s-52/S-52%20Edition%206.1.1%20-%20June%202015.pdf[S-52]
+| IHO
+| Standard
+| Global
+| Domain
+|
+|
+|
+|
+|
+| Nautical
+|
+|
+
+
+| S-57 IHO Transfer Standard for Digital Hydrographic Data. Edition 3.1, November 2000
+| https://iho.int/uploads/user/pubs/standards/s-57/31Main.pdf[S-57]
+| IHO
+| Standard
+| Global
+| Domain
+|
+|
+|
+|
+|
+| Nautical
+|
+| S-57 is the data format used for the transfer of digital hydrographic data between national hydrographic offices and for ​its distribution to manufacturers, mariners and other data users.
+
+
+| S-62 Data Producer Codes
+| http://www.iho-ohi.net/s62/pdfExport/pacPDFExport.php[S-62]
+| IHO
+| Standard
+| Global
+| Domain
+|
+|
+|
+|
+|
+| Nautical
+|
+|
+
+
+| S-63 IHO Data Protection Scheme Edition 1.2.(1), March 2020
+| https://iho.int/uploads/user/pubs/standards/s-63/S-63_2020_Ed1.2.1_EN_Draft_Clean.pdf[S-63]
+| IHO
+| Standard
+| Global
+| Domain
+|
+|
+|
+|
+|
+| Nautical
+|
+|
+
+
+| S-64 IHO Test Data Sets for ECDIS Edition 3.0.(3), December 2020
+| https://iho.int/uploads/user/pubs/standards/s-64/S-64_Download_Links_Document.pdf[S-64]
+| IHO
+| Standard
+| Global
+| Domain
+|
+|
+|
+|
+|
+| Nautical
+|
+|
+
+
+| S-65 ENCs: Production, Maintenance and Distribution Guidance. Edition 2.1.0, May 2017
+| https://iho.int/uploads/user/pubs/standards/s-65/S-65_ed2%201%200_June17.pdf[S-65]
+| IHO
+| Standard
+| Global
+| Domain
+|
+|
+|
+|
+|
+| Nautical
+|
+|
+
+
+| S-101 ENC Product Specification (Edition 1.0.0, December 2018)
+| http://registry.iho.int/productspec/view.do?idx=78&product_ID=S-101&statusS=5&domainS=ALL&category=product_ID&searchValue=[S-101]
+| IHO
+| Standard
+| Global
+| Domain
+|
+|
+|
+|
+|
+| Nautical
+|
+|
+
+
+| S-121 Maritime Limits and Boundaries
+| http://s100.iho.int/product%20specification/division-search/s-121-maritime-limits-and-boundaries[S-121]
+| IHO
+| Standard
+| Global
+| Domain
+|
+|
+| 2
+| 3
+| 4
+| Nautical
+| The Maritime Limits and Boundaries Product Specification is intended for the encoding and exchange of digital maritime boundary information; including maritime limits, zones and boundaries as described under the United Nations Convention on the Law of the Sea (UNCLOS).
+|
+
+
+| SeaDataNet Standards
+| https://www.seadatanet.org/Standards[SeaDataNet Standards]
+|
+| Standard
+| Global
+| Domain
+| x
+|
+|
+|
+|
+| Marine
+|
+| Interoperability is the key to distributed data management system success and it is achieved in SeaDataNet by using common vocabularies, adopting the ISO 19115 metadata standard for all metadata directories, using harmonised Data Transport Formats for data sets delivery and using common quality control protocols and flag scales.
+
+
+| Semantic Sensor Network Ontology/OGC 16-079
+| https://www.w3.org/TR/2017/REC-vocab-ssn-20171019/[SSN]
+| W3C
+| Standard
+| Global
+|
+|
+|
+|
+| 3
+| 4
+|
+| The Semantic Sensor Network (SSN) ontology is an ontology for describing sensors and their observations, the involved procedures, the studied features of interest, the samples used to do so, and the observed properties, as well as actuators.
+| SSN follows a horizontal and vertical modularization architecture by including a lightweight but self-contained core ontology called SOSA (Sensor, Observation, Sample, and Actuator) for its elementary classes and properties. With their different scope and different degrees of axiomatization, SSN and SOSA are able to support a wide range of applications and use cases, including satellite imagery, large-scale scientific monitoring, industrial and household infrastructures, social sensing, citizen science, observation-driven ontology engineering, and the Web of Things. Both ontologies are described below, and examples of their usage are given. The SSN ontology is available at http://www.w3.org/ns/ssn/; The SOSA ontology is available at http://www.w3.org/ns/sosa/
+
+
+| Sensor Observation Service
+| https://www.ogc.org/standards/sos[SOS]
+| OGC
+| Standard
+| Global
+|
+|
+|
+|
+| 3
+| 4
+|
+| The SOS standard is applicable to use cases in which sensor data needs to be managed in an interoperable way.
+| This standard defines a Web service interface which allows querying observations, sensor metadata, as well as representations of observed features. Further, this standard defines means to register new sensors and to remove existing ones. Also, it defines operations to insert new sensor observations. This standard defines this functionality in a binding independent way; two bindings are specified in this document: a KVP binding and a SOAP binding.
+
+
+| Simple Knowledge Organization System
+| https://www.w3.org/2001/sw/wiki/SKOS[SKOS]
+| W3C
+| Standard
+| Global
+| General IT
+|
+|
+|
+|
+|
+|
+| common data model for sharing and linking knowledge organization systems via the Web
+| Many knowledge organization systems, such as thesauri, taxonomies, classification schemes and subject heading systems, share a similar structure, and are used in similar applications. SKOS captures much of this similarity and makes it explicit, to enable data and technology sharing across diverse applications. The SKOS data model provides a standard, low-cost migration path for porting existing knowledge organization systems to the Semantic Web. SKOS also provides a lightweight, intuitive language for developing and sharing new knowledge organization systems. It may be used on its own, or in combination with formal knowledge representation languages such as the Web Ontology language (OWL).
+
+
+| ISO 19162:2019 Geographic information - Well-known text representation of coordinate reference systems
+| https://www.iso.org/standard/76496.html[ISO 19162:2019]
+| ISO/TC211
+| Standard
+| Global
+| General geospatial
+| X
+|
+|
+|
+|
+|
+|
+| This document defines the structure and content of a text string implementation of the abstract model for coordinate reference systems described in ISO 19111.
+
+
+| SWE Common Data Model Encoding Standard
+| https://www.ogc.org/standards/swecommon[SWE Encoding]
+| OGC
+| Standard
+| Global
+|
+|
+|
+|
+| 3
+| 4
+|
+| The Sensor Web Enablement (SWE) Common Data Model Encoding Standard defines low level data models for exchanging sensor related data between nodes of the OGC® Sensor Web Enablement (SWE) framework.
+| These models allow applications and/or servers to structure, encode and transmit sensor datasets in a self describing and semantically enabled way.
+
+SWE Common 1.0 was defined in the OGC SensorML 1.0 Standard available at http://www.opengeospatial.org/standards/sensorml.
+
+
+| SWE Service Model Implementation Standard
+| https://www.ogc.org/standards/swes[SWE Service Model Implementation]
+| OGC
+| Standard
+| Global
+|
+|
+|
+|
+| 3
+| 4
+|
+| This standard currently defines eight packages with data types for common use across OGC Sensor Web Enablement (SWE) services.
+| Five of these packages define operation request and response types. The packages are: 1.) Contents – Defines data types that can be used in specific services that provide (access to) sensors; 2.) Notification – Defines the data types that support provision of metadata about the notification capabilities of a service as well as the definition and encoding of SWES events; 3.) Common - Defines data types common to other packages; 4.) Common Codes –Defines commonly used lists of codes with special semantics; 5.) DescribeSensor – Defines the request and response types of an operation used to retrieve metadata about a given sensor; 6.) UpdateSensorDescription –Defines the request and response types of an operation used to modify the description of a given sensor; 7.) InsertSensor – Defines the request and response types of an operation used to insert a new sensor instance at a service; 8.) DeleteSensor – Defines the request and response types of an operation used to remove a sensor from a service. These packages use data types specified in other standards. Those data types are normatively referenced herein, instead of being repeated in this standard.
+
+
+| The GeoJSON Specification (RFC 7946)
+| https://tools.ietf.org/html/rfc7946[GeoJson]
+| GeoJson.org
+| Best practice
+| Global
+|
+|
+|
+| 2
+| 3
+| 4
+|
+|
+| GeoJSON is a format for encoding a variety of geographic data structures.
+
+
+| Time Ontology in OWL
+| https://www.w3.org/TR/2020/CR-owl-time-20200326/[OWL-Time]
+| W3C
+| Standard
+| Global
+|
+|
+|
+|
+|
+| 4
+|
+| Ontology of temporal concepts, for describing the temporal properties of resources in the world or described in Web pages
+| OWL-Time is an OWL-2 DL ontology of temporal concepts, for describing the temporal properties of resources in the world or described in Web pages. The ontology provides a vocabulary for expressing facts about topological (ordering) relations among instants and intervals, together with information about durations, and about temporal position including date-time information. Time positions and durations may be expressed using either the conventional (Gregorian) calendar and clock, or using another temporal reference system such as Unix-time, geologic time, or different calendars. The namespace for OWL-Time terms is http://www.w3.org/2006/time#
+
+
+| Unified Code for Units of Measure (UCUM) – Version 2.1, May 2017
+| https://ucum.org/trac[UCUM]
+| UCUM
+| Standard
+| Global
+| General IT
+|
+|
+|
+|
+|
+|
+|
+| The Unified Code for Units of Measure (UCUM) is a code system intended to include all units of measures being contemporarily used in international science, engineering, and business.
+
+
+| W3C Recommendation (16 November 1999): XML Path Language (XPath) Version 3.
+| https://www.w3.org/XML/Group/qtspecs/specifications/xquery-31/html/xpath-31.html[W3C XPath]
+| W3C
+| Standard
+| Global
+| General IT
+|
+|
+|
+|
+|
+|
+| XPath 3.1 is an expression language that allows the processing of values conforming to the data model defined in [XQuery and XPath Data Model (XDM) 3.1].
+|
+
+
+| W3C Recommendation: eXtensible Markup Language (XML) Version 1.1
+| https://www.w3.org/TR/xml11/[W3C XML]
+| W3C
+| Standard
+| Global
+| General IT
+|
+|
+|
+|
+|
+|
+|
+| Extensible Markup Language, abbreviated XML, describes a class of data objects called XML documents and partially describes the behavior of computer programs which process them. XML is an application profile or restricted form of SGML, the Standard Generalized Markup Language [ISO 8879]. By construction, XML documents are conforming SGML documents.
+
+XML documents are made up of storage units called entities, which contain either parsed or unparsed data. Parsed data is made up of characters, some of which form character data, and some of which form markup. Markup encodes a description of the document's storage layout and logical structure. XML provides a mechanism to impose constraints on the storage layout and logical structure.
+
+[Definition: A software module called an XML processor is used to read XML documents and provide access to their content and structure.] [Definition: It is assumed that an XML processor is doing its work on behalf of another module, called the application.] This specification describes the required behavior of an XML processor in terms of how it must read XML data and the information it must provide to the application.
+
+
+| W3C Recommendation: Hyper Text Transport Protocol (HTTP) Version 1.1
+| HTTP (no current link)
+| W3C
+| Standard
+| Global
+| General IT
+|
+|
+|
+|
+|
+|
+|
+| The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypermedia information systems. It is a generic, stateless, object-oriented protocol which can be used for many tasks, such as name servers and distributed object management systems, through extension of its request methods. A feature of HTTP is the typing and negotiation of data representation, allowing systems to be built independently of the data being transferred. HTTP has been in use by the World-Wide Web global information initiative since 1990.
+
+
+| W3C Recommendation: XML Schema Version 1.0
+| https://www.w3.org/2001/XMLSchema[W3C XML Schema]
+| W3C
+| Standard
+| Global
+| General IT
+|
+|
+|
+|
+|
+|
+|
+| This document describes the XML Schema namespace. It also contains a directory of links to these related resources, using Resource Directory Description Language.
+
+
+| W3C XLink 1.1 Schema
+| https://www.w3.org/XML/2008/06/xlink.xsd[W3C XLink]
+| W3C
+| Standard
+| Global
+| General IT
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+| Web Ontology Language
+| https://www.w3.org/2001/sw/wiki/OWL[OWL]
+| W3C
+| Standard
+| Global
+| General IT
+|
+|
+|
+|
+|
+|
+| Semantic Web language designed to represent rich and complex knowledge about things, groups of things, and relations between things
+| Semantic Web language designed to represent rich and complex knowledge about things, groups of things, and relations between things. OWL is a computational logic-based language such that knowledge expressed in OWL can be exploited by computer programs, e.g., to verify the consistency of that knowledge or to make implicit knowledge explicit. OWL documents, known as ontologies, can be published in the World Wide Web and may refer to or be referred from other OWL ontologies. OWL is part of the W3C’s Semantic Web technology stack, which includes RDF, RDFS, SPARQL, etc.
+
+
+| Geodesy Markup Language
+| http://geodesyml.org/[GeodesyML]
+| ICSM
+| Standard
+| Global
+| Domain
+|
+|
+|
+|
+|
+|
+| Encoding and sharing geodetic data and metadata
+| The Geodesy Markup Language (GeodesyML) is a standard way of describing (encoding) and sharing geodetic data and metadata. GeodesyML handles geodetic data and metadata relating to equipment, site logs, measurement, adjustment, quality, monuments, reference frames and data lineage. Additional development to support other fields of geodesy are anticipated in the future. GeodesyML is an Application Schema of the existing Geography Markup Language (GML) (ISO 19136:2007).
+
+
+| EMODNet Data exchange format
+| https://www.emodnet-seabedhabitats.eu/contribute-data/data-exchange-format/[EMODNet DEF]
+| EMODnet
+| Best Practice
+| Regional
+| Domain
+| x
+|
+|
+|
+|
+| Marine
+| Data exchange format for defining seabed habitats
+| A standardised attribute table format simplifies the process of combining multiple habitat maps and makes the information easier to understand for end users. We call this the Data Exchange Format (DEF). A PDF version of this page is also available. For submission to EMODnet Seabed Habitats, a habitat map should be submitted as an ESRI shapefile (.shp) according to one of the EMODnet Seabed Habitats DEFs - an updated version of the the MESH DEFs (originally published in 2005 as part of the EU-funded MESH project).
+
+
+| European Plate Observing System
+| https://www.epos-eu.org/data-services/technical-documents[EPOS]
+| EPOS
+| Best Practice
+| Regional
+| Domain
+| x
+| 1
+| 2
+| 3
+| 4
+| Earth observations
+|
+| The European Plate Observing System (EPOS) is a multidisciplinary, distributed research infrastructure that facilitates the integrated use of data, data products, and facilities from the solid Earth science community in Europe. EPOS  brings together Earth scientists, national research infrastructures, ICT (Information & Communication Technology) experts, decision makers, and public to develop new concepts and tools for accurate, durable, and sustainable answers to societal questions concerning geo-hazards and those geodynamic phenomena (including geo-resources) relevant to the environment and human welfare.
+
+
+| Geoscience Australia Community Metadata Profile of ISO 19115-1:2014
+| https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/122551[19115-1:2015 (GA)]
+| Geoscience Australia
+| Profile
+| Organisational
+|
+| X
+| 1
+| 2
+| 3
+| 4
+|
+| This document extends ISO 19115-1:2014 by redefining obligation of some of the ISO 19115-1:2014 packages and entities to fulfil Geoscience Australia business requirements .
+| This standard provides information about the identification, the extent, the quality, the spatial and temporal aspects, the content, the spatial reference, the portrayal, distribution, and other properties of digital geographic data and services.
+
+
+| INSPIRE Metadata
+| https://inspire.ec.europa.eu/metadata/6541[INSPIRE Metadata]
+| EU INSPIRE
+| BestPractice
+| Regional
+|
+| x
+| 1
+| 2
+| 3
+| 4
+|
+| Requirements for the creation and maintenance of this metadata
+| According to Article 5(1) of INSPIRE Directive 2007/2/EC, Member States shall ensure that metadata are created for the spatial data sets and services corresponding to the themes listed in Annexes I, II and III, and that those metadata are kept up to date. The Regulation as regards metadata (and subsequent amendments) and Technical guidelines set out the requirements for the creation and maintenance of this metadata.
+
+
+| INSPIRE WCS
+| https://inspire.ec.europa.eu/id/document/tg/download-wcs[WCS]
+| EU INSPIRE
+| Standard
+| Regional
+|
+|
+|
+| 2
+| 3
+| 4
+|
+| Coverage services, embedded in the INSPIRE framework
+| INSPIRE WCS = WCS-Core + OGC WCPS + INSPIRE-specific metadata
+
+
+| ICSM ISO 19115-1 Metadata Best Practice Guides
+| https://icsm-au.github.io/metadata-working-group/[19115-1:2019 (AUS)]
+| ICSM
+| Best Practice
+| Regional
+|
+| X
+| 1
+| 2
+| 3
+| 4
+|
+| The purpose of this document is to capture the consensus best practice guidance for the use of recommended ISO 19115-1 metadata elements for organisataion in the Australia / New Zealand region.
+| This guide is intended to provide a resource for those wishing to implement the AS/NZS ISO 19115.1:2015 metadata standard (including the 2018 Amendment No.1) in the Australia and New Zealand region. While this has been the officially endorsed metadata standard for Australia and New Zealand since 2015, consistency of implementation and the slow development of tools to support this standard have been problems. The development of this document has been undertaken to alleviate these issues and to provide a basis for further work.
+
+
+| nternational GeoSample Number
+| http://igsn.github.io/[IGSN]
+| ICSM ve.V.
+| Best Practice
+| Global
+|
+| x
+|
+| 2
+| 3
+| 4
+| any domain collecting physical samples, including natural and environmental sciences, material sciences agriculture, physical anthropology, archaeology and biomedicine
+| IGSN is a globally unique and persistent identifier for material samples
+| Samples are a basic element for reference, study, and experimentation in many scientific disciplines, especially in natural and environmental sciences, material sciences agriculture, physical anthropology, archaeology and biomedicine.
+IGSN is a best practice that describe standard methods for identifying, citing, and locating physical samples with confidence by operating an international IGSN registration service
+
+
+| ISO 19161-1:2020 Geographic information — Geodetic references — Part 1: International terrestrial reference system (ITRS)
+| https://www.iso.org/standard/70655.html[ISO 19161-1:2020]
+| ISO/TC211
+| Standard
+| Global
+|
+|
+|
+|
+|
+|
+|
+| Defines requirements related to the International Terrestrial Reference System (ITRS), its definition, its realizations and how to access and use these realizations.
+| This document provides the basic information and the requirements related to the International Terrestrial Reference System (ITRS), its definition, its realizations and how to access and use these realizations.
+
+
+| ISO/IEC 8211:1994 Information technology — Specification for a data descriptive file for information interchange
+| https://www.iso.org/standard/20305.html[ISO/IEC 8211:1994]
+| ISO/TC211
+| Standard
+| Global
+|
+|
+|
+|
+|
+|
+|
+| Specifies an interchange format to facilitate the moving of files or parts of files containing data records between computer systems.
+| Specifies an interchange format to facilitate the moving of files or parts of files containing data records between computer systems. Specifies: media-independent file and data record descriptions for information interchange; the description of data elements, vectors, arrays and hierarchies containing character strings, bit strings and numeric forms; a data descriptive file; a data descriptive record; three levels of complexity of file and record structure; FTAM unstructured and structured document types.
+
+
+| ISO 19136-1:2020
+| https://www.iso.org/standard/75676.html[ISO 19136-1:2020]
+| ISO/TC211
+| Standard
+| Global
+|
+|
+|
+|
+|
+|
+|
+| XML encoding for the transport and storage of geographic information modelled in accordance with the conceptual modelling framework used in the ISO 19100 series
+| The Geography Markup Language (GML) is an XML encoding in accordance with ISO 19118 for the transport and storage of geographic information modelled in accordance with the conceptual modelling framework used in the ISO 19100 series of International Standards and including both the spatial and non-spatial properties of geographic features.
+
+
+| ISO 19123-2:2018 Geographic information — Schema for coverage geometry and functions — Part 2: Coverage implementation schema
+| https://www.iso.org/standard/70948.html[ISO 19123-2:2018]
+| ISO/TC211
+| Standard
+| Global
+|
+|
+|
+|
+|
+|
+|
+| This document defines a structure that is suitable for encoding in many encoding formats.
+| This document specifies a concrete[1] implementable, conformance-testable coverage structure based on the abstract schema for coverages defined in the ISO 19123 schema for coverage geometry. This document defines a structure that is suitable for encoding in many encoding formats.
+
+
+| ISO/PRF 19170-1 Geographic information — Discrete Global Grid Systems Specifications — Part 1: Core Reference System and Operations, and Equal Area Earth Reference System
+| https://www.iso.org/standard/32588.html[ISO 19170-1]
+| ISO/TC211
+| Standard
+| Global
+|
+|
+|
+|
+|
+|
+|
+| This document supports the definition of Discrete Global Grid Systems (DGGS)
+| This document supports the definition of:
+— A Discrete Global Grid Systems (DGGS) core comprising:
+— an RS using zonal identifiers with structured geometry, and
+— functions providing import, export and topological query,
+— Common spatio-temporal classes for geometry, topology, RS using zonal identifiers, zonal identifiers and zones, based on ISO 19111 CRS. The spatio-temporal scope is constrained to:
+— spatial elements that are invariant through all time, and
+— temporal elements that are invariant across all space.
+— Equal-Area Earth Reference Systems (EAERSs) for Equal-Area Earth DGGS.
+
+|===

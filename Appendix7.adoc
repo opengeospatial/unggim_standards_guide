@@ -1,0 +1,173 @@
+.Appendix 7: Communities of Practice
+|===
+| Name | Abbreviation | Focus | Country/Region | Role | Description
+
+
+| American Society for Photogrammetry and Remote Sensing
+| http://www.asprs.org[ASPRS]
+| Professional association developing standards, guidelines, specifications and best practices, most notably the LAS lidar format.
+| USA
+| SDO
+| The mission of the American Society for Photogrammetry and Remote Sensing is to promote the ethical application of active and passive sensors, the disciplines of photogrammetry, remote sensing, geographic information systems and other supporting geospatial technologies; to advance the understanding of the geospatial and related sciences; to expand public awareness of the profession; and to promote a balanced representation of the interests of government academia and private enterprise
+
+
+| Australian Research Data Commons
+| http://ardc.edu.au/[ARDC]
+| Partnerships between govrnment, industry and reserach. Provides access to data and software collections.
+| AUS
+| Standards Promotion and CoP
+| ARDC is a transformational initiative that enables Australian research community and industry access to nationally significant, leading edge data intensive eInfrastructure, platforms, skills and collections of high-quality data. In partnerships with organisations, we will lead facilitations that work towards a coherent research environment to enable researchers to find, access, contribute to and effectively use services to maximise research quality and impact.
+
+
+| CARIGEO Initiative
+| http://www.un-ggim-americas.org/en/[UN-GGIM: Americas]
+| Caribbean Region Collaboration
+| Regional
+| CoP
+| CARIGEO is a collaborative effort among the United Nations Regional Committee on Global Geospatial Information Management for the Americas (UN-GGIM: Americas), the United Nations Economic Commission for Latin America and the Caribbean (UN-ECLAC), public agencies of Member States and Territories within the Caribbean, geospatial private sector organizations, academic institutions and civil society representatives, which seeks to empower the countries and territories of the Caribbean region to advance the use and sharing of geospatial, statistical and related information to support improved decision making for sustainable national and regional development.
+
+
+| Committee on Data of the International Science Council
+| https://codata.org/about-codata/[CODATA]
+| Improvement of availability and usability of data for all areas of research
+| Global
+| Standards Promotion and CoP
+| CODATA exists to promote global collaboration to improve the availability and usability of data for all areas of research.  CODATA supports the principle that data produced by research and susceptible to be used for research should be as open as possible and as closed as necessary.  CODATA works also to advance the interoperability and the usability of such data: research data should be intelligently open or FAIR. By promoting the policy, technological and cultural changes that are essential to promote Open Science, CODATA helps advance ISC’s vision and mission of advancing science as a global public good.
+
+
+| Earth Science Information Partners
+| https://www.esipfed.org/[ESIP]
+| Earth Science
+| USA
+| Standards Promotion and CoP
+| Earth Science Information Partners (ESIP) is a 501(c)(3) nonprofit supported by NASA, NOAA, USGS and 130+ member organizations. Leader in promoting the collection, stewardship and use of Earth science data, information and knowledge that is responsive to societal needs. Supports the networking and data dissemination needs of our members and the global Earth science data community by linking the functional sectors of observation, research, application, education and use of Earth science.
+
+
+| Global Earth Observation System of Systems
+| https://earthobservations.org/geoss.php[GEOSS]
+| 4 working groups focusing on Capacity Development, Climate Change, Disaster Risk Reduction, and Data
+| Global
+| CoP
+| More than 60 global and regional initiatives are contributing to Earth observation data, services, knowledge and capacity development. The GEO Work Programme encompasses biodiversity observations, ecosystem accounting, water resources management, agriculture, food security and many more.
+
+
+| GO-FAIR
+| http://www.go-fair.org/[GO-FAIR]
+|
+| Europe
+| Standards Promotion and CoP
+| GO FAIR is a bottom-up, stakeholder-driven and self-governed initiative that aims to implement the FAIR data principles, making data Findable, Accessible, Interoperable and Reusable (FAIR). It offers an open and inclusive ecosystem for individuals, institutions and organisations working together through Implementation Networks (INs). The INs are active in three activity pillars: GO CHANGE, GO TRAIN and GO BUILD.
+
+
+| Infrastructure for Spatial Information in Europe
+| http://inspire.ec.europa.eu/[INSPIRE]
+| European Region
+| Europe
+| Standards Promotion and CoP
+| INSPIRE Directive aims to create a European Union spatial data infrastructure for the purposes of EU environmental policies and policies or activities which may have an impact on the environment. This European Spatial Data Infrastructure will enable the sharing of environmental spatial information among public sector organisations, facilitate public access to spatial information across Europe and assist in policy-making across boundaries.
+
+
+| International Federation of Surveyors
+| https://www.fig.net[FIG]
+| Surveying, Land Administration,  Geospatial
+| Global
+| CoP
+| FIG is a UN and World Bank recognized NGO covering FIG covering a range of professional fields within the global surveying community, hereunder surveying, cadastre, valuation, mapping, geodesy, hydrography, geospatial, and quantity surveyors and provides an international forum for discussion and development aiming to promote professional practice and standards.
+
+
+| International Network of Soil Information Institutions
+| http://www.fao.org/global-soil-partnership/insii/en/[INSII]
+| Soils
+| Global
+| Standards Promotion and CoP
+| The International Network of Soil Information Institutions (INSII) is composed by nationally mandated institutions and Global Soil Partnership partners developing the Global Soil Information System (GLOSIS).  GLOSIS is a standards-based SDI for brining together and sharing soils infomration from cooperating national institutions.
+
+
+| International Oceanographic Data and Information Exchange
+| https://www.iode.org/[IODE]
+| Marine
+| Global
+| Standards Promotion and CoP
+| The International Oceanographic Data and Information Exchange is a specialialized programme within the Intergovernmental Oceanographic Commission (IOC). Its primary purpose is to enhance marine research and realted activities and promoting/supporting the exhange of marine data and information between particpating Member States.
+
+
+| International Hydrographic Organization
+| https://iho.int/[IHO]
+| Marine
+| Global
+| Standards Promotion and CoP
+| IHO supports the Marine CoP
+
+
+| ISO/TC 211 Geographic Information / Geomatics
+| https://committee.iso.org/home/tc211[ISO TC/211]
+| ISO/TC 211 WGs include focus on several CoPs
+| Global
+| Standards Promotion and CoP
+| ISO/TC 211 has WG activities that support CoPs in the following areas:  Geodetic Networks, Land Administration, Metadata and Catalogue,
+
+
+| One Geology
+| https://www.onegeology.org[OneGeology]
+| Geology
+| Global
+| Standards Promotion and CoP
+| International initiative of the geological surveys of the world who are working together with the support of international organisations, regional organisations and industry sponsors. OneGeology works to improve the WWW accessibility (including interoperability) and usefulness of global geoscience data needed to address many societal issues including mitigation of hazards, meeting resource requirements, and climate change.
+
+
+| Open Geospatial Consortium Domain Working Groups
+| https://www.ogc.org/projects/groups/wg[OGC]
+| over 40 different Domain Working Groups supporting a range of CoPs including Agriculture, Aviation, Meteorology, Emergency and Disaster Mgt
+| Global
+| Standards Promotion and CoP
+| OGC Domain Working Groups  provide a forum for discussion of key interoperability requirements and issues, discussion and review of implementation specifications, and presentations on key technology areas relevant to solving geospatial interoperability issues in a particular community of practice or technology area.   DWGs include over 40 areas of focus, including:Agriculture, Aviation, Big Data, Earth System Science, Engery and Utilities,  Health, Meteorology and Oceanography, Marine, Emergency and Disaster Management, and Smart Cities.
+
+
+| Research Data Alliance
+| https://rd-alliance.org/[RDA]
+| 95 working and interest groups coveing all areas of reserach, development of best practice , etc.
+| Global
+| Standards Promotion and CoP
+| With over 10000 members from 145 countries, RDA provides a neutral space where its members can come together to develop and adopt infrastructure that promotes data-sharing and data-driven research
+
+
+| UN-GGIM WG on Geospatial Infomration and Services for Disasters
+| http://ggim.un.org/UNGGIM-wg5/[UN-GGIM-WG5]
+| Emergency, Disaster Management
+| Global
+| CoP
+| This WG has a mandate mandate to develop and implement a strategic framework that brings all stakeholders and partners involved in Disaster Risk Reduction and/or Emergency Management together to ensure that quality geospatial information and services are available and accessible in a timely and coordinated way to support decision-making and operations within and across all sectors and phases of disaster risk management.
+
+
+| UNGGIM Expert Group on Land Administration and Management
+| http://ggim.un.org/UN-EG-LAM/[UNGGIM-EG-LAM]
+| Land Administration
+| Global
+| CoP
+| This UN-GGIM Expert Committee promotes the use of geospatial information tools and systems to improve the legal certainty of all citizens in the world with respect to the registration of the relation between people and land.
+
+
+| UNGGIM WG on Marine Geospatial Information
+| http://ggim.un.org/UNGGIM-wg8/[UNGGIM-WG-MGI]
+| Marine
+| Global
+| CoP
+| The UNGGIM Marine WG supports raising awareness of the importance of marine geospatial infomration, and encourages the use of internationally agreed-upon geospatial information frameworks, schemas, systems and established standards to improve the growing inter-dependent relationships between people and the marine environments; and
+
+
+| US Geospatial Intelligence Foundation
+| https://www.usgif.org[USGIF]
+| Defense, Intelligence, Homeland Security
+| USA
+| CoP
+| The USGIF Is a  nonprofit educational foundation dedicated to promoting the geospatial intelligence tradecraft and developing a stronger GEOINT Community with government, industry, academia, professional organizations, and individuals who develop and apply geospatial intelligence to address national security challenges.
+
+
+| World Meteorological Organization
+| https://public.wmo.int/en[WMO]
+| Weather, Climate, Water Resources
+| Global
+| Standards Promotion and CoP
+| The World Meteorological Organization is a specialized agency of the United Nations responsible for promoting international cooperation on atmospheric science, climatology, hydrology and geophysics (source Wikipedia)
+
+|===

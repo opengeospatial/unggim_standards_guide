@@ -1,0 +1,80 @@
+.Appendix 5: Standards Bodies, Registries
+[%autowidth]
+
+|===
+| Name | Abbreviation (link) | Country/Region | Role | Description
+
+
+| buildingSMART International
+| http://www.buildingsmart.org[BSI]
+| Global
+| Standards Organization
+| buildingSMART is the worldwide industry body driving the digital transformation of the built asset industry. buildingSMART is committed to delivering improvement by the creation and adoption of open, international standards and solutions for infrastructure and buildings.
+
+| IHO S-100 Geospatial Information Registry
+| http://registry.iho.int/[IHO Registry]
+| Global
+| Standards Registry
+| This registry is owned by the International Hydrographic Organization (IHO) and is managed by the Secretariat of the IHO. The site contains many registers of hydrographic information together with registers of supplementary information owned by specialist domain experts. Each register type is further sub-divided into domains e.g. hydrographic, nautical publications, ice, inland ENC etc.
+
+| IHO Standards and Specifications
+| https://iho.int/en/standards-and-specifications[IHO Standards]]
+| Global
+| Standards Registry
+| Link to the IHO registry of Standards and Specifications
+
+| International Hydrographic Organization
+| https://iho.int/[IHO]
+| Global
+| Standards Organisation
+| IHO works to ensure that all the world's seas, oceans and navigable waters are surveyed and charted, thereby supporting safety of navigation and the protection of the marine environment. It coordinates the activities of national hydrographic offices and sets standards in order to promote uniformity in nautical charts and documents. It issues survey best practices and provides guidelines to maximize the use of hydrographic information.
+
+| International Organization for Standardization
+| https://www.iso.org/[ISO]
+| Global
+| Standards Organisation
+| ISO is an independent, non-governmental international organization with a membership of 165 national standards bodies. It brings together experts to share knowledge and develop voluntary, consensus-based, market relevant International Standards that support innovation and provide solutions to global challenges.
+
+| ISO/TC211 Standards catalogue
+| https://www.iso.org/committee/54904/x/catalogue/[ISO/TC211]
+|
+| Standards Registry
+| Registry of standards by ISO/TC 211 Geographic information/Geomatics
+
+| OGC Implementation Standards catalogue
+| https://www.ogc.org/docs/is[OGC Implementation Standards]
+|
+| Standards Registry
+| Link to the OGC Implementation Standards. Implementation Standards  that are written for a more technical audience and detail the interface structure between software components. An interface specification is considered to be at the implementation level of detail if, when implemented by two different software engineers in ignorance of each other, the resulting components plug and play with each other at that interface.
+
+| Open Geospatial Consortium
+| https://www.ogc.org/[OGC]
+| Global
+| Standards Organisation
+| OGC is an international consortium of more than 500 businesses, government agencies, research organizations, and universities driven to make geospatial (location) information and services FAIR - Findable, Accessible, Interoperable, and Reusable. OGC's member-driven consensus process creates royalty free, publicly available, open geospatial standards. Existing at the cutting edge, OGC actively analyzes and anticipates emerging tech trends, and runs an agile, collaborative Research and Development (R&D) lab - the OGC Innovation Program - that builds and tests innovative prototype solutions to members' use cases.
+
+| Simulation Interoperability Standards Organizatino
+| https://www.sisostds.org[SISO]
+|
+| Standards Organization
+| The Simulation Interoperability Standards Organization (SISO) is an international organization dedicated to the promotion of modeling and simulation interoperability and reuse for the benefit of a broad range of Modeling & Simulatino communities.
+
+| Universal Postal Union
+| https://www.upu.int/[UPU]
+| Global
+| Standards Organization and Standards Registry
+| Standards are necessary for effective postal operations and to interconnect the global postal network. The UPU works with its members to create standards on everything from barcodes and message exchanges between supply chain partners, to security. The UPU's Standards Board develops the technical standards and EDI message specifications that facilitate the exchange of operational information between Posts. It also coordinates UPU standardization initiatives with those of other international standardization bodies, and works closely with Posts, customers, suppliers and many international organizations to this end.
+
+| W3C Standards catalogue
+| https://www.w3.org/standards/[W3C Standards]
+|
+| Standards Registry
+| Link to W3C standards define an Open Web Platform for application development that has the unprecedented potential to enable developers to build rich interactive experiences, powered by vast data stores, that are available on any device. W3C develops these technical specifications and guidelines through a process designed to maximize consensus about the content of a technical report, to ensure high technical and editorial quality, and to earn endorsement by W3C and the broader community.
+
+| World Wide Web Consortium
+| https://www.w3.org/[W3C]
+| Global
+| Standards Organisation
+| The World Wide Web Consortium (W3C) is an international community where Member organizations, a full-time staff, and the public work together to develop Web standards. Led by Web inventor and Director Tim Berners-Lee and CEO Jeffrey Jaffe, W3C's mission is to lead the Web to its full potential. Contact W3C for more information.
+
+|===

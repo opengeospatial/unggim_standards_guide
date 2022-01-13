@@ -1,0 +1,112 @@
+.Appendix 6: Emerging, Future Standards
+
+|===
+| Name | Abbreviation | Creator | Type (standard, best practice) | Level (Global, national, organisational) | Tier | Purpose | Brief description
+
+| Data Catalog Vocabulary (DCAT) - Version 3
+| https://w3c.github.io/dxwg/dcat/[DCAT3]
+| W3C
+| Standard
+| Global
+|
+| DCAT is an RDF vocabulary designed to facilitate interoperability between data catalogs published on the Web. | DCAT enables a publisher to describe datasets and data services in a catalog using a standard model and vocabulary that facilitates the consumption and aggregation of metadata from multiple catalogs. This can increase the discoverability of datasets and data services. It also makes it possible to have a decentralized approach to publishing data catalogs and makes federated search for datasets across catalogs in multiple sites possible using the same query mechanism and structure. Aggregated DCAT metadata can serve as a manifest file as part of the digital preservation process.
+
+| ISO 19123-1 Geographic information — Schema for coverage geometry and functions — Part 1: Fundamentals
+| https://www.iso.org/standard/70743.html[ISO 19123-1]
+| ISO
+| Standard
+| Global
+|
+| Conceptual data model for spatio-temporal grids, point clouds, and general meshes
+| This standard defines, at a high, implementation-independent level, the notion of coverages as digital representations of space-time varying geographic phenomena, corresponding to a field in physics: a physical quantity that has a value for each point in space-time. Common examples include 1-D time series, 2-D imagery, 3-D x/y/t image time series and x/y/z geophysical voxel models, as well as 4-D x/y/z/t climate and ocean data. Such coverages can be discrete or continuous. OGC has announced it will adopt 19123-1 as a revision of Abstract Topic 6.
+
+| ISO/AWI 19150-6
+| https://www.iso.org/standard/80867.html[ISO/AWI 19150-6]
+| ISO
+| Standard
+| Global
+| 3,4
+|
+|
+
+| ISO/CD 19157-1 Geographic information — Data quality — Part 1: General requirements
+| https://www.iso.org/standard/78900.html[ISO/CD 19157-1]
+| ISO
+| Standard
+| Global
+| 1
+|
+|
+
+| ISO/IEC DTR 24027 Information technology — Artificial Intelligence (AI) — Bias in AI systems and AI aided decision making
+| https://www.iso.org/standard/77607.html[ISO/IEC DTR 24027]
+| ISO
+| Standard
+| Global
+| 4
+|
+|
+
+| OGC API - Common
+| https://www.ogc.org/standards/requests/203[OGC API - Common]
+| OGC
+| Standard
+| Global
+| 4
+| OGC APIs usher in a new age for location information on the web, enabling a much simpler way to share and access location information that is consistent with the architecture of the Web. OGC API standards define modular API building blocks to spatially enable Web APIs in a consistent way |
+
+| OGC API - Maps
+| https://ogcapi.ogc.org/maps/[OGC API - Maps]
+| OGC
+| Standard
+| Global
+| 4
+| OGC API - Maps standard describes an API that presents data as maps by applying a style.
+| The draft standard allows a client application to request maps as images, or change parameters such as size and coordinate reference systems at the time of request, making them implementer-friendly and easily understandable by developers without geospatial experience.
+
+| OGC API - Coverages
+| https://ogcapi.ogc.org/coverages/[OGC API - Coverages]
+| OGC
+| Standard
+| Global
+| 4
+| The OGC API - Coverages draft specification defines a Web API for accessing coverages that are modeled according to the Coverage Implementation Schema (CIS) 1.1.
+| Coverages are represented by some binary or ASCII serialization, specified by some data (en­coding) format. Arguably the most popular type of coverage is that of a gridded coverage. Gridded coverages have a grid as their domain set describing the direct positions in multi-dimensional coordinate space, depending on the type of grid. Satellite imagery is typically modeled as a gridded coverage, for example.
+
+| OGC API - Processes
+| https://ogcapi.ogc.org/processes/[OGC API - Processes]
+| OGC
+| Standard
+| Global
+| 4
+| The OGC API - Processes specification defines how a client application can request the execution of a process, how the inputs to that process can be provided, and how the output from the process is handled.
+| he specification allows for the wrapping of computational tasks into an executable process that can be invoked by a client application. Examples of computational processes that can be supported by implementations of this specification include raster algebra, geometry buffering, constructive area geometry, routing and several others.
+
+| OGC API - Tiles
+| https://ogcapi.ogc.org/tiles/[OGC API - Tiles]
+| OGC
+| Standard
+| Global
+| 4
+| The OGC API - Tiles draft specification describes an API building block that can enable other OGC API implementations to serve maps or tiled feature data divided into individual tiles
+| he draft specification includes concepts such as tile matrix sets and tile schemes, although such concepts have been revised to allow for tiling other types of resources, such as vector tiles and not only maps. The OGC API - Tiles draft specification references the OGC Two Dimensional Tile Matrix Set (TMS) standard. The TMS standard defines the rules and requirements for a tile matrix set as a way to index space based on a set of regular grids defining a domain (tile matrix) for a limited list of scales in a Coordinate Reference System (CRS).
+
+| The OGC API - Styles
+| https://ogcapi.ogc.org/styles/[The OGC API - Styles]
+| OGC
+| Standard
+| Global
+| 4
+| The OGC API - Styles draft specification defines a Web API that enables map servers, clients as well as visual style editors, to manage and fetch styles that consist of symbolizing instructions that can be applied by a rendering engine on features and/or coverages.
+| The API implements the conceptual model for style encodings and style metadata
+
+| Environmental Data Retrieval
+| https://ogcapi.ogc.org/edr/[OGC-EDR]
+| OGC
+| Standard
+| Global
+| 4
+| Environmental Data Retrieval (EDR) API provides a family of lightweight interfaces to access Environmental Data resources.
+| Each resource addressed by an EDR API maps to a defined query pattern. This specification identifies resources, captures compliance classes, and specifies requirements which are applicable to OGC Environmental Data Retrieval API’s. This specification addresses two fundamental operations; discovery and query. Discovery operations allow the API to be interrogated to determine its capabilities and retrieve information (metadata) about this distribution of a resource. This includes the API definition of the server as well as metadata about the Environmental Data resources provided by the server. Query operations allow Environmental Data resources to be retrieved from the underlying data store based upon simple selection criteria, defined by this standard and selected by the client.
+
+|===

@@ -1,0 +1,319 @@
+.Appendix 8: References, Resources, and Tools
+[%autowidth]
+
+|===
+| Resource | Category | Level | Description | Link/URL | Remarks
+
+
+| Introduction to OGC Standards
+| Training (on-line)
+| Global
+| An official on-line training program of the Open Geospatial Consortium (OGC) providing insight in to fundamental standards concepts, and the suite of OGC standards.   .
+| http://opengeospatial.github.io/e-learning/ogc-standards/text/services-ogc.html
+|
+
+
+| ISO Publicly Available Specifications
+| Other
+| Global
+| ISO Publicly Available Specifications representing either the consensus of the experts within a working group or a consensus in an organization external too
+| https://www.iso.org/deliverables-all.html
+|
+
+
+| The German Institute for Standardization (DIN)
+| Use Case/ Implementation Example
+| National
+| The German Institute for Standardization (DIN) estimated benefits of 17 billion euros to the German economy in 2010: “Standards promote worldwide trade, encouraging rationalization, quality assurance and environmental protection, as well as improving security and communication
+| http://www.din.de/sixcms_upload/media/2896/DIN_GNN_2011_engl_akt_neu.pdf
+|
+
+
+| OGC Compliance Interoperability Test Engine, ISO 19105
+| Testing/Certification
+| Global
+| This International Standard is applicable to all the phases of conformance and testing.
+| ISO - ISO 19105:2000 - Geographic information — Conformance and testing
+|
+
+
+| IHO testing framework
+| Testing/Certification
+| Global
+| International testing frameworks for certification against global standards
+| Standards in Force - IHO
+|
+
+
+| What is a Discrete Global Grid Systems  -  provided by Geoscience Australia
+| Training (Document)
+| Regional
+| Video describing what is a Discrete Global Grid System and examples of use cases from Australia
+| https://locationindex.s3-ap-southeast-2.amazonaws.com/DGGS.mp4
+|
+
+
+| What and Why Metadata is important  -  provided by Intergovernmental Committee on Surveying and Mapping (ICSM) Australia
+| Training (Document)
+| Global
+| Video describing what and why Metadata is important
+| Metadata: What is it, and why is it so important ?
+|
+
+
+| FAIR data training resources and courses
+| Training (on-line)
+| Regional
+| Australia Research Data Commons (ARDC) training course on FAIR
+| https://ardc.edu.au/resources/working-with-data/fair-data/fair-data-training/
+|
+
+
+| ESIP provides a comprehensive set of training and tools
+| Training (on-line)
+| Global
+| The Data Management Training (DMT) Clearinghouse is a registry for online learning resources focusing on research data management.
+| https://dmtclearinghouse.esipfed.org/
+|
+
+
+| ANZLIC Strategic PLan
+| Use Case/ Implementation Example
+| Regional
+| Strategy Plan from ANZLIC that aligns with and supports global and domestic initiatives.
+| https://www.anzlic.gov.au/anzlic-council/anzlic-strategic-plan-2020-24
+|
+
+
+| GEO Strategic Plan 2016-2025: Implementing GEOSS
+| Use Case/ Implementation Example
+| Global
+|
+| https://earthobservations.org/documents/open_eo_data/GEO_Strategic_Plan_2016_2025_Implementing_GEOSS.pdf
+|
+
+
+| Intergovernmental Committee on Surveying and Mapping (ICSM) Australia simple survey to identify metadata challenges and requirements
+| Other
+| Global
+| Survey to identify issues and requirements for adoption and/or implementation of a metadata standard in your organisation
+| Example of a simple survey to identify metadata related challengers and requirements.docx - Google Docs
+|
+
+
+| ISO/TC 211 User story collection
+| Use Case/ Implementation Example
+| Global
+| Open call for examples of the use of ISO/TC 211 standards. How the standards are used and the benefits.
+| User Story Challenge (iso.org)
+|
+
+
+| ISO/TC 211 GeodesyML use case
+| Use Case/ Implementation Example
+| National
+| Geodesy Markup Language (GeodesyML) was developed to standardise the encoding and communication of the high-precision geodetic measurements and metadata required to compute, monitor and maintain
+| https://committee.iso.org/sites/tc211/home/standards-in-action/user-story-challenge/australia---geodesyml-for-effici.html
+|
+
+
+| The OGC WaterML 2.0 standard, was developed in a working group organized jointly between OGC and the World Meteorological Organization (WMO).
+| Use Case/ Implementation Example
+| Regional
+| WaterML was implemented to support the integration of a multitude of hydrologic surface and groundwater observations to improve local to global water resource monitoring.
+| swimming in Data: OGC’s WaterML 2.0 Quenches New Zealand’s Thirst for Information Integration - OGC
+|
+
+
+| LINZ Investigation is to identify how to manage New Zealand’s bathymetric data to maximise its contribution to New Zealand’s economy.
+| Other
+| Regional
+| Identify how to manage New Zealand’s bathymetric data to maximize its contribution to New Zealand’s economy.
+| https://www.linz.govt.nz/system/files_force/media/pages-attachments/New%20Zealand%20Bathymetry%20Investigation%20October%202015.pdf?download=1
+|
+
+
+| OGC Environmental Linked Features Interoperability Experiment Engineering Report
+| Use Case/ Implementation Example
+| Global
+| The Environmental Linked Features Interoperability Experiment (ELFIE) explored Open Geospatial Consortium (OGC) and World Wide Web Consortium (W3C) standards with the goal of establishing a best practice for exposing cross-domain links between environmental domain and sampling features
+| https://docs.opengeospatial.org/per/18-097.html
+|
+
+
+| ANZLIC Foundation Spatial Data (Elevation Theme)
+| Other
+| National
+| Portal from Australia National foundation elevation program demonstrating interoperability across multiple jurisdictions
+| https://elevation.fsdf.org.au/
+|
+
+
+| UN Mappers has created an outreach campaign to engage citizen mappers with the task of providing support to a variety of UN missions around the world.
+| Training (on-line)
+| Global
+| Using OpenStreet maps providing an interface, training in techniques of editing and feature recognition, and oniline real-time guidance during mapathons.
+| https://wiki.openstreetmap.org/wiki/Unite_Maps_Initiative/UN_Mappers
+|
+
+
+| INSPIRE is the European Union spatial data infrastructure for the purposes of EU environmental policies or activities.
+| Implementation Example
+| Regional
+| INSPIRE defines an interoperable framework (metadata, data, services) for sharing spatial data to help address cross-border and pan-European issues.
+| https://inspire.ec.europa.eu/about-inspire/563
+|
+
+
+| SeaDataNet professional data centres, active in data collection, constitute a Pan-European network providing on-line integrated databases of standardized quality.
+| Use Case/ Implementation Example
+| Regional
+| SeaDataNet is a distributed Marine Data Infrastructure for the management of large and diverse sets of data deriving from in situ of the seas and oceans
+| SeaDataNet - SeaDataNet
+|
+
+
+| Arctic SDI provides guidance and information management good practices on commonly accepted SDI operational policies and standards
+| Use Case/ Implementation Example
+| Regional
+| The development and adoption of common communication standards and adapted technology ensure the platforms interoperability.
+| https://arctic-sdi.org/
+|
+
+
+| This Guide for metadata collection and creation as it relates to research data.
+| Training (Document)
+| National
+| This Guide is intended to provide a simple generic working-level view of the needs, issues, and processes around metadata collection and creation as it relates to research data.
+| https://ardc.edu.au/wp-content/uploads/2020/03/Metadata.pdf
+|
+
+
+| International Research & Innovation Platform: ARtificial Intelligence for Environment and Sustainability (ARIES) for Statistical
+Standard for Environmental-Economic Accounting (SEEA)
+| Use Case/ Implementation Example
+| Global
+| The ARIES for SEEA is a statistical framework for ecosystem accounting, developed under the lead of the United Nations with the participation of many experts, that aims to provide agreed concepts, definitions and classifications to compile extent and condition of ecosystems and the services they provide via a spatial approach.
+| https://seea.un.org/news/aries-seea-rapid-generation-natural-capital-accounts
+|
+
+
+| Open Geospatial APIs - OGC White Paper
+| Training (Document)
+| Global
+| OGC defines interfaces that enable interoperability of geospatial applications. API’s are a popular method to implement interfaces for accessing spatial data. This White Paper provides a discussion of Application Programming Interfaces (APIs) to support discussion of activites in the Open Geospatial Consortium (OGC).
+| https://docs.opengeospatial.org/wp/16-019r4/16-019r4.html
+|
+
+
+| OGC Disasters Resilience Pilot User Guide: Landslide - Early Respons and Evacuation Under Limited Bandwidth
+| Use Case/ Implementation Example
+| Global
+| This user guide provides guidance for using IoT technologies and OGC SensorThings API to build an early warning mechanism with various systems. It also provides guidance for using Routing API to build an evacuation application under limited bandwidth. These scenarios were stated as the following use cases.
+| OGC Disasters Resilience Pilot User Guide: Landslide - Early Response and Evacuation Under Limited Bandwidth (opengeospatial.org)
+|
+
+
+| Call to Action for Global Access to and Harmonization of Quality Information of Individual Earth Science Datasets
+| Other
+| Global
+| This paper describes the findings of that effort, argues the importance of sharing dataset quality information, calls for community action to develop practical guidelines, and outlines community recommendations for developing such guidelines. Practical guidelines will allow for global access to and harmonization of quality information at the level of individual Earth science datasets, which in turn will support open science.
+| https://doi.org/10.5334/dsj-2021-019
+|
+
+
+| International Community Guidelines Sharing and Reusing Quality Information of Individual Earth Science Datasets
+| User Guide
+| Global
+| The community guidelines aim to help stakeholders such as science data centers, repositories, data producers and publishers, data managers and stewards, etc., i) to capture and represent quality information of their datasets in a way that is in line with the FAIR guiding principles; ii) to allow for the maximum trust, sharing, reuse and value of their datasets; and iii) to enable global access to and integration of dataset quality information. The vision of developing these guidelines is to promote the creation and use of freely and openly shared dataset quality information that is consistently described, readily available in community standardized formats, and capable of being integrated across commonly-used Earth science systems and tools for search and access with explicitly expressed usage licenses.
+| https://doi.org/10.31219/osf.io/xsu4p
+|
+
+
+| NSDI Strategic Plan
+| Use Case/ Implementation Example
+| National
+| The NSDI strategic plan was developed with inputs from a variety of sources, including FGDC agencies, the National Geospatial Advisory Committee, and geospatial partner organizations. The plan describes a broad national vision and mission for the NSDI, and includes goals and objectives for the continued sustainable development of the NSDI.
+| https://www.fgdc.gov/nsdi-plan#:~:text=The%20NSDI%20strategic%20plan%20was%20developed%20with%20inputs,for%20the%20continued%20sustainable%20development%20of%20the%20NSDI.
+|
+
+
+| UK Geospatial Strategy
+| Use Case/ Implementation Example
+| National
+| The Geospatial Commission was established in 2018 by the government as an independent, expert committee responsible for setting the UK’s geospatial strategy and coordinating public sector geospatial activity
+| http://www.gov.uk/government/publications/unlocking-the-power-of-locationthe-uks-geospatial-strategy
+|
+
+
+| Codata Call to Action for Global Access to and Harmonization of quality information
+| User Guide
+| Regional
+| Knowledge about the quality of data and metadata is important to support informed decisions on the (re)use of individual datasets and is an essential part of the ecosystem that supports open science. Quality assessments reflect the reliability and usability of data.
+| Call to Action for Global Access to and Harmonization of Quality Information of Individual Earth Science Datasets (codata.org)
+|
+
+
+| International Community Guidelines for Sharing and Reusing Quality Information of Individual Earth Science Datasets
+| User Guide
+| Regional
+| The objective of this effort is to develop global community guidelines with practical recommendations to promote sharing and reusing of quality information at the dataset level, leveraging the experiences and expertise of a team of interdisciplinary domain experts and community best practices.
+| OSF Preprints - International Community Guidelines for Sharing and Reusing Quality Information of Individual Earth Science Datasets
+|
+
+
+| INEGI issues and provides the Technical Regulations for Coordination and provisions on statistical and geographical matters, considering good international practices in standardization.
+| Proven Practice
+| National
+| INEGI issues and provides the Technical Regulations for Coordination and provisions on statistical and geographical matters, considering good international practices in standardization.
+| https://www.snieg.mx/DocumentacionPortal/Normatividad/vigente/nt_ng_frs_feg.pdf
+|
+
+
+| Ensuring fair access to precise positioning by improving Geodetic Data Interchange Standards
+| Use Case/ Implementation Example
+| National
+| Current Global Navigation Satellite Systems (GNSS) enable existing and emerging industries to use real-time precise positioning data, allowing them to improve productivity, efficiency, safety and decision making. Standards play a crucial role when combining GNSS and geodetic data with data from other domains.
+| https://frontiersi.com.au/wp-content/uploads/2020/11/P1003-Geodetic-Standards-Final-Report.pdf
+|
+
+
+| S-121 is an open access method of providing digital representation of Maritime Limits and Boundaries (MLBs).
+| User Guide
+| Global
+| With the United Nations Convention of the Law of the Sea (UNCLOS), they can form an international legal foundation of the marine domain. S-121 represents an essential extension of the International Hydrographic Organisation S-100 for the administration of the marine domain.
+| s121 (s-121.com)
+|
+
+
+| INSPIRE Knowledge Base
+| Proven Practice
+| Regional
+| The INSPIRE Directive and its implementation across Europe can be seen as a major use case for geospatial standards.
+| https://europa.eu[INSPIRE - Welcome to INSPIRE]
+|
+
+
+| Updating the Australian Geospatial Reference System (AGRS) and associated
+standards.
+| Use Case/ Implementation Example
+| Regional
+| In anticipation of the growing use and reliance on high-accuracy positioning technology, the Australia (and
+New Zealand) geodesy community recognised in 2010 the need to develop a modernised and dynamic
+national datum. The existing datum, while state of the art when introduced in 1994, was no longer accurate
+enough to support new mass market positioning capabilities on the horizon. In addition, due to its location
+on one of the fastest tectonic plates (moving at approximately 70 mm per year northward) Australia found
+itself out of position, in a global sense, by more than a metre and growing. The new Geocentric datum of
+Australia 2020, and Australian Terrestrial Reference Frame 2014 were released in 2017.
+| Recognising needs and bridging gaps.docx - Google Drive
+|
+
+
+| EarthServer (DataCube Federation)
+| Use Case/ Implementation Example
+| Global
+| EarthServer provides completely location-transparent access making the federation a single common pool for users. Dozens of Petabytes offered are SAR and optical satellite data, climate variablesy, DEMs, and specialized data products. In the governance scheme under development the regime is free and open for data centers, democratic and transparent in its decision making (one member, one vote).
+| https://www.earthserver.eu/
+|
+
+|===
