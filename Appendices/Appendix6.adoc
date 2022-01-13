@@ -1,5 +1,6 @@
-.Appendix 6: Emerging, Future Standards
+[[Appendix6]]
 
+.Appendix 6: Emerging, Future Standards
 |===
 | Name | Abbreviation | Creator | Type (standard, best practice) | Level (Global, national, organisational) | Tier | Purpose | Brief description
 

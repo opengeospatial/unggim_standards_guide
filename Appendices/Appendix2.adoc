@@ -1,6 +1,7 @@
-.Appendix 2: Example of a Simple Survey to Identify Metadata Related Challenges and Requirements
+[[Appendix2]]
+== Appendix 2: Example of a Simple Survey to Identify Metadata Related Challenges and Requirements
 
-# Example of a Simple Survey
+=== Example of a Simple Survey
 
 This simple survey consist of three parts:
 
@@ -141,7 +142,7 @@ Please classify the priority of these requirements in your organisation as: High
 | Requirement Category | Policy (H, M, L) | Technical (H, M, L) | Support (H, M, L) | Resources (H, M, L)
 
 | Agreed Profiles
-| 
+|
 |
 |
 |
