@@ -1,0 +1,90 @@
+.Appendix 4: Template for a Simple Roadmap to Address Issues and Requirements in Standard Adoption/Implementation
+
+|===
+| Priority/Activity | Description | Expected Deliverable | Assigned to | Proposed Data/Time | Comments
+
+| Priority 1
+| e.g. Improve interoperability of data by adopting a standard
+|
+|
+|
+|
+
+| Activity 1.1
+| e.g. Develop promotional material
+| e.g. A set of communication materials (poster, video) describing the standard and its benefits
+|
+|
+|
+
+| Activity 1.2
+| e.g. Develop presentation to explain benefits of the standards and examples of implementation
+| e.g. PowerPoint slide pack
+|
+|
+|
+
+| Activity 1.3
+| e.g. Improve understanding of the standard
+| e.g. Guidelines to the standard implementation
+|
+|
+|
+
+| Priority 2
+| e.g. Develop support tools
+|
+|
+|
+|
+
+| Activity 2.1
+| e.g. Improve consistency in recording data dictionary
+| e.g. GUI interface to record data dictionary
+|
+|
+|
+
+| Activity 2.2
+| e.g. Improve validation of implemented standard
+| e.g. Validation Tool
+|
+|
+|
+
+| Activity 2.3
+| e.g. Improve richness of recorded information
+| e.g. Example Templates
+|
+|
+|
+
+| Priority 3
+|
+|
+|
+|
+|
+
+| Activity 3.1
+|
+|
+|
+|
+|
+
+| Activity 3.2
+|
+|
+|
+|
+|
+
+| Activity 3.3
+|
+|
+|
+|
+|
+
+|===

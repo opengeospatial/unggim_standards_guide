@@ -1,0 +1,205 @@
+.Appendix 2: Example of a Simple Survey to Identify Metadata Related Challenges and Requirements
+
+# Example of a Simple Survey
+
+This simple survey consist of three parts:
+
+* Part 1 is to collect information about the level of a metadata standard adoption
+* Part 2 is to identify issues/challenges with adoption of a metadata standards and their importance
+* Part 3 is to identify priorities with adoption of a metadata standard and their priority
+
+[NOTE]
+=============
+The ISO 19115-1 is a metadata standard to describe geospatial datasets, services, and other resources. The XML representation of the standard is the ISO 19115-3.
+=============
+
+.Part 1: Adoption of a Metadata Standard (using the ISO 1911-1 as an example)
+|===
+
+| Question | Yes | No | Don't Know / Not Sure
+
+| Has your organsation adopted the ISO 19115-1?
+|
+|
+|
+
+| If not, can your organisation generate an XML compliant with ISO 19115-3?
+|
+|
+|
+
+4+| What Metadata standard is used in your organisation if it doesn't use standards listed above?
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+|===
+
+[NOTE]
+==========
+Please classify the importance of these issues for your organisation as: High (H), Medium (M), Low (L)
+==========
+
+.Part 2: Identification of Issues/Challenges with Adopting or Implementing Metadata Standard
+|===
+
+| Issues/Challenge Category | Policy (H, M, L) | Technical (H, M, L) | Support (H, M, L) | Resources (H, M, L)
+
+| Agreed Profiles
+|
+|
+|
+|
+
+| Diversity in Implementation
+|
+|
+|
+|
+
+| Influence from Technical Implementation
+|
+|
+|
+|
+
+| Lack of Enforcement
+|
+|
+|
+|
+
+| Lack of Expertise
+|
+|
+|
+|
+
+| Lack of Recognition Metadata Importance
+|
+|
+|
+|
+
+| Limited Staff Resources
+|
+|
+|
+|
+
+| Metadata is not Given Priority
+|
+|
+|
+|
+
+| Need for Educational Resources
+|
+|
+|
+|
+
+| Need to Enhance Communication
+|
+|
+|
+|
+
+| Perception of Metadata Cost
+|
+|
+|
+|
+
+| Validator and Support Tools
+|
+|
+|
+|
+
+5+| Any additional comments for issues/challenges:
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+|===
+
+[NOTE]
+==========
+Please classify the priority of these requirements in your organisation as: High (H), Medium (M), Low (L)
+==========
+
+.Part 3: Identification of Requirements in Adopting and/or Implementing Metadata Standard
+|===
+
+| Requirement Category | Policy (H, M, L) | Technical (H, M, L) | Support (H, M, L) | Resources (H, M, L)
+
+| Agreed Profiles
+| 
+|
+|
+|
+
+| 3rd Party Integration
+|
+|
+|
+|
+
+| Accessible Expertise
+|
+|
+|
+|
+
+| Business Case for Metadata Benefits
+|
+|
+|
+|
+
+| Education and Examples
+|
+|
+|
+|
+
+| Flexible, Fit for Purpose but Quality Metadata Profile
+|
+|
+|
+|
+
+| Leadership
+|
+|
+|
+|
+
+| Shared Infrastructure
+|
+|
+|
+|
+
+| Transformation Pathwway
+|
+|
+|
+|
+
+| Any Additional Comments for Requirements:
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+|===
