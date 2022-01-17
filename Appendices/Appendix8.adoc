@@ -1,5 +1,20 @@
 [[Appendix8]]
 
+//  ADD THIS TO THE STYLE TAG IN THE HEADER IN HTML
+////
+.break-url td:nth-child(5) {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+////
+[.break-url]
 .Appendix 8: References, Resources, and Tools
 [%autowidth]
 

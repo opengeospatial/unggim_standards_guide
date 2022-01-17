@@ -15,9 +15,6 @@
 :sectnumlevels: 5
 = A Guide to the Role of Standards in Geospatial Information Management
 
-<<<<
-[big]*Companion document on Standards Recommendations by Tier*
-
 image::images/picture1.png[]
 
 image::images/picture2.png[]
