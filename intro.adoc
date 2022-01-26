@@ -81,3 +81,5 @@ h| *Roles* h| *Link to IGIF/SP6 Element* h| *Required level of understanding sta
 * Taking action: Understand the standards and provide feedback into the ongoing development of the implemented standards.
 * Ongoing management: Understand how they can share experiences and standards success stories with others.
 * Achieving outcomes: Understand the benefit realization and compliance of standards with the development of indicators to assess, monitor and evaluate as part of an internal/external auditing exercise.
+
+<<<<

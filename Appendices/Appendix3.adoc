@@ -1,4 +1,5 @@
 [[Appendix3]]
+== Appendix 3: Registries of Vocabularies and Codelists
 
 .Appendix 3: Registries of Vocabularies and Codelists
 |===

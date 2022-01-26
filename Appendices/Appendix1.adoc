@@ -1,4 +1,5 @@
-[[Appendix 1]]
+[[Appendix1]]
+== Standards Inventory
 
 .Appendix 1: Standards Inventory
 [%autowidth]

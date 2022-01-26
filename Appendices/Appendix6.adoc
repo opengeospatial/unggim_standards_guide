@@ -1,4 +1,5 @@
 [[Appendix6]]
+== Appendix 6: Emerging, Future Standards
 
 .Appendix 6: Emerging, Future Standards
 |===

@@ -1,4 +1,5 @@
 [[Appendix8]]
+== Appendix 8: References, Resources, and Tools
 
 //  ADD THIS TO THE STYLE TAG IN THE HEADER IN HTML
 ////
