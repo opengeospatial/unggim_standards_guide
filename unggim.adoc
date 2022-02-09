@@ -36,6 +36,9 @@ include::clause_4.adoc[]
 include::clause_5.adoc[]
 include::clause_6.adoc[]
 
+<<<<
+
+include::acknowledgements.adoc[]
 ////
 [[sdfootnote1]]
 
