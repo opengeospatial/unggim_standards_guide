@@ -1,6 +1,6 @@
 [[acknowledgements]]
 :!numbered:
-== Acknowledgements (for inclusion in ED3 of the Guide):
+== Acknowledgements:
 
 The UN-GGIM Secretariat would like to thank the following Open Geospatial Consortium (OGC), International Organization for Standardization Technical Committee 211 (ISO/TC 211) and International Hydrographic Organization (IHO) representatives and staff for their significant investment time, energy and expertise in revising the UN-GGIM Guide to the Role of Geospatial Information Standards. Edition 3 of this important document, now a global on-line resource, incorporates recent important geospatial standards work, and aligns the Standards Guide to the United Nations Integrated Geospatial Information Framework.
 
