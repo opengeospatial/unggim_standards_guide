@@ -135,7 +135,7 @@ For geospatial information query and access: The following standards allow the a
 * http://www.ogc.org/standards/fe[_OGC_, window="_blank"]/ https://www.iso.org/standard/42137.html[_ISO 19143_, window="_blank"] _Filter Encoding 2.0_ – allows the user/application to specify and communicate geospatial information queries using a standard language.
 
 * http://www.ogc.org/standards/wcs[_OGC Web Coverage Service (WCS) 2.0_, window="_blank"] – A WCS specifies standard rules and operations for access to coverage data such as digital elevation models, multi-spectral satellite images, and other surface covering tessellations.
-* http://www.ogc.org/standards/ogcapi-features[OGC/ISO 19169 API Features, window="_blank"] - offers the capability to create, modify, and query spatial data on the Web and specifies requirements and recommendations for APIs that want to follow a standard way of sharing feature data.
+* http://www.ogc.org/standards/ogcapi-features[OGC/ISO 19168 API Features, window="_blank"] - offers the capability to create, modify, and query spatial data on the Web and specifies requirements and recommendations for APIs that want to follow a standard way of sharing feature data.
 
 ==== Domain Data Models
 
