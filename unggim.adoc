@@ -20,7 +20,7 @@ image::images/picture1.png[]
 image::images/picture2.png[]
 
 Edition 3.0.0:2022-01-01, +
-mailto:UNStdsGuideComments@lists.ogc.org[UNStdsGuideComments@lists.ogc.org]
+mailto:unggim-feedback@opengeospatial.org[unggim-feedback@opengeospatial.org]
 
 <<<<
 
