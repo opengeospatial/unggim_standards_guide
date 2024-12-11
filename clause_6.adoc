@@ -29,17 +29,17 @@ A system of compliance is encouraged to ensure that organizations are implementi
 
 2. One main method is the inclusion of nationally endorsed geospatial information management standards as a requirement for all organizational procurements/tenders delivering geospatial technologies and data products and services, with a mandate or preference for delivery of products and services that have been tested and certified as compliant (where such compliance tests are available) with the standard by the appropriate compliance authority.
 
-3. Agency, regional and national policy should include the facilitation of testing and certification functions which can provide formal certification nationally as well as certification recognition under international testing and certification standards, frameworks, and conventions (see  https://github.com/opengeospatial/cite/wiki[https://github.com/opengeospatial/cite/wiki, window="_blank"]).
+3. Agency, regional and national policy should include the facilitation of testing and certification functions which can provide formal certification nationally as well as certification recognition under international testing and certification standards, frameworks, and conventions (see  https://github.com/opengeospatial/cite/wiki[https://github.com/opengeospatial/cite/wiki, window=_blank]).
 
 4. Use of available technology compliance testing resources to confirm proper implementation of standards related to any government developed technologies. SDOs ISO geospatial standards include self-evaluation resources that can be useful. OGC offers freely accessible and offers on-line test procedures and manages certifications.
 
-The http://cite.opengeospatial.org/teamengine/[OGC Compliance Interoperability Test Engine, window="_blank"] and ISO 19105 test scripts are available as open source technology, and can be implemented by government organizations for testing of internal government systems which use, or may have been modified to use OGC and ISO standards.
+The http://cite.opengeospatial.org/teamengine/[OGC Compliance Interoperability Test Engine, window=_blank] and ISO 19105 test scripts are available as open source technology, and can be implemented by government organizations for testing of internal government systems which use, or may have been modified to use OGC and ISO standards.
 
 The ISO 19105 standard specifies the framework, concepts and methodology for conformance testing and criteria to be achieved to claim conformance to the family of applicable standards documents regarding geographic information and relevant application domains. It provides a framework for specifying abstract test suites (ATS) composed of abstract test cases grouped in conformance classes and for defining the procedures to be followed during conformance testing. ATS for each individual ISO/TC 211 standard is found in their respective Annex A. Conformance may be claimed for data or software products or services or by specifications including any profile or functional standard.
 
 A Use case for using ISO 19105 and the Abstract test suites for is found \<an external link or reference to the appropriate annex/part of this Guide\>
 
-IHO has a long history of supporting international testing frameworks for certification against global standards supporting the SOLAS convention. These testing and compliance regimes are the result of global harmonization efforts by many national agencies (see: https://iho.int/en/standards-in-force[Standards in Force | IHO, window="_blank"])
+IHO has a long history of supporting international testing frameworks for certification against global standards supporting the SOLAS convention. These testing and compliance regimes are the result of global harmonization efforts by many national agencies (see: https://iho.int/en/standards-in-force[Standards in Force | IHO, window=_blank])
 
 === Success Indicators
 
@@ -63,19 +63,19 @@ Examples of Community good practices are provided in IGIF Appendix 6.7. See Inte
 
 === Standards Training, Tools and Related Resources
 
-A range of training, references and tools are made freely available by the SDOs and other organizations committed to advancing efficient and effective geospatial information management. A few examples are provided below. Readers are encouraged to refer to https://docs.google.com/spreadsheets/d/1fr_qnz47EsDbHyaZatwdHS940QBm4b9nXT7erVg1-nk/edit?usp=sharing[Appendix 8, window="_blank"] for a detailed listing of training, tools and other resources.
+A range of training, references and tools are made freely available by the SDOs and other organizations committed to advancing efficient and effective geospatial information management. A few examples are provided below. Readers are encouraged to refer to https://docs.google.com/spreadsheets/d/1fr_qnz47EsDbHyaZatwdHS940QBm4b9nXT7erVg1-nk/edit?usp=sharing[Appendix 8, window=_blank] for a detailed listing of training, tools and other resources.
 
 ==== Education / Training
 
-The following are examples online and freely available education and training programs. Please refer to https://docs.google.com/spreadsheets/d/1P9KDa5sts9iH91GXA_lFs-Y2RmvsqACirevFA12460c/edit?usp=sharing[Appendix 8, window="_blank"] for additional details on training.
+The following are examples online and freely available education and training programs. Please refer to https://docs.google.com/spreadsheets/d/1P9KDa5sts9iH91GXA_lFs-Y2RmvsqACirevFA12460c/edit?usp=sharing[Appendix 8, window=_blank] for additional details on training.
 
-* OGC eLearning modules to understand and implement standards, http://opengeospatial.github.io/e-learning/ogc-standards/text/services-ogc.html[Understanding OGC Standards — OGC e-Learning 2.0.0 documentation (opengeospatial.github.io), window="_blank"]
-* European INSPIRE Training Library: https://inspire.ec.europa.eu/portfolio/training-library[https://inspire.ec.europa.eu/portfolio/training-library, window="_blank"]
-* The ANZLIC Intergovernmental Committee on Surveying and Mapping (ICSM) Metadata Working Group has created a video: https://sho.co/1C95Q[Metadata: What is it, and why is it so important?, window="_blank"]
-* There are a wide range of FAIR data training resources and courses offered on the internet and by various organizations worldwide. One such example is provided by the http://ardc.edu.au/resources/working-with-data/fair-data/fair-data-training/[Australian Research Data Commons, window="_blank"]:
-* ESIP provides a comprehensive set of training and tools. http://dmtclearinghouse.esipfed.org/[http://dmtclearinghouse.esipfed.org/, window="_blank"]
-* https://locationindex.s3-ap-southeast-2.amazonaws.com/DGGS.mp4[Introductory AusPIX DGGS Video, window="_blank"]
-* https://sho.co/1C95Q[Metadata: What is it, and why is it so important?, window="_blank"]
+* OGC eLearning modules to understand and implement standards, http://opengeospatial.github.io/e-learning/ogc-standards/text/services-ogc.html[Understanding OGC Standards — OGC e-Learning 2.0.0 documentation (opengeospatial.github.io), window=_blank]
+* European INSPIRE Training Library: https://inspire.ec.europa.eu/portfolio/training-library[https://inspire.ec.europa.eu/portfolio/training-library, window=_blank]
+* The ANZLIC Intergovernmental Committee on Surveying and Mapping (ICSM) Metadata Working Group has created a video: https://sho.co/1C95Q[Metadata: What is it, and why is it so important?, window=_blank]
+* There are a wide range of FAIR data training resources and courses offered on the internet and by various organizations worldwide. One such example is provided by the http://ardc.edu.au/resources/working-with-data/fair-data/fair-data-training/[Australian Research Data Commons, window=_blank]:
+* ESIP provides a comprehensive set of training and tools. http://dmtclearinghouse.esipfed.org/[http://dmtclearinghouse.esipfed.org/, window=_blank]
+* https://locationindex.s3-ap-southeast-2.amazonaws.com/DGGS.mp4[Introductory AusPIX DGGS Video, window=_blank]
+* https://sho.co/1C95Q[Metadata: What is it, and why is it so important?, window=_blank]
 
 ==== Strategic Goals and Planning
 
@@ -83,41 +83,41 @@ IGIF SP1, Strategic Pathway 1 - Governance and Institutions, provides guidance o
 
 Examples of Strategic Plans:
 
-* UK Geospatial Commission: http://www.gov.uk/government/publications/unlocking-the-power-of-locationthe-uks-geospatial-strategy[UK Geospatial Strategy, window="_blank"]
+* UK Geospatial Commission: http://www.gov.uk/government/publications/unlocking-the-power-of-locationthe-uks-geospatial-strategy[UK Geospatial Strategy, window=_blank]
 * US NSDI Strategic Plan
-* ISO defined 2030 as a milestone to reflect on our progress and evaluate our fundamental work as an organization. This time frame aligns with the UN's ambitious Global Agenda for 2030, which, as outlined through the 17 Sustainable Development Goals, will require international collaborative effort to become a reality. See: https://www.iso.org/files/live/sites/isoorg/files/store/en/PUB100364.pdf[ISO Strategy 2030, window="_blank"]
-* https://www.iso.org/files/live/sites/isoorg/files/store/en/PUB100364.pdf[ANZLIC, window="_blank"] Strategy that aligns with and supports global and domestic initiatives. https://www.anzlic.gov.au/anzlic-council/anzlic-strategic-plan-2020-24[https://www.anzlic.gov.au/anzlic-council/anzlic-strategic-plan-2020-24, window="_blank"]
-* Global Earth Observation System of Systems (GEOSS) developed a strategic plan: https://earthobservations.org/documents/open\_eo\_data/GEO\_Strategic\_Plan\_2016\_2025\_Implementing\_GEOSS.pdf[https://earthobservations.org/documents/open\_eo\_data/GEO\_Strategic\_Plan\_2016\_2025\_Implementing\_GEOSS.pdf, window="_blank"]
+* ISO defined 2030 as a milestone to reflect on our progress and evaluate our fundamental work as an organization. This time frame aligns with the UN's ambitious Global Agenda for 2030, which, as outlined through the 17 Sustainable Development Goals, will require international collaborative effort to become a reality. See: https://www.iso.org/files/live/sites/isoorg/files/store/en/PUB100364.pdf[ISO Strategy 2030, window=_blank]
+* https://www.iso.org/files/live/sites/isoorg/files/store/en/PUB100364.pdf[ANZLIC, window=_blank] Strategy that aligns with and supports global and domestic initiatives. https://www.anzlic.gov.au/anzlic-council/anzlic-strategic-plan-2020-24[https://www.anzlic.gov.au/anzlic-council/anzlic-strategic-plan-2020-24, window=_blank]
+* Global Earth Observation System of Systems (GEOSS) developed a strategic plan: https://earthobservations.org/documents/open\_eo\_data/GEO\_Strategic\_Plan\_2016\_2025\_Implementing\_GEOSS.pdf[https://earthobservations.org/documents/open\_eo\_data/GEO\_Strategic\_Plan\_2016\_2025\_Implementing\_GEOSS.pdf, window=_blank]
 
 ==== Standards Baseline Surveys / Assessment
 
-* https://www.icsm.gov.au/sites/default/files/2017-07/SIDA-survey.pdf[Developed by ICSM Metadata Working Group, window="_blank"]
+* https://www.icsm.gov.au/sites/default/files/2017-07/SIDA-survey.pdf[Developed by ICSM Metadata Working Group, window=_blank]
 
-* https://drive.google.com/file/d/1XuOW74eF_bjoQkLzx1w6IyQKMTs0CPMO/view?usp=sharing[Appendix 2, window="_blank"]: Example of a simple metadata Survey to determine adoption of metadata
-* Standards Inventory https://iho.int/en/standards-and-specifications[Standards and Specifications | IHO, window="_blank"] (refer to https://drive.google.com/file/d/1RsKY_33lVmPKvoppq9BP-BSf0pOPIsZg/view?usp=sharing[Appendix 5, window="_blank"])
+* https://drive.google.com/file/d/1XuOW74eF_bjoQkLzx1w6IyQKMTs0CPMO/view?usp=sharing[Appendix 2, window=_blank]: Example of a simple metadata Survey to determine adoption of metadata
+* Standards Inventory https://iho.int/en/standards-and-specifications[Standards and Specifications | IHO, window=_blank] (refer to https://drive.google.com/file/d/1RsKY_33lVmPKvoppq9BP-BSf0pOPIsZg/view?usp=sharing[Appendix 5, window=_blank])
 * Needs Assessment and Gap Analysis Reference IGIF SP6 Appendix 6.3 Table Needs Assessment and Gap Analysis Template
-* http://drive.google.com/file/d/1Js3R-OHT_TSXDlzcBwKg3Dir3-1NEq1t/view?usp=sharing[Updating the Australian Geospatial Reference System (AGRS) and Associated Standards, window="_blank"]
-* Call to Action for Global Access to and https://doi.org/10.5334/dsj-2021-019[Harmonization of Quality Information of Individual Earth Science Datasets, window="_blank"]
-* https://doi.org/10.31219/osf.io/xsu4p[International Community Guidelines for Sharing and Reusing Quality Information of Individual Earth Science Datasets, window="_blank"]
+* http://drive.google.com/file/d/1Js3R-OHT_TSXDlzcBwKg3Dir3-1NEq1t/view?usp=sharing[Updating the Australian Geospatial Reference System (AGRS) and Associated Standards, window=_blank]
+* Call to Action for Global Access to and https://doi.org/10.5334/dsj-2021-019[Harmonization of Quality Information of Individual Earth Science Datasets, window=_blank]
+* https://doi.org/10.31219/osf.io/xsu4p[International Community Guidelines for Sharing and Reusing Quality Information of Individual Earth Science Datasets, window=_blank]
 
 ==== A Standards Governance Framework
 
-* Foundation Spatial Data Framework is a change program on Australia's "common asset" of location information. https://www.anzlic.gov.au/resources/foundation-spatial-data-framework[Foundation Spatial Data Framework | ANZLIC, window="_blank"].
-* OGC (https://www.ogc.org/[https://www.ogc.org/, window="_blank"]) and W3C (https://www.w3.org/[https://www.w3.org/, window="_blank"]) are good examples for standards governance framework.
+* Foundation Spatial Data Framework is a change program on Australia's "common asset" of location information. https://www.anzlic.gov.au/resources/foundation-spatial-data-framework[Foundation Spatial Data Framework | ANZLIC, window=_blank].
+* OGC (https://www.ogc.org/[https://www.ogc.org/, window=_blank]) and W3C (https://www.w3.org/[https://www.w3.org/, window=_blank]) are good examples for standards governance framework.
 
 ==== Action Plans including Institutional Arrangements
 
 The INSPIRE Directive and its implementation across Europe can be seen as a major use case for geospatial standards. Many of these standards are directly or indirectly referenced to, either in the Directive or its supporting documents and guidelines. The message is geospatial standards support legislation, which support fundamental data (such as INSPIRE data themes), and eventually support SDGs.
 
-* https://inspire.ec.europa.eu/[INSPIRE | Welcome to INSPIRE (europa.eu), window="_blank"]
+* https://inspire.ec.europa.eu/[INSPIRE | Welcome to INSPIRE (europa.eu), window=_blank]
 
-* Implementation and Communication of Standards http://opengeospatial.github.io/e-learning/ogc-standards/text/services-ogc.html[Understanding OGC Standards — OGC e-Learning 2.0.0 documentation (opengeospatial.github.io), window="_blank"], https://sho.co/1C95Q[Metadata: What is it, and why is it so important ?, window="_blank"]
-* Standards CoP https://iho.int/en/standards-in-force[https://iho.int/en/standards-in-force, window="_blank"]
+* Implementation and Communication of Standards http://opengeospatial.github.io/e-learning/ogc-standards/text/services-ogc.html[Understanding OGC Standards — OGC e-Learning 2.0.0 documentation (opengeospatial.github.io), window=_blank], https://sho.co/1C95Q[Metadata: What is it, and why is it so important ?, window=_blank]
+* Standards CoP https://iho.int/en/standards-in-force[https://iho.int/en/standards-in-force, window=_blank]
 * Standards Capacity Building Programs
 
 Current Global Navigation Satellite Systems (GNSS) enable existing and emerging industries to use real-time precise positioning data, allowing them to improve productivity, efficiency, safety and decision making. Standards play a crucial role when combining GNSS and geodetic data with data from other domains.
 
-https://frontiersi.com.au/wp-content/uploads/2020/11/P1003-Geodetic-Standards-Final-Report.pdf[https://frontiersi.com.au/wp-content/uploads/2020/11/P1003-Geodetic-Standards--Final-Report.pdf, window="_blank"]
+https://frontiersi.com.au/wp-content/uploads/2020/11/P1003-Geodetic-Standards-Final-Report.pdf[https://frontiersi.com.au/wp-content/uploads/2020/11/P1003-Geodetic-Standards--Final-Report.pdf, window=_blank]
 
 [#figure6_1]
 .INSPIRE – A European legislative Directive with technical specifications encouraging the use of open standards
@@ -127,6 +127,6 @@ image::images/figure6.1.png[caption='Figure 6.{counter:figure6-num} ']
 
 What are the indicators for success from which tangle benefits can be assessed? Provided below are case standards implementation case studies showing ROI, cost savings, and new efficiencies benefitting one or more organizations.
 
-* The OGC WaterML 2.0 standard, was developed in a working group organized jointly between OGC and the World Meteorological Organization (WMO). WaterML was implemented to more easily integrate a multitude of hydrologic surface and groundwater observations to improve local to global water resource monitoring. See: https://www.ogc.org/blog/3285[Swimming in Data: OGC's WaterML 2.0 Quenches New Zealand's Thirst for Information Integration | OGC, window="_blank"]
-* A http://www.linz.govt.nz/system/files_force/media/pages-attachments/New%20Zealand%20Bathymetry%20Investigation%20October%202015.pdf?download=1[Land Information New Zealand Bathymetry Investigation, window="_blank"] identified open standards such as metadata and IHO standards as a means of reducing duplication of collection, and to minimize associated outlay of operational funding.
-* Within the framework of Mexico's statistical and geographical information system, based on good international practices in standardization, INEGI provides the Technical Regulations for coordination and guidance on statistical and geographical matters.  https://www.snieg.mx/DocumentacionPortal/Normatividad/vigente/nt_ng_frs_feg.pdf[https://www.snieg.mx/DocumentacionPortal/Normatividad/vigente/nt\_ng\_frs\_feg.pdf, window="_blank"].
+* The OGC WaterML 2.0 standard, was developed in a working group organized jointly between OGC and the World Meteorological Organization (WMO). WaterML was implemented to more easily integrate a multitude of hydrologic surface and groundwater observations to improve local to global water resource monitoring. See: https://www.ogc.org/blog/3285[Swimming in Data: OGC's WaterML 2.0 Quenches New Zealand's Thirst for Information Integration | OGC, window=_blank]
+* A http://www.linz.govt.nz/system/files_force/media/pages-attachments/New%20Zealand%20Bathymetry%20Investigation%20October%202015.pdf?download=1[Land Information New Zealand Bathymetry Investigation, window=_blank] identified open standards such as metadata and IHO standards as a means of reducing duplication of collection, and to minimize associated outlay of operational funding.
+* Within the framework of Mexico's statistical and geographical information system, based on good international practices in standardization, INEGI provides the Technical Regulations for coordination and guidance on statistical and geographical matters.  https://www.snieg.mx/DocumentacionPortal/Normatividad/vigente/nt_ng_frs_feg.pdf[https://www.snieg.mx/DocumentacionPortal/Normatividad/vigente/nt\_ng\_frs\_feg.pdf, window=_blank].
